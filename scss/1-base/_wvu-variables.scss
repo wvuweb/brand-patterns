@@ -1,0 +1,192 @@
+// Typography
+//==================================================
+
+$helvetica-neue-condensed-black: 'HelveticaNeueW01-97Blac', 'Helvetica W01 Bold', Helvetica, Arial, sans-serif;
+$helvetica-neue-bold: 'HelveticaNeueW01-75Bold', Helvetica, Arial, sans-serif;
+$helvetica-neue-roman: 'HelveticaNeueW01-55Roma', Helvetica, Arial, sans-serif;
+$helvetica-neue-light: 'HelveticaNeueW01-45Ligh', Helvetica, Arial, sans-serif;
+$iowan-old-style: 'IowanOldStyleW01-Roman', Georgia, Times, serif;
+$iowan-old-style-italic: 'IowanOldStyleW01-Italic1120392', Georgia, Times, serif;
+
+$shout: $helvetica-neue-condensed-black !default;
+$subhead: $helvetica-neue-bold !default;
+$traditional-audience: $iowan-old-style !default;
+$narrow-audience: $iowan-old-style-italic !default;
+
+// Font Sizes
+$base-font-size: 1em;
+$base-font-family: $helvetica-neue-roman;
+$shout-font-size: 8.2em;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+$shout-line-height: 0.80487em;
+$helvetica-neue-bold-line-height: 1.08333333em;
+$traditional-audience-line-height: 1.16666666667em;
+
+// Links
+//==================================================
+
+$wvu-base-link-color: $pms-300-c;
+$wvu-hover-link-color: $pms-166-c;
+$wvu-link-border-style: 1px dotted;
+$wvu-visited-link-color: $pms-286-c;
+
+// Masthead
+//==================================================
+
+$blue-flying-wv: 'http://patterns.wvu.edu/images/flying-wv-blue.png';
+$wvu-masthead-two-line-lockup: false;
+$wvu-masthead-background: 'blue';
+$wvu-masthead-has-signature: false;
+
+// Header
+//==================================================
+
+$header-background-color: 'light';
+
+// options are 'light' or 'dark'
+
+// Hero Elements
+//==================================================
+
+$wvu-hero-image: 'http://patterns.wvu.edu/images/coopers-rock.jpg';
+$wvu-hero-image-width: 1720px;
+$wvu-hero-image-height: 580px;
+$diagonal-line-gold: 'http://patterns.wvu.edu/images/diagonal-gold.svg';
+$diagonal-line-blue: 'http://patterns.wvu.edu/images/diagonal-blue.svg';
+$diagonal-line-white: 'http://patterns.wvu.edu/images/diagonal-white.svg';
+$diagonal-line-gold-transparent: 'http://patterns.wvu.edu/images/diagonal-gold-transparent.svg';
+$diagonal-line-blue-transparent: 'http://patterns.wvu.edu/images/diagonal-blue-transparent.svg';
+$diagonal-line-white-transparent: 'http://patterns.wvu.edu/images/diagonal-white-transparent.svg';
+$diagonal-line-gold-fallback: 'http://patterns.wvu.edu/images/diagonal-gold.png';
+$diagonal-line-blue-fallback: 'http://patterns.wvu.edu/images/diagonal-blue.png';
+$diagonal-line-white-fallback: 'http://patterns.wvu.edu/images/diagonal-white.png';
+$diagonal-line-gold-transparent-fallback: 'http://patterns.wvu.edu/images/diagonal-gold-transparent.png';
+$diagonal-line-blue-transparent-fallback: 'http://patterns.wvu.edu/images/diagonal-blue-transparent.png';
+$diagonal-line-white-transparent-fallback: 'http://patterns.wvu.edu/images/diagonal-white-transparent.png';
+$wvu-pattern-grid: 'http://patterns.wvu.edu/images/wvu-pattern-grid.png';
+$vignetting: 'http://patterns.wvu.edu/images/vignetting-2.png';
+
+$diagonal-line: $diagonal-line-gold-transparent;
+
+$medium-shout-font-size: 4.5em;
+$long-shout-font-size: 3em;
+
+// Hero Typography
+
+$wvu-hero-title-typeface: $shout;
+
+// Set vignetting to true if you have a photo that is busy and makes text illegible
+
+$has-vignetting: false;
+
+// Sets the cropping of the WVU grid pattern
+
+$grid-zoom-1: 3340px;
+$grid-zoom-2: 1720px;
+$grid-zoom-3: cover;
+$wvu-pattern-grid-zoom: $grid-zoom-2;
+
+$wvu-hero-title-typeface: $shout;
+$wvu-hero-title-color: white;
+$is-shout-bottom-gold: true;
+
+/*
+  Options for WVU Hero Title typeface:
+  $shout (Helvetica Neue Black Condensed)
+  $subhead (Helvetica Bold)
+  $iowan (Iowan Old Style)
+  $iowan-italic (Iowan Old Style Italic)
+*/
+
+// Pick one -- Can only have one or the other (diagonal or grid)
+
+$has-diagonal-line: false;
+$has-wvu-pattern-grid: false;
+
+$has-small-photo: false;
+$shout-length: 'short';
+
+/*
+  Options for WVU Hero Title typeface:
+  short
+  medium
+  long
+*/
+
+// Layout
+$wvu-container-padding: 4em 0 4.3em 0;
+$wvu-hero-container-padding: 7em 0;
+
+// Grid
+//==================================================
+
+$gutter: golden-ratio(5em, 1) !default; // Gutter between each two columns
+$max-width: em(1180) !default; // Max-width of the outer container
+
+
+// AJ's Grid
+//==================================================
+
+// Grid Media Queries:
+$grid-mq-tablet: 48em;
+$grid-mq-desktop: 60em;
+
+// Grid Gutters
+$grid-gutter-tablet: 1.302083333333333%;
+$grid-gutter-desktop: 1.041666666666667%;
+
+
+// Breakpoints
+//==================================================
+
+$bp-micro: 340;
+$bp-mini: 450;
+$bp-small: 570;
+$bp-medium: 768;
+$bp-large: 960;
+$bp-xlarge: 1200;
+$bp-jumbo: 1720;
+
+
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Font Colors
+$base-font-color: $black;
+$base-accent-color: $pms-300-c;
+
+// Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: $pms-166-c;
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+
+// Flash Colors
+$alert-color: $pms-115-c;
+$error-color: $pms-180-c;
+$notice-color: $pms-7557-c;
+$success-color: $pms-558-c;
+
+// Border color
+$base-border-color: #ccc;
+$base-border: 1px solid $base-border-color;
+
+
+
+// Forms
+// =================================================
+
+$form-border-color: $base-border-color;
+$form-border-color-hover: $base-border-color;
+$form-border-color-focus: $base-accent-color;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba($form-border-color-focus, 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;

@@ -1,0 +1,10 @@
+<!-- Super-nav - wvu-pattern-library/views/patterns/_super-av.html -->
+
+
+<r:children:each>
+  <div class="wvu-super-nav wvu-super-nav--<r:page:slug /> <r:var name="wvu-super-nav__classes" />">
+    <h2><r:page:first_non_blank_attr names="alternate_name,name" /></h2>
+    <p><r:page:meta_description /></p>
+    <r:sub_menu />
+  </div>
+</r:children:each>

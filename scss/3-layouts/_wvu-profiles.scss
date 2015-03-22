@@ -1,0 +1,17 @@
+.wvu-profiles__container {
+  @include mq($bp-medium) {
+    @include outer-container();
+  }
+}
+
+.wvu-profiles__photo {
+  @include mq($bp-medium) {
+    @include span-columns(6);
+  }
+}
+
+.wvu-profiles__content {
+  @include mq($bp-medium) {
+    @include span-columns(6);
+  }
+}

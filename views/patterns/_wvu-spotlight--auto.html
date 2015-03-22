@@ -1,0 +1,12 @@
+<!-- WVU Spotlight - wvu-pattern-library/views/patterns/_wvu-spotlight.html -->
+
+<div class="wvu-spotlight wvu-spotlight--<r:page:slug /> <r:var name="wvu-spotlight__classes" />">
+  <div class="wvu-spotlight__image">
+    <a href="<r:page:url />"><r:page:content name="spotlight__image" /></a>
+  </div>
+  <div class="wvu-spotlight__copy">
+    <h2><r:page:first_non_blank_attr names="alternate_name,name" /></h2>
+    <p><r:page:meta_description /></p>
+    <a href="<r:page:url />" class="button">Continue to <r:page:first_non_blank_attr names="alternate_name,name" /></a>
+  </div>
+</div>
