@@ -72,13 +72,13 @@ editable_region:
     Landing Page<br>Header
 
   wvu-triptych__image-1:
-    <img src="../images/coopers-rock.jpg" />
+    <img src="http://patterns.wvu.edu/images/coopers-rock.jpg" />
     
   wvu-triptych__image-2:
-    <img src="../images/dance-header.jpg" />
+    <img src="http://patterns.wvu.edu/images/dance-header.jpg" />
     
   wvu-triptych__image-3:
-    <img src="../images/girl-pointing.jpg" />
+    <img src="http://patterns.wvu.edu/images/girl-pointing.jpg" />
   
   wvu-triptych__header-1:
     Header 1
@@ -111,10 +111,10 @@ editable_region:
     <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
   
   wvu-diptych__image-1:
-    <img src="../images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
+    <img src="http://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
     
   wvu-diptych__image-2:
-    <img src="../images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
+    <img src="http://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
   
   wvu-diptych__header-1:
     Header 1
