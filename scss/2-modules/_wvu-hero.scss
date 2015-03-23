@@ -248,7 +248,7 @@ $has-wvu-pattern-grid: true !default;
 @mixin has-small-photo() {
   @if $has-small-photo == true {
     img { width: 100%; }
-    .wvu-hero-container { padding: 0 1em; 
+    .wvu-hero__container { padding: 0 1em; 
       @include mq($bp-xlarge) { padding: 0; }
     }
     .wvu-hero { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0 2em; 
