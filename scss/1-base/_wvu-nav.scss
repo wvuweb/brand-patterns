@@ -1,5 +1,5 @@
 .wvu-nav { width: 100%; }
-.wvu-nav__items { margin-bottom: 0;
+.wvu-nav__items, .wvu-nav ul { margin-bottom: 0;
   @include mq($bp-small) { padding: 0 20px; }
   @include mq($bp-xlarge) { padding: 0; }
   
