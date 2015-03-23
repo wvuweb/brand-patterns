@@ -125,7 +125,7 @@ ul.show-menu {
 
 ////// Dropdown indicators
 
-li.more {
+.wvu-nav__items li.more, .wvu-nav ul li.more {
   padding-right: 0;
 
   @include mq($bp-large) {
@@ -147,9 +147,12 @@ li.more {
   > a:after {
     @include mq($bp-medium) {
       position: absolute;
-      top: auto 1.5em;
-      left: auto auto;
+      top: auto;
+      right: 0.5em;
       content: '\25BE';
+    }
+    @include mq($bp-large) {
+      right: 1.5em;
     }
   }
   

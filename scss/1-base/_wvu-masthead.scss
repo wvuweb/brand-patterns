@@ -312,5 +312,6 @@ input[type="submit"] {
   @include mq($bp-medium) {
     background-position: top 0.5em left;
     padding-bottom: 1em;
+    font-size: 2em;
   }
 }
