@@ -253,11 +253,11 @@ $flying-wv-w-signature-white-bg: 'http://patterns.wvu.edu/images/flying-wv-w-sig
 }
 
 .wvu-masthead__college { position: absolute; top: 1em; font-size: 0.8em; text-transform: uppercase; }
-.wvu-masthead__university-name { position: absolute; top: 4.2em; left: 3.3em; font-size: 0.6em; text-transform: uppercase; 
-  @include mq($bp-medium) {
-    top: 5.9em; left: 5.1em; font-size: 0.4em;
-  }
-}
+//.wvu-masthead__university-name { position: absolute; top: 4.2em; left: 3.3em; font-size: 0.6em; text-transform: uppercase;
+//  @include mq($bp-medium) {
+//    top: 5.9em; left: 5.1em; font-size: 0.4em;
+//  }
+//}
 
 .wvu-masthead__logo:before { content: ""; display: block; width: 0; height: 100%; }
 

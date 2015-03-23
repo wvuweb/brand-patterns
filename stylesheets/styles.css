@@ -897,18 +897,6 @@ input[type="submit"].form-search__submit {
   font-size: 0.8em;
   text-transform: uppercase; }
 
-.wvu-masthead__university-name {
-  position: absolute;
-  top: 4.2em;
-  left: 3.3em;
-  font-size: 0.6em;
-  text-transform: uppercase; }
-  @media (min-width: 48em) {
-    .wvu-masthead__university-name {
-      top: 5.9em;
-      left: 5.1em;
-      font-size: 0.4em; } }
-
 .wvu-masthead__logo:before {
   content: "";
   display: block;
