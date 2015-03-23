@@ -138,8 +138,15 @@ $has-wvu-pattern-grid: true !default;
   @include mq($bp-medium) { max-width: 40%; }
 }
 
-.wvu-hero__photo {
-  img { min-height: 0; min-width: 0; left: auto; margin-left: auto; position: relative; margin-right: 0; }
+.wvu-hero__photo { overflow: hidden; 
+  img { min-height: 0; min-width: 0; left: auto; margin-left: auto; position: relative; margin-right: 0; max-width: 100%;
+    @include mq($bp-medium) {
+      max-width: 560px;
+    }
+    @include mq($bp-xlarge) {
+      max-width: 100%;
+    }
+  }
 }
 
 
@@ -155,7 +162,7 @@ $has-wvu-pattern-grid: true !default;
       }
       .wvu-hero__container {
         padding: 4em 3em;
-        @include mq($bp-xlarge) {
+        @include mq($bp-jumbo) {
           padding: 4em 0;
         }
       }
@@ -244,7 +251,14 @@ $has-wvu-pattern-grid: true !default;
     .wvu-hero-container { padding: 0 1em; 
       @include mq($bp-xlarge) { padding: 0; }
     }
-    .wvu-hero { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0; }
+    .wvu-hero { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0 2em; 
+      @include mq($bp-medium) {
+        padding: 0 6em;
+      }
+      @include mq($bp-xlarge) {
+        padding: 0;
+      }
+    }
     .wvu-hero__copy { padding: 3em 0;
       @include mq($bp-medium) {
         font-size: 0.9em;
