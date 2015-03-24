@@ -593,9 +593,6 @@ ul.show-menu {
 
 .wvu-nav__items li.more, .wvu-nav ul li.more {
   padding-right: 0; }
-  @media (min-width: 60em) {
-    .wvu-nav__items li.more, .wvu-nav ul li.more {
-      padding-right: 1em; } }
   .wvu-nav__items li.more > ul > li:first-child a, .wvu-nav ul li.more > ul > li:first-child a {
     padding-top: 1em; }
   .wvu-nav__items li.more a, .wvu-nav ul li.more a {
@@ -608,9 +605,6 @@ ul.show-menu {
       top: auto;
       right: 0.5em;
       content: '\25BE'; } }
-  @media (min-width: 60em) {
-    .wvu-nav__items li.more > a:after, .wvu-nav ul li.more > a:after {
-      right: 1.5em; } }
   .wvu-nav__items li.more li.more, .wvu-nav ul li.more li.more {
     padding-right: 0; }
     @media (min-width: 60em) {

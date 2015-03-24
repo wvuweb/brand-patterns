@@ -130,10 +130,6 @@ ul.show-menu {
 .wvu-nav__items li.more, .wvu-nav ul li.more {
   padding-right: 0;
 
-  @include mq($bp-large) {
-    padding-right: 1em;
-  }
-
   > ul > li:first-child a  {
     padding-top: 1em;
   }
@@ -152,9 +148,6 @@ ul.show-menu {
       top: auto;
       right: 0.5em;
       content: '\25BE';
-    }
-    @include mq($bp-large) {
-      right: 1.5em;
     }
   }
   
