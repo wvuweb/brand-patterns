@@ -480,6 +480,8 @@ th {
     .wvu-nav__items li a:hover, .wvu-nav ul li a:hover {
       background: #EAAA00;
       color: #002855; }
+.wvu-nav__items > li, .wvu-nav ul > li {
+  border-right: 1px solid #444; }
 .wvu-nav__items.nav-collapse, .wvu-nav ul.nav-collapse {
   clear: both;
   overflow: visible; }
@@ -1811,5 +1813,14 @@ input[type="submit"] {
     width: 27.49666%; }
     .wvu-masthead__search-bar:last-child {
       margin-right: 0; } }
+
+.wvu-nav__container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .wvu-nav__container:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 /*# sourceMappingURL=styles.css.map */

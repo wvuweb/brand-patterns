@@ -10,6 +10,8 @@
     }
   }
   
+  > li { border-right: 1px solid #444; }
+  
   &.nav-collapse { clear: both; overflow: visible;
     li { 
       @include mq($bp-small) { width: auto; float: left; }
