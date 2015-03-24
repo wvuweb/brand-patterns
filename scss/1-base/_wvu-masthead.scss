@@ -182,6 +182,9 @@ $flying-wv-w-signature-white-bg: 'http://patterns.wvu.edu/images/flying-wv-w-sig
     .wvu-masthead__logo--mini {
       background-size: 250px;
       background-position: top 0.5em left;
+      @include mq($bp-medium) {
+        background-position: top 0.4em left;
+      }
     }
     .wvu-masthead__title {
       padding-top: 46px;

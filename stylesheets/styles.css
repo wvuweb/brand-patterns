@@ -986,6 +986,9 @@ input[type="submit"].form-search__submit {
 .wvu-masthead__logo--mini {
   background-size: 250px;
   background-position: top 0.5em left; }
+  @media (min-width: 48em) {
+    .wvu-masthead__logo--mini {
+      background-position: top 0.4em left; } }
 
 .wvu-masthead__title {
   padding-top: 46px;

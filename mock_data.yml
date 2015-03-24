@@ -60,7 +60,7 @@ editable_region:
     So let&rsquo;s go. Release the Mountaineer spirit inside of you. Reach the limits of what you can do and then keep on going.
 
   wvu-hero__button-text:
-    Continue Reading
+    <a href="" class="button">Continue Reading</a>
 
   wvu-hero__title-top:
     It Starts
