@@ -1,24 +1,6 @@
-livereload: false
-browsersync: false
-browsersync-data: |
-  var head = document.getElementsByTagName('head')[0];
-  var script = document.createElement('script');
-  script.setAttribute("defer", "defer");
-  script.type = 'text/javascript';
-  var src= '//HOST:3000/socket.io/socket.io.js';
-  script.src = src.replace(/HOST/g, location.hostname);
-  head.appendChild(script);
-
-  var head = document.getElementsByTagName('head')[0];
-  var script = document.createElement('script');
-  script.setAttribute("defer", "defer");
-  script.type = 'text/javascript';
-  var src= '//HOST:3001/client/browser-sync-client.0.9.1.js';
-  script.src = src.replace(/HOST/g, location.hostname);
-  head.appendChild(script);
-
 shared_themes:
-  layouts__browser-update-org--v1: "code"
+  "Code":
+    "layouts__browser-update-org--v1" : "code"
 
 editable_region:
 
@@ -189,6 +171,7 @@ page:
   title: "Home"
   alternate_name: "Some other name"
   depth: 1
+  updated_at: now
 
 if_page_depth_eq: 1
 if_page_depth_gt: 1
