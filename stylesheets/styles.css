@@ -1729,6 +1729,48 @@ input[type="submit"] {
     /* Chrome, Safari, Opera */
     transform: rotate(90deg); }
 
+.wvu-calendar {
+  padding-left: 0; }
+  .wvu-calendar li {
+    margin-bottom: 0.5em;
+    display: inline-block;
+    width: 100%; }
+    .wvu-calendar li .eventDate {
+      float: left;
+      margin-right: 4%;
+      width: 10%;
+      text-align: center;
+      padding-bottom: 6px;
+      border-radius: 6px; }
+    .wvu-calendar li .calEventMonth {
+      font-size: .8em;
+      text-transform: uppercase; }
+    .wvu-calendar li .calEventDay {
+      display: block;
+      font-size: 1.5em;
+      line-height: .8em;
+      clear: both; }
+    .wvu-calendar li .eventInfo {
+      float: left;
+      width: 86%; }
+    .wvu-calendar li .eventTime {
+      font-weight: bold; }
+    .wvu-calendar li .eventName {
+      display: block; }
+
+.wvu-calendar--flex {
+  padding-left: 0; }
+  .wvu-calendar--flex li {
+    padding-right: 1em; }
+  @media (min-width: 48em) {
+    .wvu-calendar--flex {
+      display: flex;
+      align-items: stretch;
+      flex-flow: row wrap; }
+      .wvu-calendar--flex li {
+        width: 33%;
+        padding: 0 0 1em 0; } }
+
 .wvu-container {
   max-width: 68em;
   margin-left: auto;
