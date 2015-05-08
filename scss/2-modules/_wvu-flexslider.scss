@@ -76,7 +76,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;} */
 
 /* Direction Nav */
-.flex-direction-nav li a { width: 15px; height: 102px; margin: -23px 0 0; display: block; background: url(http://patterns.wvu.edu/images/nav-arrows-big.png) no-repeat 0 0; filter:alpha(opacity=30); position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; background-size: 30px; 
+.flex-direction-nav li a { width: 15px; height: 102px; margin: -23px 0 0; display: block; background: url(https://patterns.wvu.edu/images/nav-arrows-big.png) no-repeat 0 0; filter:alpha(opacity=30); position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; background-size: 30px; 
   @include mq($bp-medium) { background-size: auto; width: 66px; height: 102px; opacity: .1; margin: -52px 0 0; }
 }
 .flexslider--small-photo {
@@ -98,7 +98,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .lt-ie8 .flex-control-nav{margin-bottom: 40px;}
 .flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-nav li:first-child {margin: 0;}
-.flex-control-nav li a {opacity: .5; width: 13px; height: 13px; display: block; background: url(http://patterns.wvu.edu/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a {opacity: .5; width: 13px; height: 13px; display: block; background: url(https://patterns.wvu.edu/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
 .flex-control-nav li a:hover {background-position: 0 -13px;}
 .flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
 

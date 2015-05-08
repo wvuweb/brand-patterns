@@ -1,86 +1,110 @@
 .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-ie.png);
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-ie.png);
   background-repeat: no-repeat;
-  background-position: 0 1.2em; }
+  background-position: 0 1.2em;
+}
 
 .wvu-masthead--has-signature .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-w-signature-ie8.png);
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-w-signature-ie8.png);
   background-repeat: no-repeat;
-  background-position: 0 1.2em; }
+  background-position: 0 1.2em;
+}
 
 .wvu-masthead__search-bar {
-  margin-right: 0 !important; }
+  margin-right: 0 !important;
+}
 
 input[type="submit"].form-search__submit {
-  background-image: url(http://patterns.wvu.edu/images/search-icon-ie.png);
-  background-repeat: no-repeat; }
+  background-image: url(https://patterns.wvu.edu/images/search-icon-ie.png);
+  background-repeat: no-repeat;
+}
 
 .wvu-hero__photo {
-  margin-right: 0 !important; }
+  margin-right: 0 !important;
+}
 
 .wvu-landing-page-header__intro {
-  margin-right: 0; }
+  margin-right: 0;
+}
 
 .omega {
-  margin-right: 0 !important; }
+  margin-right: 0 !important;
+}
 
 .wvu-quicklinks--flex ul li {
-  background-image: url(http://patterns.wvu.edu/images/diagonal-gold.svg); }
+  background-image: url(https://patterns.wvu.edu/images/diagonal-gold.svg);
+}
 
 .wvu-quicklinks li {
-  background-image: url(http://patterns.wvu.edu/images/diagonal-gold.svg); }
+  background-image: url(https://patterns.wvu.edu/images/diagonal-gold.svg);
+}
 
 .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-w-signature-ie8.png);
-  background-position-y: 1.2em; }
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-w-signature-ie8.png);
+  background-position-y: 1.2em;
+}
 
 .wvu-masthead__logo--mini {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-w-signature-ie8--mini.png);
-  background-position-y: 0.4em; }
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-w-signature-ie8--mini.png);
+  background-position-y: 0.4em;
+}
 
 .wvu-masthead.wvu-masthead--gold .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-blue-ie8.png); }
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-blue-ie8.png);
+}
 
 .wvu-masthead--has-signature.wvu-masthead--gold .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-w-signature-gold-bg-ie8.png); }
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-w-signature-gold-bg-ie8.png);
+}
 
 .wvu-masthead--gold.wvu-masthead--mini .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-w-signature-gold-bg-ie8--mini.png); }
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-w-signature-gold-bg-ie8--mini.png);
+}
 
 .wvu-masthead--has-signature.wvu-masthead--white .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-w-signature-white-bg-ie8.png); }
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-w-signature-white-bg-ie8.png);
+}
 
 .wvu-masthead--white.wvu-masthead--mini .wvu-masthead__logo {
-  background-image: url(http://patterns.wvu.edu/images/flying-wv-w-signature-white-bg-ie8--mini.png); }
+  background-image: url(https://patterns.wvu.edu/images/flying-wv-w-signature-white-bg-ie8--mini.png);
+}
 
 .wvu-hero.wvu-hero--medium-shout {
   padding-bottom: 2em;
-  padding-top: 2em; }
-  .wvu-hero.wvu-hero--medium-shout h1 {
-    font-size: 4.5em; }
+  padding-top: 2em;
+}
+.wvu-hero.wvu-hero--medium-shout h1 {
+  font-size: 4.5em;
+}
 
 .wvu-hero.wvu-hero--long-shout {
   padding-bottom: 2em;
-  padding-top: 2em; }
-  .wvu-hero.wvu-hero--long-shout h1 {
-    font-size: 3em; }
+  padding-top: 2em;
+}
+.wvu-hero.wvu-hero--long-shout h1 {
+  font-size: 3em;
+}
 
 .wvu-hero, .wvu-hero.wvu-hero--has-vignetting, .wvu-hero.wvu-hero--diagonal-line, .wvu-hero.wvu-hero--pattern-grid {
-  background-image: url("http://patterns.wvu.edu/images/wvu-pattern-close.jpg");
+  background-image: url("https://patterns.wvu.edu/images/wvu-pattern-close.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top; }
+  background-position: center top;
+}
 
 .wvu-hero.wvu-hero--small-photo {
-  background-image: none; }
-  .wvu-hero.wvu-hero--small-photo img {
-    max-width: 100%;
-    left: auto;
-    margin-left: auto;
-    min-height: 0;
-    min-width: 0; }
+  background-image: none;
+}
+.wvu-hero.wvu-hero--small-photo img {
+  max-width: 100%;
+  left: auto;
+  margin-left: auto;
+  min-height: 0;
+  min-width: 0;
+}
 
 .wvu-quicklinks li {
-  background: url(http://patterns.wvu.edu/images/diagonal-gold-bullet-ie.png) no-repeat 0 0px; }
+  background: url(https://patterns.wvu.edu/images/diagonal-gold-bullet-ie.png) no-repeat 0 0px;
+}
 
 /*# sourceMappingURL=ie8.css.map */

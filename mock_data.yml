@@ -54,13 +54,13 @@ editable_region:
     Landing Page<br>Header
 
   wvu-triptych__image-1:
-    <img src="http://patterns.wvu.edu/images/coopers-rock.jpg" />
+    <img src="https://patterns.wvu.edu/images/coopers-rock.jpg" />
     
   wvu-triptych__image-2:
-    <img src="http://patterns.wvu.edu/images/dance-header.jpg" />
+    <img src="https://patterns.wvu.edu/images/dance-header.jpg" />
     
   wvu-triptych__image-3:
-    <img src="http://patterns.wvu.edu/images/girl-pointing.jpg" />
+    <img src="https://patterns.wvu.edu/images/girl-pointing.jpg" />
   
   wvu-triptych__header-1:
     Header 1
@@ -93,10 +93,10 @@ editable_region:
     <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
   
   wvu-diptych__image-1:
-    <img src="http://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
+    <img src="https://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
     
   wvu-diptych__image-2:
-    <img src="http://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
+    <img src="https://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
   
   wvu-diptych__header-1:
     Header 1
@@ -146,14 +146,14 @@ editable_region:
   
   wvu-social-media-icons: 
     <ul>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/facebook.png" alt="Facebook"></a></li>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/googleplus.png" alt="Google Plus"></a></li>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/instagram.png" alt="Instagram"></a></li>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/linkedin.png" alt="LinkedIn"></a></li>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/pinterest.png" alt="Pinterest"></a></li>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/twitter.png" alt="Twitter"></a></li>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/youtube.png" alt="YouTube"></a></li>
-      <li><a href="#"><img src="http://patterns.sandbox.wvu.edu/images/1426291895/social-media-icons/rss.png" alt="RSS"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/facebook.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/googleplus.png" alt="Google Plus"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/instagram.png" alt="Instagram"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/linkedin.png" alt="LinkedIn"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/pinterest.png" alt="Pinterest"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/twitter.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/youtube.png" alt="YouTube"></a></li>
+      <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/rss.png" alt="RSS"></a></li>
     </ul>
 
   contact: |

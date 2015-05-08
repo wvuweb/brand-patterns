@@ -7,9 +7,9 @@ $wvu-masthead-two-line-lockup: false !default;
 $wvu-masthead-background: 'blue' !default;
 $wvu-masthead-has-signature: true !default;
 
-$flying-wv-w-signature: 'http://patterns.wvu.edu/images/flying-wv-w-signature.png' !default;
-$flying-wv-w-signature-gold-bg: 'http://patterns.wvu.edu/images/flying-wv-w-signature-gold-bg.png' !default;
-$flying-wv-w-signature-white-bg: 'http://patterns.wvu.edu/images/flying-wv-w-signature-white-bg.png' !default;
+$flying-wv-w-signature: 'https://patterns.wvu.edu/images/flying-wv-w-signature.png' !default;
+$flying-wv-w-signature-gold-bg: 'https://patterns.wvu.edu/images/flying-wv-w-signature-gold-bg.png' !default;
+$flying-wv-w-signature-white-bg: 'https://patterns.wvu.edu/images/flying-wv-w-signature-white-bg.png' !default;
 
 /* 
   Variable options for WVU Masthead Background:
@@ -43,7 +43,7 @@ $flying-wv-w-signature-white-bg: 'http://patterns.wvu.edu/images/flying-wv-w-sig
         &:hover { background-color: $wvu-blue; border-color: $wvu-blue; }
       }
     }
-    .wvu-masthead__logo { background: url(http://patterns.wvu.edu/images/flying-wv-blue.png) no-repeat top 1.2em left; background-size: 1.8em; color: $wvu-blue; 
+    .wvu-masthead__logo { background: url(https://patterns.wvu.edu/images/flying-wv-blue.png) no-repeat top 1.2em left; background-size: 1.8em; color: $wvu-blue; 
       &:hover { color: $pms-300-c; }
       &:visited { color: $wvu-blue; }
     }
@@ -80,16 +80,16 @@ $flying-wv-w-signature-white-bg: 'http://patterns.wvu.edu/images/flying-wv-w-sig
     }
   }
   @else if $wvu-masthead-background == 'blue-pattern' {
-    .wvu-masthead { background: url(http://patterns.wvu.edu/images/pattern-blue.jpg) no-repeat; background-size: cover; background-color: $wvu-blue; }
+    .wvu-masthead { background: url(https://patterns.wvu.edu/images/pattern-blue.jpg) no-repeat; background-size: cover; background-color: $wvu-blue; }
   }
   @else if $wvu-masthead-background == 'gold-pattern' {
-    .wvu-masthead { background: url(http://patterns.wvu.edu/images/pattern-gold.jpg) no-repeat; color: $wvu-blue; background-size: cover; }
+    .wvu-masthead { background: url(https://patterns.wvu.edu/images/pattern-gold.jpg) no-repeat; color: $wvu-blue; background-size: cover; }
     input[type="submit"] {
       &.form-search__submit { border-color: $wvu-blue; background-color: $wvu-blue;
         &:hover { background-color: $wvu-blue; border-color: $wvu-blue; }
       }
     }
-    .wvu-masthead__logo { background: url(http://patterns.wvu.edu/images/flying-wv-blue.png) no-repeat top 1.2em left; background-size: 1.8em; color: $wvu-blue; 
+    .wvu-masthead__logo { background: url(https://patterns.wvu.edu/images/flying-wv-blue.png) no-repeat top 1.2em left; background-size: 1.8em; color: $wvu-blue; 
       &:hover { color: $pms-300-c; }
     }
     .wvu-masthead__link { color: $wvu-blue; 
