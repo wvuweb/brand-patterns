@@ -1991,6 +1991,17 @@ input[type="submit"] {
   padding-right: 0;
 }
 
+.wvu-u-fake-link {
+  color: #000;
+  text-decoration: none;
+}
+.wvu-u-fake-link:hover, .wvu-u-fake-link:visited {
+  color: #000;
+}
+.wvu-u-fake-link:hover {
+  text-decoration: underline;
+}
+
 .wvu-icons ul {
   clear: both;
   margin-top: 0;

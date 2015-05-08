@@ -13,6 +13,12 @@
 .wvu-credits li:before, .wvu-links li:before { content: '|'; padding-right: 3px; }
 .wvu-credits li:first-child:before, .wvu-links li:first-child:before { content: ''; padding-right: 0; }
 
+// Make a link look like body text
+.wvu-u-fake-link { color: #000; text-decoration: none;
+  &:hover, &:visited { color: #000; }
+  &:hover { text-decoration: underline; }
+} //.u-fake-link
+
 .wvu-icons {
   ul { clear: both; margin-top: 0; margin-bottom: 0; padding-left: 0; list-style-type: none; }
   li { display: inline; margin: 0; }
