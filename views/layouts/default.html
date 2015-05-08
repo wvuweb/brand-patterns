@@ -12,20 +12,17 @@
     <!--[if lt IE 9]>
       <r:include_stylesheet name="ie8" />
     <![endif]-->
-    <!-- HTML5 Shiv is *required* for IE to recognize HTML5 tags. -->
 
-    <!-- Modernizr includes the HTML5 Shiv and it's required for old IE to recognize HTML5 tags. -->
+    <r:comment><!-- Modernizr includes the HTML5 Shiv and it's required for old IE to recognize HTML5 tags. --></r:comment>
     <r:include_javascript name="vendor/modernizr-2.8.3.custom" />
 
   </head>
   <body class="<r:page:template:name /> page-<r:page:id /> page-<r:page:slug />">
-
-    <r:comment><!-- What are layouts and <r:yield />? http://goo.gl/DFAsPv --></r:comment>
-    
+   
     <a class="wvu-skip-nav" href="#maincontent">Skip to main content</a>
     
+    <r:comment><!-- What are layouts and <r:yield />? http://goo.gl/DFAsPv --></r:comment>
     <r:yield />
-    
 
     <div class="wvu-container">
       <footer class="wvu-footer">
@@ -49,7 +46,6 @@
 
     <r:comment><!-- Fix IE 8 and below so that media queries get supported --></r:comment>
     <!--[if lt IE 9]>
-
       <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
     <![endif]-->
