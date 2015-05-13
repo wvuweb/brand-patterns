@@ -242,17 +242,17 @@ html {
 .iowan-old-style {
   font-family: "IowanOldStyleW01-Roman", Georgia, Times, serif;
   font-weight: normal;
-  line-height: 1.1666666667em; }
+  line-height: 1.16667em; }
 
 .iowan-old-style-italic {
   font-family: "IowanOldStyleW01-Italic1120392", Georgia, Times, serif;
   font-weight: normal;
-  line-height: 1.1666666667em; }
+  line-height: 1.16667em; }
 
 .helvetica-neue-bold {
   font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  line-height: 1.08333333em; }
+  line-height: 1.08333em; }
 
 h2, h3, h4, h5, h6 {
   color: #333F48;
@@ -1019,7 +1019,7 @@ input[type="submit"].form-search__submit {
 .wvu-header__title {
   font-size: 1em;
   margin: 1.5em 0;
-  line-height: 1.08333333em;
+  line-height: 1.08333em;
   font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: none; }
@@ -1813,3 +1813,5 @@ input[type="submit"].form-search__submit {
 
 .wvu-quicklinks li {
   background: url(../images/ie8/diagonal-gold-bullet-ie.png) no-repeat 0 0px; }
+
+/*# sourceMappingURL=ie8.css.map */

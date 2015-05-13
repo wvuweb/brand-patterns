@@ -21,8 +21,7 @@
    
     <a class="wvu-skip-nav" href="#maincontent">Skip to main content</a>
     
-      <r:partial name="patterns/wvu-masthead--department" />
-      <r:partial name="header" />
+    <r:partial name="patterns/wvu-masthead" />
     
     <r:comment><!-- What are layouts and <r:yield />? http://goo.gl/DFAsPv --></r:comment>
     <r:yield />
@@ -39,7 +38,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="https://code.wvu.edu/public/vendor/jquery/1.11.1/jquery.min.js"><\/script>')</script>
 
-    <r:include_javascript name="vendor/responsive-nav, responsive-nav--custom, vendor/calendar-reformat" />
+    <r:include_javascript name="vendor/responsive-nav, responsive-nav--custom, vendor/quicklinks, vendor/wvu-nav-dropdowns" />
     
     <r:yield name="page_js">
       <r:content />
