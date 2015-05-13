@@ -8,3 +8,368 @@
 @import '1-base/base-dir';
 @import '2-modules/modules-dir';
 @import '3-layouts/layouts-dir';
+
+//breakpoints
+
+$xlarge: new-breakpoint(min-width 1200px);
+$large: new-breakpoint(min-width 1000px);
+$medium: new-breakpoint(min-width 800px);
+$small: new-breakpoint(min-width 640px);
+$xsmall: new-breakpoint(min-width 320px);
+
+* {margin:0;}
+html, body {height:100%;position:relative;margin:0;padding:0;box-sizing:border-box;}
+hr {margin:1.5em 0;}
+
+.wvu-masthead__college-link a {
+  text-decoration:none;
+}
+.wvu-masthead__college-link a:hover {
+  text-decoration:underline;
+}
+.wvu-masthead__link {
+  text-decoration:none;
+}
+
+
+// frontpage styles 
+
+.home_col {
+  @include outer-container;
+  padding:1em 0;
+}
+
+.calendar, .featured_event, .spotlight {
+  @include span-columns(12);
+  @include omega();
+  padding:1em 0;
+  margin-bottom:1em;
+  a {margin:0.625em 0;}
+  p {margin:0.625em 0;}
+  h1 {font-size:2em;}
+  h2 {color:#000;text-transform:uppercase;font-size:1.3em;margin:0 0 .625em 0;}
+}
+@include media($medium){
+  .calendar, .featured_event, .spotlight {
+   @include span-columns(4);
+   margin-bottom:0;
+  }
+}
+
+// frontpage 2nd footer styles
+
+// Homepage Footer Styles
+
+
+.second_footer_home {
+  @include outer-container;
+  position:relative;
+  padding:0 1em;
+  margin-bottom:1em;
+  h2 {color:#000; font-size:1.3em;}
+  a {color:#0079c1;text-decoration:none;}
+  a:hover {text-decoration:underline;}
+  h2 {color:#000; font-size:1.3em;}
+  .resources, .downloads, .apply {border-bottom:1px solid #ddd;}
+  .resources, .downloads, .apply, .follow {padding:1em 0;}
+    a {color:#005daa;}
+}
+  
+
+.wvu-social-media-icons {
+  background-color:transparent;
+  .wvu-social-media-icons__container {
+    padding:0;
+    margin:0;
+  }
+  ul li {
+    width:1.5em;
+  }
+}
+
+@include media ($medium) {
+  .second_footer_home {
+    padding:0;
+    margin-bottom:0;
+  
+    .white_content_wrapper {
+      padding:2em 0 2em 2em;
+      @include span-columns(9);
+      @include omega();
+    }
+    .resources, .downloads {
+      @include span-columns(3 of 9);
+      @include omega(4n);
+      border-right:1px solid #ddd;
+      padding-right:1em;
+      border-bottom:0;
+    }
+    .apply {
+      @include span-columns(3 of 9);
+      @include omega();
+      border-right:1px solid #ddd;
+      border-bottom:0;
+    }
+    .follow_box {
+      @include span-columns(3);
+      @include omega();
+      float:right;
+    }
+    .follow {
+      padding:3em 0;
+    }
+  }
+}
+  
+footer {
+  padding:0 1em;
+  a:hover {color:#fff;}
+  @include media ($medium) {
+    padding:0;
+  }
+}  
+  
+
+@include media($large){
+  .second_footer_home {
+    .apply {border-right:0;}
+  }
+  .follow_box {
+    border-top:none;
+    height:100%;
+    padding:0 2em;
+  }
+  .follow {
+    float:left;
+  } 
+}
+
+// Backpage footer styles 
+
+.second_footer_border {
+  background-color:#fff;
+  border-top:3px solid #eeb211;
+  height:1.75em;
+  @include outer-container;
+}
+
+.second_footer_backpage {
+  @include outer-container;
+  background-color:#fff;
+  a {color:#0079c1;text-decoration:none;}
+  a:hover {text-decoration:underline;}
+  h2 {color:#000; font-size:1.3em;}
+  padding:0 1em 1.75em 1em;
+  .downloads, .apply, .follow, .resources {
+    padding-bottom:1em;
+  }
+    @include media ($medium) {
+    .downloads, .apply, .follow, .resources {
+        @include span-columns(3);
+        @include omega(4n);
+        padding:2em 1.5em;
+    }
+  }
+}
+
+@include media($large){
+  .follow {
+    padding:0;
+  }
+}
+
+// Backpage Styles
+
+.page_title {
+  @include outer-container;
+  padding:.5em 1em 1em 1em;
+  background-color:#ccc;
+  h2 {margin:.5em 0 .25em 0;font-size:2.25em;color:#363636;}
+  h3 {margin:.625em 0 5px 0;}
+}
+
+.backpage_content {
+  @include outer-container;
+  .big_content {
+    margin-bottom:2em;
+  }
+}
+
+.breadcrumbs {
+  padding-left:0;
+  padding-bottom:1em;
+  li {list-style-type:none;display:inline;}
+  li:nth-child(1):before {content:"";}
+  li:before {content:"»";margin-right:5px;font-size:10px;}
+  a {font-size:10px;color:#0079c1;text-decoration:none;}
+  a:hover {text-decoration:underline;}
+  li.active {font-size:10px;}
+}
+
+.big_content {
+  background-color:#fff;
+  min-height:3em;
+  p {margin:0;line-height:1.75em;}
+  a {text-decoration:none;}
+  a:hover {text-decoration:underline;}
+  a:visited {color:#005EB8;}
+  @include media($medium){
+      @include span-columns(9);
+  }
+}
+
+
+// Backpages - Sidebar Styles - used on "backpage_with_right_sidebar", "landing", custom landing pages, "backpage_subnav_and_sidebar"
+
+.right_side{
+  @include media($medium){
+    @include span-columns(3);
+    margin-bottom:2em;
+  }
+}
+
+.sidebar, .lower_sidebar {
+  margin:0 1em 1em 1em;
+  padding:1em;
+  line-height:1.75em;
+  font-size:.9em;
+    @include media($medium){
+      margin:.8em 0 0 0;
+    }
+  p {margin:0;line-height:1.75em;}
+  h2 {font-size:1.5em;}
+  h1 {font-size:1.75em;}
+  h3 {padding:.5em 0;margin-top:0;font-size:1.25em;}
+  h4 {font-size:1em;}
+  h5 {color:#0079c1;}
+  h6 {color:#ccc;}
+  a {color:#a0c4da;text-decoration:none;word-break:break-all;}
+  a:visited {color:#a0c4da;}
+  a:hover {color:#ffca3f;text-decoration:underline;}
+  ol {padding:0 .3em;
+    li {color:#000;}
+  }
+  ul {
+    padding:0;
+    list-style-type:none;
+    li {
+      border-bottom:#ccc 1px dotted;
+      padding:.25em 0;
+      color:#000;
+      a {text-decoration:none;font-weight:500;}
+    }
+  }
+}
+
+// Backpage - Subnav styles - used on "backpage_subnav_and_sidebar", "backpage_subnav_only", and "landing"
+
+.links {
+  @include media($medium){
+      @include span-columns(3);
+  }
+}
+
+.subnav {
+  background-color:#eee;
+  border-bottom:1px solid #b7b7b7;
+  min-height:3em;
+  padding-top:20px;
+  ul {list-style-type:none;padding:0 1em 1em 1em;font-weight:600;margin:0;}
+  li {margin:7px 0;}
+  a {text-decoration:none;}
+  a:hover {color:#585858;}
+  a:visited {color:#005daa;}
+  h2 {font-size:1.75em; padding: 0 .55em;}
+  h3 {color:#eeb211;text-transform:uppercase;font-size:1em;padding:0 1em;}
+  h4 {color:#000;font-size:1.25em;padding:0 .75em;}
+  h5 {padding:0 .75em;}
+  h6 {padding:0 1em;}
+  h1 {padding: 0 .5em;}
+}
+
+.related {
+  padding:.5em 1em;
+  margin-bottom:1em;
+  a {font-weight:600; font-size:.8em; color: #005daa;text-decoration:none;}
+  a:hover {color:#585858;}
+  a:visited {color:#005daa;}
+  h3 {color:#eeb211;text-transform:uppercase;font-size:1em;}
+  ul {padding:0;margin-top:0;}
+  li {list-style-type:none;padding:5px 0;}
+}#selector {
+  background: url('../images/yellow_texture.png') no-repeat scroll top left;
+  width: 861px;
+  height: 44px;
+}
+
+
+// Backpage - Landing Content Styles - used on pages with subnavigations
+
+.landing_content {
+  background-color:#fff;
+  padding:.5em 0 2em 0;
+  min-height:3em;
+  a {text-decoration:none;}
+  a:hover {text-decoration:underline;}
+  a:visited {color:#005EB8;}
+  p {margin:0;line-height:1.75em;}
+    @include media($medium){
+        @include span-columns(6);
+    }
+}
+
+// Backpage - Subnav Only Styles - used on "backapge_subnav_only" - a little bigger content region than landing
+
+.content {
+  @include span-columns(12);
+  padding:.5em 0 2em 0;
+  min-height:3em;
+  p {margin:0;line-height:1.75em;}
+  a {text-decoration:none;}
+  a:hover {text-decoration:underline;}
+  a:visited {color:#005EB8;}
+  @include media($medium){
+      @include span-columns(7);
+  }
+}
+
+// bio_page (faculty page) Styles
+
+.bio_content {
+  padding:.5em 1em 1em 1em;
+  @include media($medium){
+    @include span-columns(8);
+    padding:.5em 0 1.5em 0;
+    min-height:3em;
+  }
+}
+
+.biobox {
+  padding:1em;
+  font-size:.8em;
+  color:#585858;
+  text-align:center;
+  @include media($medium){
+    margin-top:2em;
+    padding:0 .5em 1em .5em;
+    border-bottom:1px solid #ccc;
+    text-align:left;
+    }
+}
+
+// Backpage - two column - no subnav
+
+.two_columns {
+  @include span-columns(12);
+  padding:1.5em;
+  min-height:3em;
+  p {margin:0;line-height:1.75em;}
+  a {text-decoration:none;}
+  a:hover {text-decoration:underline;}
+  a:visited {color:#005EB8;}
+  @include media($medium){
+      @include span-columns(5.5);
+      padding:0;
+      margin-bottom:2em;
+  }
+}

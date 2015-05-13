@@ -1,21 +1,18 @@
-Brand Patterns
+WVU School of Music
 ==================
 
-**Theme Name:** Brand Patterns
+**Theme Name:** WVU School of Music
 
-**Theme Description:** Theme for Brand Patterns.
+**Theme Description:** Theme for the WVU School of Music.
 
-**Developers name(s):** Adam Glenn
+**Developers name(s):** Octavia Steffich
 
-**Stash repository URL:** [https://stash.development.wvu.edu/projects/CST/repos/brand-patterns/browse](https://stash.development.wvu.edu/projects/CST/repos/brand-patterns/browse)
+**Stash repository URL:** [https://stash.development.wvu.edu/projects/CST/repos/art-music/browse](https://stash.development.wvu.edu/projects/CST/repos/art-music/browse)
 
 **Dependencies necessary to work with this theme:** Sass.
 
 **Other notes, comments, or reminders:**
 
-1. Copy the files you want from the WVU Brand Patterns theme into your new theme.
-2. Use the following command in Terminal from within your theme&rsquo;s top-level directory: <pre>sass --watch scss/styles.scss:stylesheets/styles.css</pre> or use Gulp to compile your Sass.
-3. Test your theme in <a href="https://github.com/wvuweb/hammer">Hammer</a>.
-4. Push and sync your theme in CleanSlate.
+This site uses WVU Brand Patterns, Neat Grid, and Codekit2 to compile Sass files. Created May 2015.
 
 Need some help? [Read the CleanSlate documentation](https://github.com/wvuweb/cleanslate-toolkit/wiki).

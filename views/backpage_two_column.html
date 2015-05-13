@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+    <div class="page_title">
+       <r:editable_region name="page_title" />
+    </div> <!-- /.page_title -->
+       
+    <div class="backpage_content">
+      <div class="crumb_wrapper">
+         <r:breadcrumbs ul_class="breadcrumbs"/>  
+      </div> <!-- crumb_wrapper -->
+             
+      <div class="two_columns">
+         <r:editable_region name="main" />
+      </div> <!-- /.content -->
+  
+      <div class="two_columns">
+         <r:editable_region name="main2" />
+      </div> <!-- /.content -->
+
+    </div> <!-- close backpage -->
+     
+<r:partial name="backpagefooter" />

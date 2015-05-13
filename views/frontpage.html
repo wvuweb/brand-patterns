@@ -2,4 +2,53 @@
 layout: default
 ---
 
+<r:partial name="patterns/wvu-hero" />
+
+<div class="home_col_wrapper">      
+  <main class="home_col">
+        
+          <div class="calendar">
+            <r:editable_region name="calendar" />
+            <ul class="wvu-calendar wvu-calendar--flex">
+                    <script language="javascript" src="https://cal.wvu.edu/EventListSyndicator.aspx?type=N&number=5&category=67-0&ihc=y&expire=N&adpid=21&nem=No+events+are+available+that+match+your+request&sortorder=ASC"></script>
+                    <!-- to obain your own calendar feed with the format shown above, contact Jay Allen (jay.allen@mail.wvu.edu) --> 
+            </ul>
+            <a class="button button--blue">Full School of Music Calendar</a>
+          </div>
+        
+          <div class="featured_event">
+            <r:editable_region name="featured_event" />
+          </div>
+        
+          <div class="spotlight">
+            <r:editable_region name="spotlight" />
+          </div>
+        
+  </main><!-- /.main -->
+</div>
+
+<!-- begin code for art and design second footer -->
+  <div class="second_footer_home">
+    <div class="white_content_wrapper">
+        <div class="resources">
+          <r:editable_region name="resources" scope="site" />
+        </div> <!-- /.resources -->
+
+        <div class="downloads">
+          <r:editable_region name="downloads" scope="site" />
+        </div><!-- /.downloads -->
+
+        <div class="apply">
+          <r:editable_region name="apply" scope="site" />
+        </div><!-- /.apply -->
+  </div><!-- /.white_content_wrapper -->
+
+    <div class="follow_box">
+      <div class="follow">
+          <r:editable_region name="follow" scope="site" /> 
+          <r:partial name="patterns/wvu-social-media-icons" scope="site" />
+      </div>
+    </div> <!-- /.follow_box -->   
+
+  </div> <!-- /.second_footer -->
 
