@@ -19,5 +19,3 @@ Brand Patterns
 4. Push and sync your theme in CleanSlate.
 
 Need some help? [Read the CleanSlate documentation](https://github.com/wvuweb/cleanslate-toolkit/wiki).
-
-#test
