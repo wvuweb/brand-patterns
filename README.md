@@ -19,3 +19,15 @@ Brand Patterns
 4. Push and sync your theme in CleanSlate.
 
 Need some help? [Read the CleanSlate documentation](https://github.com/wvuweb/cleanslate-toolkit/wiki).
+
+## Gulp
+
+**Requirements**
+* [NodeJS](https://nodejs.org)
+
+You will need to install Node ~0.12.2
+
+1. Install node modules `npm install`
+1. Run Gulp
+
+**Note** the `gulpfile.js` in its base form will only compile your sass.
