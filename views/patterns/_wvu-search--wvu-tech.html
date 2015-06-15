@@ -1,0 +1,23 @@
+<form class="form-search" action="//search.wvu.edu/search" method="get" role="search">
+
+  <label class="form-search__label" for="q">
+    <span class="form-search__label-text">Search</span>
+    <input id="q" class="form-search__field" name="q" maxlength="256" placeholder="Search this site..." type="search" />
+  </label>
+
+  <input id="sort" name="sort" type="hidden" value="date:D:L:d1" />
+  <input id="output" name="output" type="hidden" value="xml_no_dtd" />
+  <input id="ie" name="ie" type="hidden" value="UTF-8" />
+  <input id="oe" name="oe" type="hidden" value="UTF-8" />
+  <input id="proxystylesheet" name="proxystylesheet" type="hidden" value="default_frontend" />
+  <input id="client" name="client" type="hidden" value="default_frontend" />
+  <input class="form-search__submit" name="btnG" type="submit" value="Search" />
+
+  <div class="form-search__search-type">
+	  <input id="form-search__sitesearch" type="radio" name="as_sitesearch" value="<r:site:domain />" checked="true" />
+    <label for="form-search__sitesearch">Search this site</label>
+  	<input id="form-search__wvusearch" type="radio" name="as_sitesearch" value="wvutech.edu" />
+    <label for="form-search__wvusearch">Search WVU Tech</label>
+  </div>
+
+</form>

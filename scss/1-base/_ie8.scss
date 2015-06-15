@@ -7,23 +7,48 @@ $wvu-masthead-has-signature: false !default;
 
 $wvu-hero-image: '../images/ie8/wvu-pattern-close.jpg' !default;
 
-.wvu-masthead__logo { background-image: url(../images/ie8/flying-wv-ie.png); background-repeat: no-repeat; background-position: 0 1.2em; }
-.wvu-masthead--has-signature .wvu-masthead__logo { background-image: url(../images/ie8/flying-wv-w-signature-ie8.png); background-repeat: no-repeat; background-position: 0 1.2em; }
+$flying-wv: '../flying-wv-ie.png' !default;
+$flying-wv--blue: '../images/ie8/flying-wv-blue-ie8.png' !default;
+
+$flying-wv-w-signature--tech: '../images/ie8/flying-wv-w-signature-ie8--tech.png' !default;
+$flying-wv-w-signature-gold--tech: '../images/ie8/flying-wv-w-signature-gold-bg-ie8--tech.png' !default;
+$flying-wv-w-signature-white--tech: '../images/ie8/flying-wv-w-signature-white-bg-ie8--tech.png' !default;
+
+$flying-wv-w-signature--mini--tech: '../images/ie8/flying-wv-w-signature-ie8--mini--tech.png' !default;
+$flying-wv-w-signature-gold-bg--mini--tech: '../images/ie8/flying-wv-w-signature-gold-bg-ie8--mini--tech.png' !default;
+$flying-wv-w-signature-white-bg--mini--tech: '../images/ie8/flying-wv-w-signature-white-bg-ie8--mini--tech.png' !default;
+
+$flying-wv-w-signature: '../images/ie8/flying-wv-w-signature-ie8.png' !default;
+$flying-wv-w-signature-gold-bg: '../images/ie8/flying-wv-w-signature-gold-bg-ie8.png' !default;
+$flying-wv-w-signature-white-bg: '../images/ie8/flying-wv-w-signature-white-bg-ie8.png' !default;
+
+$flying-wv-w-signature--mini: '../images/ie8/flying-wv-w-signature-ie8--mini.png' !default;
+$flying-wv-w-signature-gold-bg--mini: '../images/ie8/flying-wv-w-signature-gold-bg-ie8--mini.png' !default;
+$flying-wv-w-signature-white-bg--mini: '../images/ie8/flying-wv-w-signature-white-bg-ie8--mini.png' !default;
+
+$search-icon: '../images/ie8/search-icon-ie.png' !default;
+
+$diagonal-gold: '../images/ie8/diagonal-gold.svg' !default;
+
+$diagonal-gold-bullet: '../images/ie8/diagonal-gold-bullet-ie.png' !default;
+
+.wvu-masthead__logo { background-image: url($flying-wv); background-repeat: no-repeat; background-position: 0 1.2em; }
+.wvu-masthead--has-signature .wvu-masthead__logo { background-image: url($flying-wv-w-signature); background-repeat: no-repeat; background-position: 0 1.2em; }
 .wvu-masthead__search-bar { margin-right: 0 !important; }
-input[type="submit"].form-search__submit { background-image: url(../images/ie8/search-icon-ie.png); background-repeat: no-repeat; }
+input[type="submit"].form-search__submit { background-image: url($search-icon); background-repeat: no-repeat; }
 .wvu-hero__photo { margin-right: 0 !important; }
 .wvu-landing-page-header__intro { margin-right: 0; }
 .omega { margin-right: 0 !important; }
 
-.wvu-quicklinks--flex ul li { background-image: url(../images/ie8/diagonal-gold.svg); }
-.wvu-quicklinks li { background-image: url(../images/ie8/diagonal-gold.svg); }
+.wvu-quicklinks--flex ul li { background-image: url($diagonal-gold); }
+.wvu-quicklinks li { background-image: url($diagonal-gold); }
 
 @mixin wvu-masthead-background() {
   @if $wvu-masthead-background == 'gold' {
-    .wvu-masthead__logo { background-image: url(../images/ie8/flying-wv-blue-ie.png); }
+    .wvu-masthead__logo { background-image: url($flying-wv--blue); }
   }
   @else if $wvu-masthead-background == 'gold-pattern' {
-    .wvu-masthead__logo { background-image: url(../images/ie8/flying-wv-blue-ie.png); }
+    .wvu-masthead__logo { background-image: url($flying-wv--blue); }
   }
 }
 
@@ -31,52 +56,52 @@ input[type="submit"].form-search__submit { background-image: url(../images/ie8/s
   @if $wvu-masthead-has-signature == true {
     @if $wvu-masthead-background == 'white' {
       .wvu-masthead__logo {
-        background-image: url(../images/ie8/flying-wv-w-signature-white-bg-ie8.png);
+        background-image: url($flying-wv-w-signature-white-bg);
       }
       .wvu-masthead__logo--mini {
-        background-image: url(../images/ie8/flying-wv-w-signature-white-bg-ie8--mini.png);
+        background-image: url($flying-wv-w-signature-white-bg--mini);
       }
     }
     @else if $wvu-masthead-background == 'gold' {
       .wvu-masthead__logo {
-        background-image: url(../images/ie8/flying-wv-w-signature-gold-bg-ie8.png);
+        background-image: url($flying-wv-w-signature-gold-bg);
       }
       .wvu-masthead__logo--mini {
-        background-image: url(../images/ie8/flying-wv-w-signature-gold-bg-ie8--mini.png);
+        background-image: url($flying-wv-w-signature-gold-bg--mini);
       }
     }
     @else {
       .wvu-masthead__logo {
-        background-image: url(../images/ie8/flying-wv-w-signature-ie8.png); background-position-y: 1.2em;
+        background-image: url($flying-wv-w-signature--mini); background-position-y: 1.2em;
       }
       .wvu-masthead__logo--mini {
-        background-image: url(../images/ie8/flying-wv-w-signature-ie8--mini.png); background-position-y: 0.4em;
+        background-image: url($flying-wv-w-signature--mini); background-position-y: 0.4em;
       }
     }
   }
   @else {
     @if $wvu-masthead-background == 'white' {
       .wvu-masthead__logo {
-        background-image: url(../images/ie8/flying-wv-w-signature-white-bg-ie8.png);
+        background-image: url($flying-wv-w-signature-white-bg);
       }
       .wvu-masthead__logo--mini {
-        background-image: url(../images/ie8/flying-wv-w-signature-white-bg-ie8--mini.png);
+        background-image: url($flying-wv-w-signature-white-bg--mini);
       }
     }
     @else if $wvu-masthead-background == 'gold' {
       .wvu-masthead__logo {
-        background-image: url(../images/ie8/flying-wv-w-signature-gold-bg-ie8.png);
+        background-image: url($flying-wv-w-signature-gold-bg);
       }
       .wvu-masthead__logo--mini {
-        background-image: url(../images/ie8/flying-wv-w-signature-gold-bg-ie8--mini.png);
+        background-image: url($flying-wv-w-signature-gold-bg--mini);
       }
     }
     @else {
       .wvu-masthead__logo {
-        background-image: url(../images/ie8/flying-wv-w-signature-ie8.png); background-position-y: 1.2em;
+        background-image: url($flying-wv-w-signature); background-position-y: 1.2em;
       }
       .wvu-masthead__logo--mini {
-        background-image: url(../images/ie8/flying-wv-w-signature-ie8--mini.png); background-position-y: 0.4em;
+        background-image: url($flying-wv-w-signature--mini); background-position-y: 0.4em;
       }
     }
   }
@@ -86,15 +111,15 @@ input[type="submit"].form-search__submit { background-image: url(../images/ie8/s
 @include wvu-masthead-has-signature();
 
 .wvu-masthead.wvu-masthead--gold .wvu-masthead__logo {
-  background-image: url(../images/ie8/flying-wv-blue-ie8.png);
+  background-image: url($flying-wv--blue);
 }
 
 .wvu-masthead--has-signature.wvu-masthead--gold .wvu-masthead__logo {
-  background-image: url(../images/ie8/flying-wv-w-signature-gold-bg-ie8.png);
+  background-image: url($flying-wv-w-signature-gold-bg);
 }
 
 .wvu-masthead--gold.wvu-masthead--mini .wvu-masthead__logo {
-  background-image: url(../images/ie8/flying-wv-w-signature-gold-bg-ie8--mini.png);
+  background-image: url($flying-wv-w-signature-gold-bg--mini);
 }
 
 .wvu-masthead--has-signature.wvu-masthead--white .wvu-masthead__logo {
@@ -102,7 +127,7 @@ input[type="submit"].form-search__submit { background-image: url(../images/ie8/s
 }
 
 .wvu-masthead--white.wvu-masthead--mini .wvu-masthead__logo {
-  background-image: url(../images/ie8/flying-wv-w-signature-white-bg-ie8--mini.png);
+  background-image: url($flying-wv-w-signature-white-bg--mini);
 }
 
 .wvu-hero.wvu-hero--medium-shout { padding-bottom: 2em; padding-top: 2em;
