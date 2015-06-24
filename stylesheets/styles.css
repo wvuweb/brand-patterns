@@ -833,6 +833,72 @@ input[type="submit"].form-search__submit {
     border-color: #EAAA00; }
 
 /* 
+
+	Show hide search bar styles
+	
+	I put them in a modified _wvu-nav-dropdowns.scss file
+
+*/
+.search-slider {
+  position: absolute;
+  top: -300px;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: .5s;
+  -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  -moz-transition-property: all;
+  -moz-transition-duration: .5s;
+  -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  -ms-transition-property: all;
+  -ms-transition-duration: .5s;
+  -ms-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  background: #fff;
+  width: 100%; }
+  @media (min-width: 48em) {
+    .search-slider {
+      position: static; } }
+
+.search-slider.closed {
+  position: relative;
+  top: 0;
+  background: transparent; }
+
+#searcher.inactive-search {
+  float: right;
+  position: relative;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  color: #333;
+  height: 56px;
+  width: 20%;
+  text-indent: -99999em;
+  background-color: #EAAA00;
+  background-image: url(http://patterns.wvu.edu/images/search-icon.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 50% 50%;
+  padding: 4px;
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  overflow: hidden;
+  box-sizing: border-box; }
+  @media (min-width: 48em) {
+    #searcher.inactive-search {
+      display: none; } }
+
+#searcher.active-search {
+  background-image: url(http://patterns.wvu.edu/images/hide-search-icon.png); }
+
+.nav-toggle {
+  float: left;
+  width: 80%;
+  height: 56px; }
+
+/* 
   Variable options for WVU Masthead Background:
   gold
   blue
@@ -949,34 +1015,28 @@ input[type="submit"].form-search__submit {
     text-decoration: underline; }
 
 .wvu-masthead {
-  background-color: white;
-  color: #2C2A29;
-  background-image: none; }
-
-input[type="submit"].form-search__submit {
-  border-color: #002855;
-  background-color: #002855; }
-  input[type="submit"].form-search__submit:hover {
-    background-color: #EAAA00;
-    border-color: #EAAA00; }
+  background-color: #002855;
+  color: white; }
 
 .wvu-masthead__logo {
-  color: #002855; }
-  .wvu-masthead__logo:hover {
-    color: #005EB8; }
+  color: white; }
+  .wvu-masthead__logo:visited {
+    color: white; }
 
 .wvu-masthead__link {
-  color: #002855; }
+  color: white; }
+  .wvu-masthead__link:visited {
+    color: white; }
   .wvu-masthead__link:hover {
-    color: #005EB8; }
+    color: white; }
 
 .wvu-masthead__college-link:hover {
-  color: white; }
+  color: #002855; }
 .wvu-masthead__college-link:visited {
-  color: #2C2A29; }
+  color: #002855; }
 .wvu-masthead__college-link a {
   background: #EAAA00;
-  color: #2C2A29; }
+  color: #002855; }
 
 .wvu-masthead__logo {
   background-repeat: no-repeat;
@@ -1009,7 +1069,7 @@ input[type="submit"].form-search__submit {
   left: -99999em; }
 
 .wvu-masthead__logo {
-  background-image: url("https://patterns.wvu.edu/images/flying-wv-w-signature-white-bg.png"); }
+  background-image: url("https://patterns.wvu.edu/images/flying-wv-w-signature.png"); }
 
 .wvu-masthead__logo--mini {
   background-size: 250px;

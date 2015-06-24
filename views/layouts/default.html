@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://fast.fonts.net/cssapi/36d8cd92-7cc7-499b-b169-0eed9d670283.css"/> <r:comment><!-- Helvetica Neue Roman, italic, bold, bold italic, & bold condensed (customized for this project!) web font, valid for *.wvu.edu, *.wvutech.edu, & localhost --></r:comment>
     <r:include_stylesheet name="normalize, styles" />
     
-    <!--[if lt IE 9]>
+    <!--[if IE 9]>
+      <r:include_stylesheet name="ie9" />
+    <![endif]-->
+    <!--[if IE 8]>
       <r:include_stylesheet name="ie8" />
     <![endif]-->
 
@@ -22,6 +25,8 @@
     <a class="wvu-skip-nav" href="#maincontent">Skip to main content</a>
     
     <r:partial name="patterns/wvu-masthead" />
+    
+    <r:partial name="patterns/wvu-nav" />
     
     <r:comment><!-- What are layouts and <r:yield />? http://goo.gl/DFAsPv --></r:comment>
     <r:yield />
