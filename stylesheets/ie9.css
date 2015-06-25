@@ -6,6 +6,7 @@
 
 .wvu-nav__search-toggle.inactive-search {
   display: none; }
+
 .wvu-nav__search-toggle.active-search {
   display: none; }
 
@@ -13,5 +14,3 @@
   float: left;
   width: 100%;
   height: 56px; }
-
-/*# sourceMappingURL=ie9.css.map */

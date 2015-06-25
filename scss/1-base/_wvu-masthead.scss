@@ -122,7 +122,7 @@ $flying-wv-w-signature-white-bg: 'https://patterns.wvu.edu/images/flying-wv-w-si
   }
 }
 
-@mixin wvu-masthead-has-signature {
+@mixin wvu-masthead-has-signature() {
   @if $wvu-masthead-has-signature == true {
     .wvu-masthead__logo {
       background-repeat: no-repeat;
