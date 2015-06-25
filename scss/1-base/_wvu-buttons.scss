@@ -88,7 +88,7 @@ input[type="submit"] {
 }
 
 
-.button--wvu-gold { color: $wvu-gold; border: 2px solid $wvu-gold; color: $black;
+.button--wvu-gold { color: $wvu-gold; border: 2px solid $wvu-gold;
   &:visited { color: $wvu-gold; }
   &:hover { background: $wvu-gold; color: $black; border: 2px solid $wvu-gold}
 }
