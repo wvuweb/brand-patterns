@@ -156,19 +156,20 @@ input[type="submit"].form-search__submit { background-image: url($search-icon); 
   }
 }
 
-.search-slider {
+.wvu-masthead__search-slider {
 	position: relative;
 	top: 0;
 	background: transparent;
 	width:100%;
 }
 
-#searcher.inactive-search {
-  display: none; 
-}
-	
-#searcher.active-search {
-	background-image: url(http://patterns.wvu.edu/images/hide-search-icon.png);
+.wvu-nav__search-toggle {
+  &.inactive-search {
+    display: none; 
+  }
+  &.active-search {
+	  display: none;
+  }
 }
 
 .nav-toggle { float: left; width: 100%; height: 56px;  }

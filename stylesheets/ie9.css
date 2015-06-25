@@ -1,14 +1,13 @@
-.search-slider {
+.wvu-masthead__search-slider {
   position: relative;
   top: 0;
   background: transparent;
   width: 100%; }
 
-#searcher.inactive-search {
+.wvu-nav__search-toggle.inactive-search {
   display: none; }
-
-#searcher.active-search {
-  background-image: url(http://patterns.wvu.edu/images/hide-search-icon.png); }
+.wvu-nav__search-toggle.active-search {
+  display: none; }
 
 .nav-toggle {
   float: left;
