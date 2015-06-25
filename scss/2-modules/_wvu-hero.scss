@@ -102,6 +102,7 @@ $has-wvu-pattern-grid: true !default;
   background-size: cover;
   overflow: hidden;
   position: relative;
+  -webkit-font-smoothing: antialiased;
   
   img { position: absolute; max-height: 100%; width: auto; max-width: 99999em;
     @include mq($bp-medium) {
@@ -247,6 +248,7 @@ $has-wvu-pattern-grid: true !default;
 
 @mixin has-small-photo() {
   @if $has-small-photo == true {
+    -webkit-font-smoothing: none;
     img { width: 100%; }
     .wvu-hero__container { padding: 0 1em; 
       @include mq($bp-xlarge) { padding: 0; }

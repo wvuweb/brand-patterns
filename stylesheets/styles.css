@@ -9,7 +9,8 @@
   border-color: #002855; }
   .u-wvu-blue.background {
     color: white;
-    background-color: #002855; }
+    background-color: #002855;
+    -webkit-font-smoothing: antialiased; }
 
 .u-wvu-gold {
   color: #EAAA00;
@@ -22,7 +23,8 @@
   color: #2C2A29; }
   .u-black.background {
     color: white;
-    background-color: #2C2A29; }
+    background-color: #2C2A29;
+    -webkit-font-smoothing: antialiased; }
     .u-black.background h1, .u-black.background h2, .u-black.background h3, .u-black.background h4, .u-black.background h5, .u-black.background h6, .u-black.background a {
       color: white; }
     .u-black.background .button {
@@ -35,7 +37,8 @@
   border-color: #333F48; }
   .u-pms-432-c.background {
     color: white;
-    background-color: #333F48; }
+    background-color: #333F48;
+    -webkit-font-smoothing: antialiased; }
     .u-pms-432-c.background h1, .u-pms-432-c.background h2, .u-pms-432-c.background h3, .u-pms-432-c.background h4, .u-pms-432-c.background h5, .u-pms-432-c.background h6, .u-pms-432-c.background a {
       color: white; }
     .u-pms-432-c.background .button {
@@ -60,7 +63,8 @@
   border-color: #6E6259; }
   .u-pms-warm-gray-11.background {
     color: white;
-    background-color: #6E6259; }
+    background-color: #6E6259;
+    -webkit-font-smoothing: antialiased; }
     .u-pms-warm-gray-11.background h1, .u-pms-warm-gray-11.background h2, .u-pms-warm-gray-11.background h3, .u-pms-warm-gray-11.background h4, .u-pms-warm-gray-11.background h5, .u-pms-warm-gray-11.background h6, .u-pms-warm-gray-11.background a {
       color: white; }
     .u-pms-warm-gray-11.background a:hover {
@@ -72,7 +76,8 @@
   border-color: #968C83; }
   .u-pms-warm-gray-7.background {
     color: white;
-    background-color: #968C83; }
+    background-color: #968C83;
+    -webkit-font-smoothing: antialiased; }
     .u-pms-warm-gray-7.background h1, .u-pms-warm-gray-7.background h2, .u-pms-warm-gray-7.background h3, .u-pms-warm-gray-7.background h4, .u-pms-warm-gray-7.background h5, .u-pms-warm-gray-7.background h6, .u-pms-warm-gray-7.background a {
       color: white; }
     .u-pms-warm-gray-7.background a:hover {
@@ -93,14 +98,16 @@
   border-color: #0033A0; }
   .u-pms-286-c.background {
     color: white;
-    background-color: #0033A0; }
+    background-color: #0033A0;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-300-c {
   color: #005EB8;
   border-color: #005EB8; }
   .u-pms-300-c.background {
     color: white;
-    background-color: #005EB8; }
+    background-color: #005EB8;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-629-c {
   color: #9BD3DD;
@@ -116,56 +123,64 @@
   border-color: #4B3D2A; }
   .u-pms-7554-c.background {
     color: white;
-    background-color: #4B3D2A; }
+    background-color: #4B3D2A;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-7557-c {
   color: #9F7D23;
   border-color: #9F7D23; }
   .u-pms-7557-c.background {
     color: white;
-    background-color: #9F7D23; }
+    background-color: #9F7D23;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-144-c {
   color: #ED8B00;
   border-color: #ED8B00; }
   .u-pms-144-c.background {
     color: white;
-    background-color: #ED8B00; }
+    background-color: #ED8B00;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-7476-c {
   color: #0D5257;
   border-color: #0D5257; }
   .u-pms-7476-c.background {
     color: white;
-    background-color: #0D5257; }
+    background-color: #0D5257;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-5625-c {
   color: #708573;
   border-color: #708573; }
   .u-pms-5625-c.background {
     color: white;
-    background-color: #708573; }
+    background-color: #708573;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-558-c {
   color: #9ABEAA;
   border-color: #9ABEAA; }
   .u-pms-558-c.background {
     color: white;
-    background-color: #9ABEAA; }
+    background-color: #9ABEAA;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-180-c {
   color: #BE3A34;
   border-color: #BE3A34; }
   .u-pms-180-c.background {
     color: white;
-    background-color: #BE3A34; }
+    background-color: #BE3A34;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-166-c {
   color: #E35205;
   border-color: #E35205; }
   .u-pms-166-c.background {
     color: white;
-    background-color: #E35205; }
+    background-color: #E35205;
+    -webkit-font-smoothing: antialiased; }
 
 .u-pms-115-c {
   color: #FDDA24;
@@ -449,7 +464,8 @@ th {
 
 .wvu-nav {
   color: white;
-  background-color: #2C2A29; }
+  background-color: #2C2A29;
+  -webkit-font-smoothing: antialiased; }
   .wvu-nav h1, .wvu-nav h2, .wvu-nav h3, .wvu-nav h4, .wvu-nav h5, .wvu-nav h6, .wvu-nav a {
     color: white; }
   .wvu-nav .button {
@@ -621,7 +637,6 @@ body {
   font-size: 1em;
   line-height: 1.5;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
   background-color: white; }
 
 img, iframe, video, audio, embed, object {
@@ -1007,7 +1022,8 @@ input[type="submit"].form-search__submit {
 
 .wvu-masthead {
   background-color: #002855;
-  color: white; }
+  color: white;
+  -webkit-font-smoothing: antialiased; }
 
 .wvu-masthead__logo {
   color: white; }
@@ -1875,7 +1891,8 @@ input[type="submit"] {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  -webkit-font-smoothing: antialiased; }
   .wvu-hero img {
     position: absolute;
     max-height: 100%;
