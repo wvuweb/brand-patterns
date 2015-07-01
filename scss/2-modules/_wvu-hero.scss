@@ -248,6 +248,7 @@ $has-wvu-pattern-grid: true !default;
 
 @mixin has-small-photo() {
   @if $has-small-photo == true {
+    .wvu-hero { -webkit-font-smoothing: auto; }
     img { width: 100%; }
     .wvu-hero__container { padding: 0 1em; 
       @include mq($bp-xlarge) { padding: 0; }
