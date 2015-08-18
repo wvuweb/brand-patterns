@@ -1,0 +1,66 @@
+// Layout Helpers
+//==================================================
+// All classes and mixins in here are prefixed with .u-*. "u" stands for "utility".
+
+// Full width div
+.u-full-width { width: 100%; }
+
+// Make videos responsive 
+.u-embed-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.u-hide {
+  display: none;
+}
+
+@mixin embed-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@mixin wvu-container-padding {
+  padding: $wvu-container-padding;
+  padding-left: 1em;
+  padding-right: 1em;
+  @include mq($bp-xlarge) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+// http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+// Removed vendor prefixes so that Autoprefixer will handle them
+// Parent elements must have a fixed height (not min-height)
+@mixin u-vertical-align { position: relative; top: 50%; transform: translateY(-50%); }
+
+// Reset WVU's <h2> styles 
+@mixin u-reset-wvu-h2 { color: $basecolor; border-bottom: 0; max-width: none; font-weight: bold; margin-top: 0; margin-bottom: 0; }
+
+// <ul>'s with right arrows
+.u-arrow-ul--right { float: left; padding-left: 0;
+  li { list-style-type: none; float: left; clear: left; margin: 7px 0; padding-left: 23px; background: url(../images/arrow__list.png) no-repeat left -254px;
+    &:hover { background-position: left 8px; }
+  } //.li
+} //.u-arrow-ul--right
