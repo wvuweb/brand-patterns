@@ -4,6 +4,8 @@ shared_themes:
 
 editable_region:
 
+  main: This content comes from the mock_data.yml file in your project's root. Open the file to edit this content.
+
   wvu-masthead__title:
     Department of English
   news: |
