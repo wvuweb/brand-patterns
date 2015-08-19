@@ -2,6 +2,14 @@
 name: WVU Brand Patterns
 description: This is the WVU Brand Patterns theme built for CleanSlate. Originally authored by Adam Glenn.
 
+# Default Templates
+# Specify which templates show up by default when creating a page
+default_templates:
+  content: backpage
+  blog: blog_index
+  article: blog_article
+  error: backpage
+
 # CSS
 css: 
   
