@@ -53,6 +53,7 @@ h3, h4, h5, h6 { margin-bottom: 18px; }
 h4, h5, h6 { color: $black; margin-bottom: 18px; }
 h3, h4, h5 { line-height: 1.15; }
 p { max-width: 75em; }
+p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6, pre, a { max-width: $wvu-typography-line-length; }
 
 blockquote {
   border-left: 2px solid $base-border-color;

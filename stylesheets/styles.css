@@ -351,8 +351,8 @@ h4, h5, h6 {
 h3, h4, h5 {
   line-height: 1.15; }
 
-p {
-  max-width: 75em; }
+p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6, pre, a {
+  max-width: 45em; }
 
 blockquote {
   border-left: 2px solid #ccc;
