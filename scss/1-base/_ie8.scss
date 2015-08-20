@@ -1,5 +1,5 @@
-$medium-shout-font-size: 4.5em !default;
-$long-shout-font-size: 3em !default;
+$wvu-shout-font-size-medium: 4.5em !default;
+$wvu-shout-font-size-long: 3em !default;
 
 $wvu-masthead-two-line-lockup: false !default;
 $wvu-masthead-background: 'blue' !default;
@@ -131,11 +131,11 @@ input[type="submit"].form-search__submit { background-image: url($search-icon); 
 }
 
 .wvu-hero.wvu-hero--medium-shout { padding-bottom: 2em; padding-top: 2em;
-  h1 { font-size: $medium-shout-font-size; }
+  h1 { font-size: $wvu-shout-font-size-medium; }
 }
 
 .wvu-hero.wvu-hero--long-shout { padding-bottom: 2em; padding-top: 2em;
-  h1 { font-size: $long-shout-font-size; }
+  h1 { font-size: $wvu-shout-font-size-long; }
 }
 
 .wvu-hero, .wvu-hero.wvu-hero--has-vignetting, .wvu-hero.wvu-hero--diagonal-line, .wvu-hero.wvu-hero--pattern-grid {

@@ -8,22 +8,22 @@ $helvetica-neue-light: 'HelveticaNeueW01-45Ligh', Helvetica, Arial, sans-serif !
 $iowan-old-style: 'IowanOldStyleW01-Roman', Georgia, Times, serif !default;
 $iowan-old-style-italic: 'IowanOldStyleW01-Italic1120392', Georgia, Times, serif !default;
 
-$shout: $helvetica-neue-condensed-black !default;
+$wvu-shout: $helvetica-neue-condensed-black !default;
 $subhead: $helvetica-neue-bold !default;
-$traditional-audience: $iowan-old-style !default;
+$wvu-traditional-audience: $iowan-old-style !default;
 $narrow-audience: $iowan-old-style-italic !default;
 
 // Font Sizes
 $base-font-size: 1em !default;
 $base-font-family: $helvetica-neue-roman !default;
-$shout-font-size: 8.2em !default;
+$wvu-shout-font-size: 8.2em !default;
 
 // Line height
 $base-line-height: 1.5 !default;
 $header-line-height: 1.25 !default;
-$shout-line-height: 0.80487em !default;
+$wvu-shout-line-height: 0.80487em !default;
 $helvetica-neue-bold-line-height: 1.08333333em !default;
-$traditional-audience-line-height: 1.16666666667em !default;
+$wvu-traditional-audience-line-height: 1.16666666667em !default;
 
 // Line length
 $wvu-typography-line-length: 45em !default;
@@ -75,12 +75,12 @@ $vignetting: 'https://patterns.wvu.edu/images/vignetting-2.png' !default;
 
 $diagonal-line: $diagonal-line-gold-transparent !default;
 
-$medium-shout-font-size: 4.5em !default;
-$long-shout-font-size: 3em !default;
+$wvu-shout-font-size-medium: 4.5em !default;
+$wvu-shout-font-size-long: 3em !default;
 
 // Hero Typography
 
-$wvu-hero-title-typeface: $shout !default;
+$wvu-hero-title-typeface: $wvu-shout !default;
 $wvu-hero-title-color: white !default;
 
 // Set vignetting to true if you have a photo that is busy and makes text illegible
@@ -97,9 +97,9 @@ $is-shout-bottom-gold: true !default;
 
 /*
   Options for WVU Hero Title typeface:
-  $shout (Helvetica Neue Black Condensed)
+  $wvu-shout (Helvetica Neue Black Condensed)
   $subhead (Helvetica Bold)
-  $traditional-audience (Iowan Old Style)
+  $wvu-traditional-audience (Iowan Old Style)
   $narrow-audience (Iowan Old Style Italic)
 */
 
@@ -109,7 +109,7 @@ $has-diagonal-line: false !default;
 $has-wvu-pattern-grid: false !default;
 
 $has-small-photo: false !default;
-$shout-length: 'short' !default;
+$wvu-shout-length: 'short' !default;
 
 /*
   Options for WVU Hero Title typeface:

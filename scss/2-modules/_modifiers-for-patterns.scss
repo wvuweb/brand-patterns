@@ -124,14 +124,14 @@
 }
 
 .wvu-hero--traditional-audience {
-  h1 { font-family: $iowan-old-style; font-weight: normal; text-transform: none; font-size: 3em; line-height: $traditional-audience-line-height;
+  h1 { font-family: $iowan-old-style; font-weight: normal; text-transform: none; font-size: 3em; line-height: $wvu-traditional-audience-line-height;
     @include mq($bp-large) { font-size: 4em; }
   }
   .wvu-hero__title-bottom { color: white; }
 }
 
 .wvu-hero--narrow-audience {
-  h1 { font-family: $iowan-old-style-italic; font-weight: normal; text-transform: none; font-size: 3em; line-height: $traditional-audience-line-height;
+  h1 { font-family: $iowan-old-style-italic; font-weight: normal; text-transform: none; font-size: 3em; line-height: $wvu-traditional-audience-line-height;
     @include mq($bp-large) { font-size: 4em; }
   }
   .wvu-hero__title-bottom { color: white; }

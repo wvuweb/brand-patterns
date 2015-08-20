@@ -191,9 +191,9 @@
 
 /*
   Options for WVU Hero Title typeface:
-  $shout (Helvetica Neue Black Condensed)
+  $wvu-shout (Helvetica Neue Black Condensed)
   $subhead (Helvetica Bold)
-  $traditional-audience (Iowan Old Style)
+  $wvu-traditional-audience (Iowan Old Style)
   $narrow-audience (Iowan Old Style Italic)
 */
 /*
@@ -273,88 +273,107 @@ html {
   font-weight: normal;
   line-height: 1.08333em; }
 
-h2, h3, h4, h5, h6 {
+h2, .wvu-h2,
+h3, .wvu-h3,
+h4, .wvu-h4,
+h5, .wvu-h5,
+h6, .wvu-h6 {
   color: #333F48;
   clear: both;
   margin-bottom: 1em; }
 
-h1 {
+h1, .wvu-h1 {
   font-size: 3em;
   line-height: 1.08333333em;
   width: 100%;
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   color: #333F48; }
   @media (min-width: 60em) {
-    h1 {
+    h1, .wvu-h1 {
       font-size: 4em; } }
 
-.shout {
+.wvu-shout {
   font-size: 3em;
   line-height: 0.80487em;
   font-family: "HelveticaNeueW01-97Blac", "Helvetica W01 Bold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: normal; }
   @media (min-width: 60em) {
-    .shout {
+    .wvu-shout {
       font-size: 8.2em; } }
 
-.shout--medium-shout {
-  font-size: 4.5em; }
+@media (min-width: 48em) {
+  .wvu-shout--medium-shout {
+    font-size: 4.5em; } }
 
-.shout--long-shout {
+.wvu-shout--long-shout {
   font-size: 2em; }
   @media (min-width: 48em) {
-    .shout--long-shout {
+    .wvu-shout--long-shout {
       font-size: 3em; } }
 
-.shout--wvu-gold {
+.wvu-shout--wvu-gold {
   color: #EAAA00; }
 
-.shout--wvu-blue {
+.wvu-shout--wvu-blue {
   color: #002855; }
 
-.shout--white {
-  color: white; }
+.wvu-shout--white {
+  color: #fff; }
 
-h2 {
+h2, .wvu-h2 {
   font-size: 2.4em;
   line-height: 1.08333333em; }
 
-p.lede {
+.wvu-lede {
   font-size: 2.4em;
   font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
-  line-height: 1.08333333em; }
+  line-height: 1.08333333em;
+  margin-bottom: 2em;
+  margin-top: 1.5em; }
 
-p + p.lede {
+p + .wvu-lede {
+  margin-top: .5em; }
+
+.wvu-lede-small {
+  font-size: 1.4em;
+  font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 1em; }
+
+p + .wvu-lede-small {
   margin-top: 1em; }
 
-p + h2, table + h2, blockquote + h2, fieldset + h2 {
+p + h2, .wvu-h2, table + h2, .wvu-h2, blockquote + h2, .wvu-h2, fieldset + h2, .wvu-h2 {
   margin-top: 1em; }
 
-h3 {
+.wvu-lede--margin-bottom-zero, .wvu-lede--margin-bottom-zero {
+  margin-bottom: 0; }
+
+h3, .wvu-h3 {
   font-size: 1.75em; }
 
-h4 {
+h4, .wvu-h4 {
   font-size: 1.5em; }
 
-h5 {
+h5, .wvu-h5 {
   font-size: 1.2em; }
 
-h3, h4, h5, h6 {
+h3, .wvu-h3, h4, .wvu-h4, h5, .wvu-h5, h6, .wvu-h6 {
   margin-bottom: 18px; }
 
-h4, h5, h6 {
+h4, .wvu-h4, h5, .wvu-h5, h6, .wvu-h6 {
   color: #2C2A29;
   margin-bottom: 18px; }
 
-h3, h4, h5 {
+h3, .wvu-h3, h4, .wvu-h4, h5, .wvu-h5 {
   line-height: 1.15; }
 
 p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6, pre, a {
   max-width: 45em; }
 
-blockquote {
+blockquote, .wvu-blockquote {
   border-left: 2px solid #ccc;
   color: #2C2A29;
   margin: 1.5em 0;
@@ -404,7 +423,7 @@ ins {
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, blockquote {
   vertical-align: baseline; }
 
-h6, .wvu-sidebar {
+h6, .wvu-h6, .wvu-sidebar {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 18px; }
@@ -423,13 +442,13 @@ dl {
   dl dd {
     margin: 0; }
 
-pre {
+.wvu-pre, pre {
   background: #eee;
   margin: 0 0 0.5em 0;
   padding: 1em 0;
-  font-size: 0.8em; }
+  font-size: .8em; }
   @media (min-width: 48em) {
-    pre {
+    .wvu-pre, pre {
       font-size: 1em; } }
 
 .wvu-text--center {
@@ -1771,9 +1790,9 @@ input[type="submit"] {
 
 /*
   Options for WVU Hero Title typeface:
-  $shout (Helvetica Neue Black Condensed)
+  $wvu-shout (Helvetica Neue Black Condensed)
   $subhead (Helvetica Bold)
-  $traditional-audience (Iowan Old Style)
+  $wvu-traditional-audience (Iowan Old Style)
   $narrow-audience (Iowan Old Style Italic)
 */
 /*

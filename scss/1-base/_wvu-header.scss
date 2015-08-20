@@ -12,7 +12,7 @@ $header-background-color: 'light' !default;
 .wvu-header__title {
   font-size: 1em;
   margin: 1.5em 0;
-  @include subhead();
+  @include wvu-subhead;
   @include mq($bp-micro) {
     font-size: 1.25em;
   }
