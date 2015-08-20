@@ -427,6 +427,25 @@ pre {
     pre {
       font-size: 1em; } }
 
+.wvu-text--center {
+  text-align: center; }
+
+.wvu-text--micro {
+  font-size: .8em; }
+
+.wvu-text--indent,
+address {
+  margin-left: 1.5em; }
+
+.wvu-text--white {
+  color: #fff; }
+
+.wvu-text__max-width--small {
+  max-width: 25em; }
+
+.wvu-text--uppercase {
+  text-transform: uppercase; }
+
 table {
   border-collapse: collapse;
   margin: 0.75em 0;

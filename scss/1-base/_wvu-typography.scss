@@ -121,3 +121,31 @@ dl {
 pre { background: #eee; margin: 0 0 0.5em 0; padding: 1em 0; font-size: 0.8em; 
   @include mq($bp-medium) { font-size: 1em; }
 }
+
+// Commonly used typographic styles
+// ----------------------------------------------
+
+.wvu-text--center {
+  text-align: center;
+}
+
+.wvu-text--micro {
+  font-size: .8em;
+}
+
+.wvu-text--indent,
+address {
+  margin-left: 1.5em;
+}
+
+.wvu-text--white {
+  color: #fff;
+}
+
+.wvu-text__max-width--small {
+  max-width: 25em;
+}
+
+.wvu-text--uppercase {
+  text-transform: uppercase;
+}
