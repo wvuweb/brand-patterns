@@ -62,11 +62,20 @@ blockquote {
 }
 
 ul, ol { margin-bottom: 18px; }
-a { color: $wvu-base-link-color; text-decoration: underline;
-  &:visited { color: $wvu-visited-link-color; text-decoration: none; }
-  &:active { text-decoration: none; }
-  &:hover { color: $wvu-hover-link-color; text-decoration: underline; }
-} //a
+
+@mixin wvu-typography-anchor-tag  {
+  a { color: $wvu-base-link-color; text-decoration: underline;
+    &:visited { color: $wvu-visited-link-color; text-decoration: none; }
+    &:active { text-decoration: none; }
+    &:hover { color: $wvu-hover-link-color; text-decoration: underline; }
+  } //a
+} //@wvu-typography-anchor-tag
+
+// This if statement assumes = true, unless variable is explicitly set to `false`.
+@if $wvu-use-typography-anchor {
+  @include wvu-typography-anchor-tag;
+} //@if
+
 ul { list-style-type: disc; padding-left: 1.5em; }
 ul ul { list-style-type: circle; margin-bottom: 0; }
 ul li, ol li { line-height: 1.4; margin: 10px 0; }
