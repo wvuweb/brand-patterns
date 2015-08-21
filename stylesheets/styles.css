@@ -1901,10 +1901,10 @@ input[type="submit"] {
   padding: 4em 0 4.3em 0;
   padding-left: 1em;
   padding-right: 1em; }
-  .wvu-container:after {
+  .wvu-container::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   @media (min-width: 75em) {
     .wvu-container {
       padding: 4em 0 4.3em 0;
@@ -1933,10 +1933,10 @@ input[type="submit"] {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .wvu-masthead__container:after {
+  .wvu-masthead__container::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
 
 @media (min-width: 48em) {
   .wvu-masthead__logo {
@@ -1978,19 +1978,19 @@ input[type="submit"] {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .wvu-nav__container:after {
+  .wvu-nav__container::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
 
 .wvu-hero__container {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .wvu-hero__container:after {
+  .wvu-hero__container::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
 
 @media (min-width: 48em) {
   .wvu-hero--small-photo .wvu-hero__copy {
