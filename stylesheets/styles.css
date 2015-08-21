@@ -7,6 +7,31 @@ html {
 *::before {
   box-sizing: inherit; }
 
+.u-wvu-full-width {
+  width: 100%; }
+
+.u-wvu-embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16/9 ratio */
+  padding-top: 30px;
+  /* IE6 workaround*/
+  height: 0;
+  overflow: hidden; }
+  .u-wvu-embed-container iframe, .u-wvu-embed-container object, .u-wvu-embed-container video, .u-wvu-embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.u-wvu-embed-container--edit-mode iframe, .u-wvu-embed-container--edit-mode object, .u-wvu-embed-container--edit-mode video, .u-wvu-embed-container--edit-mode embed {
+  position: static;
+  padding-bottom: 20px; }
+
+.u-wvu-hide {
+  display: none; }
+
 .u-wvu-blue {
   color: #002855;
   border-color: #002855; }
