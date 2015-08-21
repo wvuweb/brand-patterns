@@ -610,17 +610,15 @@ dl dd {
   margin: 0;
 }
 
-.wvu-pre, pre {
-  background: #eee;
-  margin: 0 0 0.5em 0;
-  padding: 1em 0;
-  font-size: .8em;
-}
-
-@media (min-width: 48em) {
-  .wvu-pre, pre {
-    font-size: 1em;
-  }
+code, kbd, pre, samp {
+  margin-right: 2px;
+  margin-left: 1px;
+  padding: 2px 5px;
+  background-color: #eee;
+  font-size: .95em;
+  color: #000;
+  border-radius: 3px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 .wvu-text--center {
