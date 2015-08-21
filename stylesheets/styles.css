@@ -3208,3 +3208,24 @@ input[type="submit"] {
     margin-right: 0;
   }
 }
+
+.ie9 .wvu-masthead__search-slider {
+  position: relative;
+  top: 0;
+  background: transparent;
+  width: 100%;
+}
+
+.ie9 .wvu-nav__search-toggle.inactive-search {
+  display: none;
+}
+
+.ie9 .wvu-nav__search-toggle.active-search {
+  display: none;
+}
+
+.ie9 .nav-toggle {
+  float: left;
+  width: 100%;
+  height: 56px;
+}
