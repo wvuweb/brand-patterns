@@ -1,10 +1,17 @@
 html { font-size: 16px; }
 
-.helvetica-neue-roman { font-family: $helvetica-neue-roman; font-weight: normal; line-height: 1em; }
+// Set Helvetica as the default font
+// NOTE: We're not loading Helvetica Neue Italic; thus, anything in em/i tags will be faux styled
+body { font-family: $helvetica-neue-roman; }
+h1, h2, h3, h4, h5, h6, strong, b { font-family: $helvetica-neue-bold; }
+body, h1, h2, h3, h4, h5, h6, strong, b { font-weight: normal; } // Prevents dreaded faux browser styling
+
 .helvetica-neue-light { font-family: $helvetica-neue-light; font-weight: normal; line-height: 1em; }
+.helvetica-neue-roman { font-family: $helvetica-neue-roman; font-weight: normal; line-height: 1em; }
+.helvetica-neue-bold { font-family: $helvetica-neue-bold; font-weight: normal; line-height: $helvetica-neue-bold-line-height; }
+
 .iowan-old-style { font-family: $iowan-old-style; font-weight: normal; line-height: $wvu-traditional-audience-line-height; }
 .iowan-old-style-italic { font-family: $iowan-old-style-italic; font-weight: normal; line-height: $wvu-traditional-audience-line-height; }
-.helvetica-neue-bold { font-family: $helvetica-neue-bold; font-weight: normal; line-height: $helvetica-neue-bold-line-height; }
 
 h2, .wvu-h2,
 h3, .wvu-h3,

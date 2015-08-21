@@ -1,10 +1,14 @@
 // Typography
 //==================================================
 
-$helvetica-neue-condensed-black: 'HelveticaNeueW01-97Blac', 'Helvetica W01 Bold', Helvetica, Arial, sans-serif !default;
-$helvetica-neue-bold: 'HelveticaNeueW01-75Bold', Helvetica, Arial, sans-serif !default;
-$helvetica-neue-roman: 'HelveticaNeueW01-55Roma', Helvetica, Arial, sans-serif !default;
-$helvetica-neue-light: 'HelveticaNeueW01-45Ligh', Helvetica, Arial, sans-serif !default;
+// Helvetica Neue
+$helvetica-neue-fallbacks: 'Helvetica Neue', Helvetica, 'Helvetica LT Std', 'Helvetica CY', Arial, 'Lucida Grande', sans-serif !default;
+$helvetica-neue-light: 'HelveticaNeueW01-45Ligh', $helvetica-neue-fallbacks !default;
+$helvetica-neue-roman: 'HelveticaNeueW01-55Roma', $helvetica-neue-fallbacks !default;
+$helvetica-neue-bold: 'HelveticaNeueW01-75Bold', $helvetica-neue-fallbacks !default;
+$helvetica-neue-condensed-black: 'HelveticaNeueW01-97Blac', 'HelveticaNeueW01-75Bold', $helvetica-neue-fallbacks !default;
+
+// Iowan
 $iowan-old-style: 'IowanOldStyleW01-Roman', Georgia, Times, serif !default;
 $iowan-old-style-italic: 'IowanOldStyleW01-Italic1120392', Georgia, Times, serif !default;
 
