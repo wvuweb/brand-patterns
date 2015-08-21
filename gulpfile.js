@@ -7,7 +7,7 @@ var gulp          = require('gulp'),
 // Compile Our Sass from the "scss" directory
 gulp.task('sass', function () {
   gulp.src(['./scss/*.scss','!./scss/_*.scss'])
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(gulp.dest('./stylesheets'));
 });
 
