@@ -5,7 +5,7 @@
     .calEventMonth { font-size: .8em; text-transform: uppercase; }
     .calEventDay { display: block; font-size: 1.5em; line-height: .8em; clear: both; }
     .eventInfo { float: left; width: 86%;}
-    .eventTime { font-weight: bold; }
+    .eventTime { font-family: $helvetica-neue-bold; }
     .eventName { display: block; }
   }
 }

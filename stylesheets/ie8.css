@@ -602,7 +602,7 @@ dl {
 }
 
 dl dt {
-  font-weight: bold;
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   margin-top: 0.75em;
 }
 
@@ -655,7 +655,7 @@ table {
 
 th {
   border-bottom: 1px solid #a6a6a6;
-  font-weight: bold;
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   padding: 0.75em 0;
   text-align: left;
 }
@@ -1002,7 +1002,7 @@ select {
 }
 
 label {
-  font-weight: bold;
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   margin-bottom: 0.375em;
 }
 
@@ -1125,7 +1125,7 @@ select {
 
 .wvu-search__search-bar {
   padding-top: 2.1em;
-  font-size: 0.8em;
+  font-size: .8em;
 }
 
 .wvu-search__search-bar input[type="checkbox"], .wvu-search__search-bar input[type="radio"] {
@@ -1142,13 +1142,13 @@ select {
 }
 
 input[type="search"].wvu-search__search-box {
-  margin-bottom: 0.25em;
+  margin-bottom: .25em;
 }
 
 .form-search__search-type {
   clear: both;
-  font-weight: bold;
-  padding-top: 0.5em;
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  padding-top: .5em;
 }
 
 @media (min-width: 48em) {
@@ -1329,11 +1329,11 @@ input[type="submit"].form-search__submit {
 
 .wvu-masthead__link {
   color: white;
-  font-weight: bold;
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   display: inline-block;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   float: left;
-  margin-right: 0.5em;
+  margin-right: .5em;
 }
 
 @media (min-width: 48em) {
@@ -1563,7 +1563,7 @@ input[type="submit"] {
   color: white;
   display: inline-block;
   font-size: 1em;
-  font-weight: bold;
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   line-height: 1;
   padding: 0.75em 1em;
   text-decoration: none;
@@ -1578,7 +1578,7 @@ input[type="submit"]:hover {
 .button:disabled,
 input[type="submit"]:disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .button,
@@ -1597,10 +1597,10 @@ input[type="submit"] {
   color: #2C2A29;
   display: inline-block;
   border: 2px solid #2C2A29;
-  margin-bottom: 0.5em;
-  font-weight: bold;
+  margin-bottom: .5em;
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   line-height: 1;
-  padding: 0.75em 0.75em 0.6em 0.75em;
+  padding: .75em;
   text-decoration: none;
 }
 
@@ -1616,7 +1616,7 @@ input[type="submit"] {
 
 .button:disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .button--white {
@@ -1634,7 +1634,7 @@ input[type="submit"] {
 }
 
 .button--small {
-  font-size: 0.9em;
+  font-size: .9em;
   padding: 0.35em 0.45em;
 }
 

@@ -11,9 +11,9 @@ $hover-button-color: $wvu-blue;
   color: white;
   display: inline-block;
   font-size: $base-font-size;
-  font-weight: bold;
+  font-family: $helvetica-neue-bold;
   line-height: 1;
-  padding: 0.75em 1em;
+  padding: .75em 1em;
   text-decoration: none;
 
   &:hover {
@@ -23,7 +23,7 @@ $hover-button-color: $wvu-blue;
 
   &:disabled {
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: .5;
   }
 }
 
@@ -31,7 +31,6 @@ $hover-button-color: $wvu-blue;
 .button,
 input[type="submit"] {
   @extend %button;
-//  @include appearance(none);
   border: none;
   cursor: pointer;
   user-select: none;
@@ -47,8 +46,8 @@ input[type="submit"] {
   color: $black;
   display: inline-block;
   border: 2px solid $black;
-  margin-bottom: 0.5em;
-  font-weight: bold;
+  margin-bottom: .5em;
+  font-family: $helvetica-neue-bold;
   line-height: 1;
   padding: .75em;
   text-decoration: none;
@@ -63,7 +62,7 @@ input[type="submit"] {
 
   &:disabled {
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: .5;
   }
 }
 
@@ -79,8 +78,8 @@ input[type="submit"] {
 }
 
 .button--small {
-  font-size: 0.9em;
-  padding: 0.35em 0.45em;
+  font-size: .9em;
+  padding: .35em .45em;
 }
 
 .button--big {

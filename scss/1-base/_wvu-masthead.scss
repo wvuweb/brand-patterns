@@ -299,7 +299,7 @@ input[type="submit"] {
   @include mq($bp-medium) { position: absolute; }
 }
 
-.wvu-masthead__link { color: white; font-weight: bold; display: inline-block; margin-bottom: 0.5em; float: left; margin-right: 0.5em; 
+.wvu-masthead__link { color: white; font-family: $helvetica-neue-bold; display: inline-block; margin-bottom: .5em; float: left; margin-right: .5em; 
   @include mq($bp-medium) { margin-bottom: 3px; }
   &:hover { color: white; text-decoration: underline; }
 }

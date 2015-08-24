@@ -125,7 +125,7 @@ $has-wvu-pattern-grid: true !default;
     @include wvu-hero-title-typeface;
   }
   
-  p { margin-bottom: 2em; font-weight: bold; max-width: 40em; }
+  p { margin-bottom: 2em; font-family: $helvetica-neue-bold; max-width: 40em; }
   
 }
 
@@ -135,7 +135,7 @@ $has-wvu-pattern-grid: true !default;
   }
 }
 
-.wvu-hero__text { margin-bottom: 3em; font-weight: bold; 
+.wvu-hero__text { margin-bottom: 3em; font-family: $helvetica-neue-bold; 
   @include mq($bp-medium) { max-width: 40%; }
 }
 

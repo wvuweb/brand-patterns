@@ -8,7 +8,7 @@ $has-landing-page-intro-overlay: true !default;
   }
 }
 
-.wvu-landing-page-header__intro { color: white; font-weight: bold; text-shadow: 1px 1px 1px #000000; box-sizing: border-box; clear: none; }
+.wvu-landing-page-header__intro { color: white; font-family: $helvetica-neue-bold; text-shadow: 1px 1px 1px #000000; box-sizing: border-box; clear: none; }
 
 @mixin has-intro-overlay() {
   @if $has-landing-page-intro-overlay == true {
