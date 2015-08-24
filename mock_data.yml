@@ -1,6 +1,6 @@
 shared_themes:
   "Code":
-    "layouts__browser-update-org--v1" : "code"
+    "layouts__browser-update-org--v2" : "code"
 
 editable_region:
 
