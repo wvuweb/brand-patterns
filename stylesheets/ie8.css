@@ -512,7 +512,7 @@ h3, .wvu-h3, h4, .wvu-h4, h5, .wvu-h5 {
   line-height: 1.15;
 }
 
-p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6, pre, a {
+p, li, blockquote, h1, h2, h3, h4, h5, h6, pre, a {
   max-width: 45em;
 }
 

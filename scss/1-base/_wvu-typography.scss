@@ -75,7 +75,7 @@ h5, .wvu-h5 { font-size: 1.2em; }
 h3, .wvu-h3, h4, .wvu-h4, h5, .wvu-h5, h6, .wvu-h6 { margin-bottom: 18px; }
 h4, .wvu-h4, h5, .wvu-h5, h6, .wvu-h6 { color: $black; margin-bottom: 18px; }
 h3, .wvu-h3, h4, .wvu-h4, h5, .wvu-h5 { line-height: 1.15; }
-p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6, pre, a { max-width: $wvu-typography-line-length; }
+p, li, blockquote, h1, h2, h3, h4, h5, h6, pre, a { max-width: $wvu-typography-line-length; }
 
 blockquote, .wvu-blockquote {
   border-left: 2px solid $base-border-color;
