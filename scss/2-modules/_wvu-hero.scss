@@ -269,6 +269,9 @@ $has-wvu-pattern-grid: true !default;
         font-size: 1em;
       }
     }
+    .wvu-hero__photo--edit-mode-only {
+      overflow: visible;
+    }
     .wvu-hero {
       h1 { font-size: 3em; color: $wvu-blue;
         @include mq($bp-large) { font-size: 3.5em; }
