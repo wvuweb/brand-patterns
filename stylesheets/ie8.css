@@ -343,33 +343,13 @@ html {
 }
 
 body {
-  font-family: "HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6, strong, b {
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
-}
-
-body, h1, h2, h3, h4, h5, h6, strong, b {
-  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
 }
 
 .helvetica-neue-light {
   font-family: "HelveticaNeueW01-45Ligh", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
   line-height: 1em;
-}
-
-.helvetica-neue-roman {
-  font-family: "HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
-  font-weight: normal;
-  line-height: 1em;
-}
-
-.helvetica-neue-bold {
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
-  font-weight: normal;
-  line-height: 1.08333em;
 }
 
 .iowan-old-style {
@@ -412,7 +392,7 @@ h1, .wvu-h1 {
 .wvu-shout {
   font-size: 3em;
   line-height: 0.80487em;
-  font-family: "HelveticaNeueW01-97Blac", "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeueW01-97Blac", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
   font-weight: normal;
 }
@@ -602,7 +582,7 @@ dl {
 }
 
 dl dt {
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
   margin-top: 0.75em;
 }
 
@@ -655,7 +635,7 @@ table {
 
 th {
   border-bottom: 1px solid #a6a6a6;
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
   padding: 0.75em 0;
   text-align: left;
 }
@@ -997,12 +977,12 @@ input,
 label,
 select {
   display: block;
-  font-family: "HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   font-size: 1em;
 }
 
 label {
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
   margin-bottom: 0.375em;
 }
 
@@ -1035,7 +1015,7 @@ select[multiple=multiple] {
   border-radius: 3px;
   border: 1px solid #ccc;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
-  font-family: "HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
@@ -1147,7 +1127,7 @@ input[type="search"].wvu-search__search-box {
 
 .form-search__search-type {
   clear: both;
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
   padding-top: .5em;
 }
 
@@ -1227,7 +1207,6 @@ input[type="submit"].form-search__submit:hover {
 }
 
 .wvu-masthead__logo {
-  font-family: "HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   text-decoration: none;
   position: relative;
   padding: 1em 0 1.6em 2em;
@@ -1329,7 +1308,7 @@ input[type="submit"].form-search__submit {
 
 .wvu-masthead__link {
   color: white;
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
   display: inline-block;
   margin-bottom: .5em;
   float: left;
@@ -1458,8 +1437,7 @@ input[type="submit"].form-search__submit {
   font-size: 1em;
   margin: 1.5em 0;
   line-height: 1.08333em;
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: none;
 }
 
@@ -1563,7 +1541,7 @@ input[type="submit"] {
   color: white;
   display: inline-block;
   font-size: 1em;
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
   line-height: 1;
   padding: 0.75em 1em;
   text-decoration: none;
@@ -1598,7 +1576,7 @@ input[type="submit"] {
   display: inline-block;
   border: 2px solid #2C2A29;
   margin-bottom: .5em;
-  font-family: "HelveticaNeueW01-75Bold", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
   line-height: 1;
   padding: .75em;
   text-decoration: none;

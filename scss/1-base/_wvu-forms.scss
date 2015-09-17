@@ -14,7 +14,7 @@ select {
 }
 
 label {
-  font-family: $helvetica-neue-bold;
+  font-weight: bold;
   margin-bottom: $base-spacing / 4;
 
   &.required:after {

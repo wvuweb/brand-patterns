@@ -11,7 +11,7 @@ $hover-button-color: $wvu-blue;
   color: white;
   display: inline-block;
   font-size: $base-font-size;
-  font-family: $helvetica-neue-bold;
+  font-weight: bold;
   line-height: 1;
   padding: .75em 1em;
   text-decoration: none;
@@ -47,7 +47,7 @@ input[type="submit"] {
   display: inline-block;
   border: 2px solid $black;
   margin-bottom: .5em;
-  font-family: $helvetica-neue-bold;
+  font-weight: bold;
   line-height: 1;
   padding: .75em;
   text-decoration: none;

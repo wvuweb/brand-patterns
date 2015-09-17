@@ -5,12 +5,6 @@ $wvu-hero-image-height: 580px !default;
 $wvu-hero-container-padding: $wvu-container-padding !default;
 
 // Typography
-
-$wvu-shout: $helvetica-neue-condensed-black !default;
-$subhead: $helvetica-neue-bold !default;
-$wvu-traditional-audience: $iowan-old-style !default;
-$narrow-audience: $iowan-old-style-italic !default;
-
 $wvu-shout-font-size-medium: 4.5em !default;
 $wvu-shout-font-size-long: 3em !default;
 
@@ -19,7 +13,7 @@ $wvu-hero-title-typeface: $wvu-shout !default;
 /*
   Options for WVU Hero Title typeface:
   $wvu-shout (Helvetica Neue Black Condensed)
-  $subhead (Helvetica Bold)
+  $base-font-family (Helvetica Neue)
   $wvu-traditional-audience (Iowan Old Style)
   $narrow-audience (Iowan Old Style Italic)
 */
@@ -77,8 +71,8 @@ $has-wvu-pattern-grid: true !default;
     font-family: $iowan-old-style-italic; font-weight: normal; text-transform: none; line-height: $wvu-traditional-audience-line-height;
     .wvu-hero__title-bottom { color: white; }
   }
-  @else if $wvu-hero-title-typeface == $subhead {
-    font-family: $helvetica-neue-bold; text-transform: none;
+  @else if $wvu-hero-title-typeface == $base-font-family {
+    font-weight: bold; text-transform: none;
     .wvu-hero__title-bottom { color: white; }
   }
   @else if $wvu-hero-title-typeface == $wvu-shout { font-size: 3em; line-height: $wvu-shout-line-height; text-transform: uppercase; font-weight: normal; 
@@ -125,7 +119,7 @@ $has-wvu-pattern-grid: true !default;
     @include wvu-hero-title-typeface;
   }
   
-  p { margin-bottom: 2em; font-family: $helvetica-neue-bold; max-width: 40em; }
+  p { margin-bottom: 2em; font-weight: bold; max-width: 40em; }
   
 }
 
@@ -135,7 +129,7 @@ $has-wvu-pattern-grid: true !default;
   }
 }
 
-.wvu-hero__text { margin-bottom: 3em; font-family: $helvetica-neue-bold; 
+.wvu-hero__text { margin-bottom: 3em; font-weight: bold;
   @include mq($bp-medium) { max-width: 40%; }
 }
 

@@ -228,7 +228,7 @@ $flying-wv-w-signature-white-bg: $flying-wv-w-signature-white--tech;
   @include mq($bp-xlarge) { padding: 0; }
 }
 
-.wvu-masthead__logo { font-family: $helvetica-neue-roman; text-decoration: none; position: relative; padding: 1em 0 1.6em 2em; font-size: 1.2em; overflow: hidden; border: 0; background-color: transparent; width: 100%; background: url(../images/flying-wv.png) no-repeat top 1.2em left; background-size: 1.8em; float: left; color: white; 
+.wvu-masthead__logo { text-decoration: none; position: relative; padding: 1em 0 1.6em 2em; font-size: 1.2em; overflow: hidden; border: 0; background-color: transparent; width: 100%; background: url(../images/flying-wv.png) no-repeat top 1.2em left; background-size: 1.8em; float: left; color: white; 
   &:hover { color: #ddd; }
   @include mq($bp-micro) { font-size: 1.5em; }
   @include mq($bp-medium) { font-size: 1.75em; }
@@ -279,7 +279,7 @@ input[type="submit"] {
   @include mq($bp-medium) { position: absolute; }
 }
 
-.wvu-masthead__link { color: white; font-family: $helvetica-neue-bold; display: inline-block; margin-bottom: .5em; float: left; margin-right: .5em; 
+.wvu-masthead__link { color: white; font-weight: bold; display: inline-block; margin-bottom: .5em; float: left; margin-right: .5em; 
   @include mq($bp-medium) { margin-bottom: 3px; }
   &:hover { color: white; text-decoration: underline; }
 }

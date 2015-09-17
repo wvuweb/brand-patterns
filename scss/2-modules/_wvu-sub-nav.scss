@@ -1,7 +1,7 @@
 .wvu-sub-nav { 
   
   ul {
-    font-family: $helvetica-neue-bold; list-style-type: none; padding-left: 0;
+    font-weight: bold; list-style-type: none; padding-left: 0;
     @include mq($bp-medium) {
       padding-left: 1em;
     }

@@ -23,7 +23,7 @@ input[type="search"] {
   &.wvu-search__search-box { margin-bottom: .25em; }
 }
 
-.form-search__search-type { clear: both; font-family: $helvetica-neue-bold; padding-top: .5em;
+.form-search__search-type { clear: both; font-weight: bold; padding-top: .5em;
   @include mq($bp-medium) { padding-top: 0; }
   input {
     &:last-child { margin-left: 1em; }

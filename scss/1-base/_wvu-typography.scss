@@ -1,15 +1,11 @@
 html { font-size: 16px; }
 
 // Set Helvetica as the default font
-// NOTE: We're not loading Helvetica Neue Italic; thus, anything in em/i tags will be faux styled
-body { font-family: $helvetica-neue-roman; }
-h1, h2, h3, h4, h5, h6, strong, b { font-family: $helvetica-neue-bold; }
-body, h1, h2, h3, h4, h5, h6, strong, b { font-weight: normal; } // Prevents dreaded faux browser styling
+body { font-family: $base-font-family; }
 
 .helvetica-neue-light { font-family: $helvetica-neue-light; font-weight: normal; line-height: 1em; }
-.helvetica-neue-roman { font-family: $helvetica-neue-roman; font-weight: normal; line-height: 1em; }
-.helvetica-neue-bold { font-family: $helvetica-neue-bold; font-weight: normal; line-height: $helvetica-neue-bold-line-height; }
 
+// NOTE: You must include the fonts.com script for the Iowan web font to use Iowan as you see here.
 .iowan-old-style { font-family: $iowan-old-style; font-weight: normal; line-height: $wvu-traditional-audience-line-height; }
 .iowan-old-style-italic { font-family: $iowan-old-style-italic; font-weight: normal; line-height: $wvu-traditional-audience-line-height; }
 
@@ -48,7 +44,7 @@ h1, .wvu-h1 { font-size: 3em; line-height: 1.08333333em; width: 100%; margin-top
 }
 
 @mixin wvu-subhead {
-  line-height: $helvetica-neue-bold-line-height; font-family: $subhead; font-weight: normal; text-transform: none;
+  line-height: $helvetica-neue-bold-line-height; font-weight: bold; text-transform: none;
 }
 
 @mixin wvu-traditional-audience {
@@ -131,7 +127,7 @@ dl {
   margin-bottom: $base-spacing / 2;
 
   dt {
-    font-family: $helvetica-neue-bold;
+    font-weight: bold;
     margin-top: $base-spacing / 2;
   }
 
