@@ -6,6 +6,9 @@ editable_region:
 
   main: This content comes from the mock_data.yml file in your project's root. Open the file to edit this content.
 
+
+  sidebar: This is an editable region in the sidebar.
+
   wvu-masthead__title:
     Department of English
   news: |
@@ -203,9 +206,9 @@ sub_menu: |
 
 ancestor_menu: |
   <% pages = %w(Page1 Page2 Page3 Page4 Page5) %>
-  <ul>
+  <ul class="nav-secondary">
     <% pages.each do |page| %>
-      <li><%= page %></li>
+      <li><a href="#"><%= page %></a></li>
     <% end %>
   </ul>
 
