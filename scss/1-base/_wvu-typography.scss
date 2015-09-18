@@ -3,7 +3,9 @@ html { font-size: 16px; }
 // Set Helvetica as the default font
 body { font-family: $base-font-family; }
 
-.helvetica-neue-light { font-family: $helvetica-neue-light; font-weight: normal; line-height: 1em; }
+.helvetica-neue-light { font-family: $helvetica-neue-font-stack; font-weight: normal; line-height: 1em; 
+  .fonts-loaded & { font-family: $helvetica-neue-light; }
+}
 
 // NOTE: You must include the fonts.com script for the Iowan web font to use Iowan as you see here.
 .iowan-old-style { font-family: $iowan-old-style; font-weight: normal; line-height: $wvu-traditional-audience-line-height; }
@@ -23,7 +25,8 @@ h1, .wvu-h1 { font-size: 3em; line-height: 1.08333333em; width: 100%; margin-top
   @include mq($bp-large) { font-size: 4em; }
 }
 
-.wvu-shout { font-size: 3em; line-height: $wvu-shout-line-height; font-family: $wvu-shout; text-transform: uppercase; font-weight: normal;
+.wvu-shout { font-size: 3em; line-height: $wvu-shout-line-height; font-family: $wvu-shout-fallback; text-transform: uppercase; font-weight: normal;
+  .fonts-loaded & { font-family: $wvu-shout; }
   @include mq($bp-large) { font-size: 8.2em; }
 }
 
@@ -40,7 +43,8 @@ h1, .wvu-h1 { font-size: 3em; line-height: 1.08333333em; width: 100%; margin-top
 .wvu-shout--white { color: #fff; }
 
 @mixin wvu-shout {
-  line-height: $wvu-shout-line-height; font-family: $wvu-shout; text-transform: uppercase; font-weight: normal;
+  line-height: $wvu-shout-line-height; font-family: $wvu-shout-fallback; text-transform: uppercase; font-weight: normal;
+  .fonts-loaded & { font-family: $wvu-shout; }
 }
 
 @mixin wvu-subhead {
@@ -53,11 +57,15 @@ h1, .wvu-h1 { font-size: 3em; line-height: 1.08333333em; width: 100%; margin-top
 
 h2, .wvu-h2 { font-size: 2.4em; line-height: 1.08333333em; }
 
-.wvu-lede { font-size: 2.4em; font-family: $helvetica-neue-light; line-height: 1.08333333em; margin-bottom: 2em; margin-top: 1.5em }
+.wvu-lede { font-size: 2.4em; font-family: $helvetica-neue-font-stack; line-height: 1.08333333em; margin-bottom: 2em; margin-top: 1.5em;
+  .fonts-loaded & { font-family: $helvetica-neue-light; }
+}
 
 p + .wvu-lede { margin-top: .5em; }
 
-.wvu-lede-small { font-size: 1.4em; font-family: $helvetica-neue-light; line-height: 1.5em; margin-bottom: 1em; }
+.wvu-lede-small { font-size: 1.4em; font-family: $helvetica-neue-font-stack; line-height: 1.5em; margin-bottom: 1em;
+  .fonts-loaded & { font-family: $helvetica-neue-light; }
+}
 
 p + .wvu-lede-small { margin-top: 1em; }
 

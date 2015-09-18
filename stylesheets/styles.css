@@ -782,9 +782,13 @@ body {
 }
 
 .helvetica-neue-light {
-  font-family: "HelveticaNeueW01-45Ligh", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
   line-height: 1em;
+}
+
+.fonts-loaded .helvetica-neue-light {
+  font-family: "HelveticaNeueW01-45Ligh", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
 }
 
 .iowan-old-style {
@@ -827,9 +831,13 @@ h1, .wvu-h1 {
 .wvu-shout {
   font-size: 3em;
   line-height: 0.80487em;
-  font-family: "HelveticaNeueW01-97Blac", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: Impact, Charcoal, "Arial Black", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
   font-weight: normal;
+}
+
+.fonts-loaded .wvu-shout {
+  font-family: "HelveticaNeueW01-97Blac", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
 }
 
 @media (min-width: 60em) {
@@ -873,10 +881,14 @@ h2, .wvu-h2 {
 
 .wvu-lede {
   font-size: 2.4em;
-  font-family: "HelveticaNeueW01-45Ligh", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   line-height: 1.08333333em;
   margin-bottom: 2em;
   margin-top: 1.5em;
+}
+
+.fonts-loaded .wvu-lede {
+  font-family: "HelveticaNeueW01-45Ligh", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
 }
 
 p + .wvu-lede {
@@ -885,9 +897,13 @@ p + .wvu-lede {
 
 .wvu-lede-small {
   font-size: 1.4em;
-  font-family: "HelveticaNeueW01-45Ligh", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   line-height: 1.5em;
   margin-bottom: 1em;
+}
+
+.fonts-loaded .wvu-lede-small {
+  font-family: "HelveticaNeueW01-45Ligh", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
 }
 
 p + .wvu-lede-small {
@@ -2942,12 +2958,16 @@ input[type="submit"] {
 }
 
 .wvu-hero h1 {
-  font-family: "HelveticaNeueW01-97Blac", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
+  font-family: Impact, Charcoal, "Arial Black", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   color: white;
   font-size: 3em;
   line-height: 0.80487em;
   text-transform: uppercase;
   font-weight: normal;
+}
+
+.fonts-loaded .wvu-hero h1 {
+  font-family: "HelveticaNeueW01-97Blac", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
 }
 
 @media (min-width: 48em) {

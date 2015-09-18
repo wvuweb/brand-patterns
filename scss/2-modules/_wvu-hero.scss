@@ -113,7 +113,8 @@ $has-wvu-pattern-grid: true !default;
   
   h1, p { text-shadow: 1px 1px 1px #000000; }
   
-  h1 { font-family: $wvu-hero-title-typeface; color: $wvu-hero-title-color;
+  h1 { font-family: $wvu-shout-fallback; color: $wvu-hero-title-color;
+    .fonts-loaded & { font-family: $wvu-shout; }
     @include wvu-hero-title-typeface;
   }
   

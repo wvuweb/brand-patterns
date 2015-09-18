@@ -10,14 +10,18 @@ $helvetica-neue-condensed-black: 'HelveticaNeueW01-97Blac', $helvetica-neue-font
 $iowan-old-style: 'IowanOldStyleW01-Roman', Georgia, Times, serif !default;
 $iowan-old-style-italic: 'IowanOldStyleW01-Italic1120392', Georgia, Times, serif !default;
 
-$wvu-shout: $helvetica-neue-condensed-black !default;
-$wvu-traditional-audience: $iowan-old-style !default;
-$narrow-audience: $iowan-old-style-italic !default;
-
 // Font Sizes
 $base-font-size: 1em !default;
 $base-font-family: $helvetica-neue-font-stack !default;
+
+// Shout
+$wvu-shout: $helvetica-neue-condensed-black !default;
+$wvu-shout-fallback: Impact, Charcoal, 'Arial Black', $base-font-family;
 $wvu-shout-font-size: 8.2em !default;
+
+// Audiences
+$wvu-traditional-audience: $iowan-old-style !default;
+$narrow-audience: $iowan-old-style-italic !default;
 
 // Line height
 $base-line-height: 1.5 !default;
