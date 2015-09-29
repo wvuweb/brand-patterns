@@ -15,7 +15,7 @@ Brand Patterns
 
 1. Copy the files you want from the WVU Brand Patterns theme into your new theme.
 2. Use the following command in Terminal from within your theme&rsquo;s top-level directory: <pre>sass --watch scss/styles.scss:stylesheets/styles.css</pre> or use Gulp to compile your Sass.
-3. Test your theme in <a href="https://github.com/wvuweb/hammer">Hammer</a>.
+3. Test your theme in <a href="https://github.com/wvuweb/hammer-vm">Hammer</a>.
 4. Push and sync your theme in CleanSlate.
 
 Need some help? [Read the CleanSlate documentation](https://cleanslatecms.wvu.edu/how-to/theme-development).
