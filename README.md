@@ -18,7 +18,7 @@ Brand Patterns
 3. Test your theme in <a href="https://github.com/wvuweb/hammer">Hammer</a>.
 4. Push and sync your theme in CleanSlate.
 
-Need some help? [Read the CleanSlate documentation](https://github.com/wvuweb/cleanslate-toolkit/wiki).
+Need some help? [Read the CleanSlate documentation](https://cleanslatecms.wvu.edu/how-to/theme-development).
 
 ## Gulp
 
