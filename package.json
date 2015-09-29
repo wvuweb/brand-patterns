@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://stash.development.wvu.edu/scm/cst/brand-patterns.git"
   },
-  "author": "Adam Glenn <adam.glenn@mail.wvu.edu>",
+  "author": "May Day <may.day@mail.wvu.edu>",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.0",
