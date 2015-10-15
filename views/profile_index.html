@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<r:partial name="patterns/wvu-breadcrumbs" />
+
+<div class="wvu-container">
+
+  <main class="main">
+    <h1><r:page:name /></h1>
+
+    <ul class="wvu-profile">
+      <r:children:each>
+        <li class="wvu-profile__individual">
+          
+          <div class="wvu-profile__individual-photo">
+            <a href="<r:page:url />">
+              <r:page:content name="wvu-profile__photo" />
+            </a>
+          </div> <!-- /.wvu-profile__individual-photo -->
+
+          <div class="wvu-profile__individual-info">
+            <h2 class="wvu-profile__name"><a class="wvu-profile__name-link" href="<r:page:url />"><r:page:content name="wvu-profile__name" /></a></h2>
+            <h3 class="wvu-profile__job-title wvu-h5"><r:page:content name="wvu-profile__job-title" /></h3>
+            <p class="wvu-profile__phone-icon"><a class="wvu-profile__phone" href="tel:<r:page:content name="wvu-profile__phone" />"><r:page:content name="wvu-profile__phone" /></a></p>
+            <p class="wvu-profile__email"><r:page:content name="wvu-profile__email" /></p>
+            <p class="wvu-profile__short-description"><r:page:content name="wvu-profile__short-description" /></p>
+            <p class="wvu-profile__button"><a class="button" href="<r:page:url />">Read Full Bio</a></p>
+          </div> <!-- /.wvu-profile__individual-info -->
+        
+        </li> <!-- /.wvu-profile__individual -->
+      </r:children:each>
+    </ul>
+
+  </main>
+
+  <aside class="wvu-sidebar">
+    <div class="wvu-sub-nav">
+      <r:ancestor_menu start_depth="2" max_depth="3" ul_class="nav-secondary" active_class="nav-secondary--current-page" open_class="nav-secondary--open" />
+    </div> <!-- /.wvu-sub-nav -->
+    <r:editable_region name="sidebar" />
+  </aside>
+
+</div> <!-- /.wvu-container -->

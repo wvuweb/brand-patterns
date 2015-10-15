@@ -3034,6 +3034,51 @@ input[type="submit"] {
   }
 }
 
+.wvu-profile {
+  width: 100%;
+  margin-bottom: 2em;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.wvu-profile::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.wvu-profile__individual {
+  float: left;
+  border-top: 1px solid #eaeaea;
+}
+
+.wvu-profile__individual:first-child {
+  border-top: 0;
+}
+
+.wvu-profile__name {
+  margin-bottom: 18px;
+}
+
+.wvu-profile__job-title {
+  text-transform: uppercase;
+}
+
+.wvu-profile__phone {
+  color: #2C2A29;
+  text-decoration: none;
+}
+
+.wvu-profile__phone-icon, .wvu-profile__email {
+  background: url(https://patterns.wvu.edu/images/1444934192/icon-phone.svg) no-repeat left 3px;
+  background-size: 18px;
+  padding-left: 2em;
+}
+
+.wvu-profile__email {
+  background-image: url(https://patterns.wvu.edu/images/1444934192/icon-mail.svg);
+}
+
 .wvu-sub-nav ul {
   font-weight: bold;
   list-style-type: none;
@@ -3286,6 +3331,30 @@ input[type="submit"] {
     width: 57.35098%;
   }
   .wvu-hero--small-photo .wvu-hero__photo:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 35.625em) {
+  .wvu-profile__individual-photo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+  }
+  .wvu-profile__individual-photo:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 35.625em) {
+  .wvu-profile__individual-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+  }
+  .wvu-profile__individual-info:last-child {
     margin-right: 0;
   }
 }

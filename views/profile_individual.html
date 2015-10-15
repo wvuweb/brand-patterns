@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<r:partial name="patterns/wvu-breadcrumbs" />
+
+<div class="wvu-container">
+
+  <main class="main">
+
+    <h1 class="wvu-profile__name">
+      <r:editable_region name="wvu-profile__name" type="simple">
+        <r:page:name/>
+      </r:editable_region>
+    </h1>
+
+    <div class="wvu-profile__meta-info">
+      <h2 class="wvu-profile__job-title wvu-h5">
+       <r:editable_region name="wvu-profile__job-title" type="simple">
+         Enter the person's job title or whatever subhead should go under their name.
+       </r:editable_region>
+      </h2>
+    </div> <!-- /.wvu-profile__meta-info -->
+
+    <p>
+      <r:editable_region name="wvu-profile__short-description" type="simple">
+        Enter a brief description of the person. This will be pulled into the profile index page(s). Only enter a sentence or two in this region.
+      </r:editable_region>
+    </p>
+
+    <r:editable_region name="main">
+      <p>Enter the extended description here.</p>
+    </r:editable_region>
+  
+  </main><!-- /.main -->
+
+  <aside class="wvu-sidebar">
+    <div class="wvu-profile__photo">
+      <r:editable_region name="wvu-profile__photo">
+        Add a profile photo.
+      </r:editable_region>
+    </div> <!-- /.wvu-profile__photo -->
+    <div class="wvu-profile__meta-info">
+      <p class="wvu-profile__phone-icon">
+       <r:editable_region name="wvu-profile__phone" type="simple">
+         Enter the person's phone number.
+       </r:editable_region>
+      </p>
+      <p class="wvu-profile__email">
+       <r:editable_region name="wvu-profile__email">
+         Enter the person's email address and link it via "Standard Links" option in the Insert Link modal.
+       </r:editable_region>
+      </p>
+    </div> <!-- /.wvu-profile__meta-info -->
+    <div class="wvu-sub-nav">
+      <r:ancestor_menu start_depth="2" max_depth="3" ul_class="nav-secondary" active_class="nav-secondary--current-page" open_class="nav-secondary--open" />
+    </div> <!-- /.wvu-sub-nav -->
+    <r:editable_region name="sidebar" />
+  </aside>
+
+</div> <!-- /.wvu-container -->

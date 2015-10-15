@@ -6,7 +6,6 @@ editable_region:
 
   main: This content comes from the mock_data.yml file in your project's root. Open the file to edit this content.
 
-
   sidebar: This is an editable region in the sidebar.
 
   wvu-masthead__title:
@@ -164,6 +163,24 @@ editable_region:
   article-body: |
     <p><%= Faker::Lorem.paragraph(15) %></p>
 
+  wvu-profile__name:
+    <%= Faker::Name.name %>
+
+  wvu-profile__job-title:
+    <%= Faker::Name.title %>
+
+  wvu-profile__phone:
+    <%= Faker::PhoneNumber.cell_phone %>
+
+  wvu-profile__email: |
+    <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
+
+  wvu-profile__short-description:
+    This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>
+
+  wvu-profile__photo:
+    <img src="<%= Faker::Avatar.image %>" alt=" " />
+
   contact: |
     <p><strong>Department of the Department</strong></p>
     <p>1234 Van Voorhis Road | P.O. Box 5555</p>
@@ -174,7 +191,7 @@ editable_region:
 site_name: "Brand Patterns"
 
 page:
-  id: 2
+  id: 1
   name: "Test Page 2"
   slug: "test_page_2"
   meta_description: "<%= Faker::Lorem.paragraph(5) %>"
@@ -182,6 +199,39 @@ page:
   alternate_name: "Some other name"
   depth: 1
   updated_at: now
+  content:
+    wvu-profile__name: <%= Faker::Name.name %>
+    wvu-profile__job-title: <%= Faker::Name.title %>
+    wvu-profile__phone: <%= Faker::PhoneNumber.cell_phone %>
+    wvu-profile__email: |
+      <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
+    wvu-profile__short-description: This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>
+    wvu-profile__photo: |
+      <img src="<%= Faker::Avatar.image %>" alt=" " />
+
+pages:
+  - id: 2
+    name: Profile Index
+    content:
+      wvu-profile__name: <%= Faker::Name.name %>
+      wvu-profile__job-title: <%= Faker::Name.title %>
+      wvu-profile__phone: <%= Faker::PhoneNumber.cell_phone %>
+      wvu-profile__email: |
+        <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
+      wvu-profile__short-description: This is a short description for this profile. <%= Faker::Lorem.paragraph(4) %>
+      wvu-profile__photo: |
+        <img src="<%= Faker::Avatar.image %>" alt=" " />
+  - id: 3
+    name: Profile Index
+    content:
+      wvu-profile__name: <%= Faker::Name.name %>
+      wvu-profile__job-title: <%= Faker::Name.title %>
+      wvu-profile__phone: <%= Faker::PhoneNumber.cell_phone %>
+      wvu-profile__email: |
+        <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
+      wvu-profile__short-description: This is a short description for this profile. <%= Faker::Lorem.paragraph(2) %>
+      wvu-profile__photo: |
+        <img src="<%= Faker::Avatar.image %>" alt=" " />
 
 if_page_depth_eq: 1
 if_page_depth_gt: 1
