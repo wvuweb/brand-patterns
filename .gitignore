@@ -135,7 +135,6 @@ bower_components
 
 ### CodeKit ###
 # General CodeKit files to ignore
-config.codekit
 /min
 
 ### Exclude video and audio from Git ###
