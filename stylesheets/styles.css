@@ -1400,11 +1400,6 @@ abbr {
   cursor: help;
 }
 
-a:focus {
-  outline: 2px dotted red;
-  outline-offset: -2px;
-}
-
 .wvu-skip-nav {
   position: absolute;
   padding: 0.5em;
