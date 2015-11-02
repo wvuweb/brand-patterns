@@ -285,7 +285,7 @@
   medium
   long
 */
-/*! responsive-nav.js 1.0.32 by @viljamis */
+/* responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse ul {
   margin: 0;
   padding: 0;
@@ -310,10 +310,6 @@
 
 .nav-collapse.opened {
   max-height: 9999px;
-}
-
-.disable-pointer-events {
-  pointer-events: none !important;
 }
 
 .nav-toggle {
