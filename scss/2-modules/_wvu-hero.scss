@@ -60,7 +60,7 @@ $has-wvu-pattern-grid: true !default;
 
 
 @mixin wvu-hero-title-typeface {
-  
+
   @if $wvu-hero-title-typeface == $wvu-traditional-audience {
     font-family: $iowan-old-style; font-weight: normal; text-transform: none; line-height: $wvu-traditional-audience-line-height;
     .wvu-hero__title-bottom { color: white; }
@@ -73,7 +73,7 @@ $has-wvu-pattern-grid: true !default;
     font-weight: bold; text-transform: none;
     .wvu-hero__title-bottom { color: white; }
   }
-  @else if $wvu-hero-title-typeface == $wvu-shout { font-size: 3em; line-height: $wvu-shout-line-height; text-transform: uppercase; font-weight: normal; 
+  @else if $wvu-hero-title-typeface == $wvu-shout { font-size: 3em; line-height: $wvu-shout-line-height; text-transform: uppercase; font-weight: normal;
     @include mq($bp-medium) { font-size: $wvu-shout-font-size; }
     @if $is-wvu-shout-bottom-gold == true {
       .wvu-hero__title-bottom { color: $wvu-gold; }
@@ -95,7 +95,7 @@ $has-wvu-pattern-grid: true !default;
   overflow: hidden;
   position: relative;
   -webkit-font-smoothing: antialiased;
-  
+
   img { position: absolute; max-height: 100%; width: auto; max-width: 99999em;
     @include mq($bp-medium) {
       min-width: 100%; min-height: 100%; left: 50%; margin-left: -$wvu-hero-image-width / 2; max-height: 99999em;
@@ -106,20 +106,20 @@ $has-wvu-pattern-grid: true !default;
       width: 100%;
     }
   }
-  
+
   a {
     &:hover { text-shadow: none; }
   }
-  
+
   h1, p { text-shadow: 1px 1px 1px #000000; }
-  
+
   h1 { font-family: $wvu-shout-fallback; color: $wvu-hero-title-color;
     .fonts-loaded & { font-family: $wvu-shout; }
     @include wvu-hero-title-typeface;
   }
-  
+
   p { margin-bottom: 2em; font-weight: bold; max-width: 40em; }
-  
+
 }
 
 .wvu-hero__container { padding: 3em; position: relative;
@@ -132,7 +132,7 @@ $has-wvu-pattern-grid: true !default;
   @include mq($bp-medium) { max-width: 40%; }
 }
 
-.wvu-hero__photo { overflow: hidden; 
+.wvu-hero__photo { overflow: hidden;
   img { min-height: 0; min-width: 0; left: auto; margin-left: auto; position: relative; margin-right: 0; max-width: 100%;
     @include mq($bp-medium) {
       max-width: 560px;
@@ -184,7 +184,7 @@ $has-wvu-pattern-grid: true !default;
 @mixin has-wvu-pattern-grid {
   @if $has-wvu-pattern-grid == true {
     .wvu-hero {
-      
+
       .button {
         background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7))); /* Chrome,Safari4+ */
@@ -244,10 +244,10 @@ $has-wvu-pattern-grid: true !default;
     .wvu-hero { -webkit-font-smoothing: auto;
       img { width: 100%; }
     }
-    .wvu-hero__container { padding: 0 1em; 
+    .wvu-hero__container { padding: 0 1em;
       @include mq($bp-xlarge) { padding: 0; }
     }
-    .wvu-hero { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0 2em; 
+    .wvu-hero { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0 2em;
       @include mq($bp-medium) {
         padding: 0 6em;
       }

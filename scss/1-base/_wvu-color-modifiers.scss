@@ -85,14 +85,14 @@ $pms-115-c: #FDDA24;
 }
 
 .u-pms-429-c { color: $pms-429-c; border-color: $pms-429-c;
-  &.background { color: $black; background-color: $pms-429-c; 
+  &.background { color: $black; background-color: $pms-429-c;
     h1, h2, h3, h4, h5, h6, a { color: $black; }
     hr { border-bottom-color: $pms-432-c; }
   }
 }
 
 @mixin pms-429-c-background {
-  color: $black; background-color: $pms-429-c; 
+  color: $black; background-color: $pms-429-c;
   h1, h2, h3, h4, h5, h6, a { color: $black; }
   hr { border-bottom-color: $pms-432-c; }
 }
@@ -132,13 +132,13 @@ $pms-115-c: #FDDA24;
 }
 
 .u-pms-warm-gray-3 { color: $pms-warm-gray-3; border-color: $pms-warm-gray-3;
-  &.background { color: $black; background-color: $pms-warm-gray-3; 
+  &.background { color: $black; background-color: $pms-warm-gray-3;
     h1, h2, h3, h4, h5, h6, a { color: $black; }
   }
 }
 
 @mixin pms-warm-gray-3-background {
-  color: $black; background-color: $pms-warm-gray-3; 
+  color: $black; background-color: $pms-warm-gray-3;
   h1, h2, h3, h4, h5, h6, a { color: $black; }
   a {
     &:hover { color: $pms-warm-gray-3; background: white; }
@@ -171,13 +171,13 @@ $pms-115-c: #FDDA24;
 }
 
 .u-pms-629-c { color: $pms-629-c; border-color: $pms-629-c;
-  &.background { color: $wvu-blue; background-color: $pms-629-c; 
+  &.background { color: $wvu-blue; background-color: $pms-629-c;
     h1, h2, h3, h4, h5, h6 { color: $wvu-blue; }
   }
 }
 
 @mixin pms-629-c-background {
-  color: $wvu-blue; background-color: $pms-629-c; 
+  color: $wvu-blue; background-color: $pms-629-c;
   h1, h2, h3, h4, h5, h6, a { color: $wvu-blue; }
   a { text-decoration: underline;
     &:hover { color: $pms-300-c; };
@@ -285,7 +285,7 @@ $pms-115-c: #FDDA24;
 }
 
 @mixin pms-115-c-background {
-  color: $black; background-color: $pms-115-c; 
+  color: $black; background-color: $pms-115-c;
   h1, h2, h3, h4, h5, h6, a { color: $black; }
   a { text-decoration: underline;
     &:hover { color: $pms-166-c; };

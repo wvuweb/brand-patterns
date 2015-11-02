@@ -2,39 +2,39 @@
 
 .wvu-masthead--two-line-lockup {
   .wvu-masthead__title { font-size: 0.75em; line-height: 1.08333333em; float: left; margin-top: 0.1em; }
-  .wvu-masthead__university-name { top: 4.8em; 
+  .wvu-masthead__university-name { top: 4.8em;
     @include mq($bp-medium) {
       top: 7.1em;
     }
   }
 }
 
-.wvu-masthead--gold { background-color: $wvu-gold; color: $wvu-blue; background-image: none; 
+.wvu-masthead--gold { background-color: $wvu-gold; color: $wvu-blue; background-image: none;
   input[type="submit"] {
-    &.form-search__submit { 
+    &.form-search__submit {
       &:hover { background-color: $wvu-blue; border-color: $wvu-blue; }
     }
   }
-  .wvu-masthead__logo { color: $wvu-blue; 
+  .wvu-masthead__logo { color: $wvu-blue;
     &:hover { color: $pms-300-c; }
     &:visited { color: $wvu-blue; }
   }
-  .wvu-masthead__link { color: $wvu-blue; 
+  .wvu-masthead__link { color: $wvu-blue;
     &:hover { color: $wvu-base-link-color; }
   }
   .wvu-masthead__college-link a { background: $wvu-blue; color: white; }
 }
 
-.wvu-masthead--white { background-color: white; color: $black; background-image: none; 
+.wvu-masthead--white { background-color: white; color: $black; background-image: none;
   input[type="submit"] {
     &.form-search__submit { border-color: $wvu-blue; background-color: $wvu-blue;
       &:hover { background-color: $wvu-gold; border-color: $wvu-gold; }
     }
   }
-  .wvu-masthead__logo { color: $wvu-blue; 
+  .wvu-masthead__logo { color: $wvu-blue;
     &:hover { color: $pms-300-c; }
   }
-  .wvu-masthead__link { color: $wvu-blue; 
+  .wvu-masthead__link { color: $wvu-blue;
     &:hover { color: $wvu-base-link-color; }
   }
   .wvu-masthead__college-link a { background: $wvu-gold; }
@@ -42,7 +42,7 @@
 
 .wvu-masthead--blue-pattern { background: url(../images/pattern-blue.jpg) no-repeat; background-size: cover; }
 
-//// has signature 
+//// has signature
 
 .wvu-masthead--has-signature {
 
@@ -115,7 +115,7 @@
 
 // WVU Hero
 
-.wvu-hero--baby { color: $black; background-image: none; background-color: transparent; text-shadow: none; 
+.wvu-hero--baby { color: $black; background-image: none; background-color: transparent; text-shadow: none;
   .wvu-hero__copy { padding: 2em; background: #eee;}
   h1 { font-size: 3em; color: $wvu-blue;
     @include mq($bp-large) { font-size: 3.5em; }
@@ -137,7 +137,7 @@
   .wvu-hero__title-bottom { color: white; }
 }
 
-.wvu-hero--medium-shout { 
+.wvu-hero--medium-shout {
   h1 { font-size: 4.5em; }
   .wvu-hero__container {
     padding: 4em 3em;
@@ -147,7 +147,7 @@
   }
 }
 
-.wvu-hero--long-shout { 
+.wvu-hero--long-shout {
   h1 { font-size: 3em; }
 }
 
@@ -158,11 +158,11 @@
 }
 
 .wvu-hero--pattern-grid {
-  
+
   background-image: url($wvu-pattern-grid), url($wvu-hero-image);
   background-size: $wvu-pattern-grid-zoom, cover;
   background-position: center top, center top;
-  
+
   .button {
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7))); /* Chrome,Safari4+ */
@@ -175,7 +175,7 @@
     box-shadow: 2px 2px 15px 0 #000000;
 
   }
-  
+
   &.wvu-hero--vignetting {
     background-image: url($wvu-pattern-grid), url($vignetting), url($wvu-hero-image);
     background-size: $wvu-pattern-grid-zoom, cover, cover;
@@ -225,7 +225,7 @@
   }
 }
 
-.wvu-hero--small-photo { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0 2em; 
+.wvu-hero--small-photo { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0 2em;
     @include mq($bp-medium) {
       padding: 0 6em;
     }
@@ -240,7 +240,7 @@
       max-width: 100%;
     }
   }
-  .wvu-hero__container { padding: 0 1em; 
+  .wvu-hero__container { padding: 0 1em;
     @include mq($bp-xlarge) { padding: 0; }
   }
   .wvu-hero__copy { padding: 3em 0;
@@ -259,7 +259,7 @@
   .button--white { color: $black !important; border-color: $black !important;
     &:hover { color: white !important; background-color: $black !important; }
   }
-  
+
 }
 
 

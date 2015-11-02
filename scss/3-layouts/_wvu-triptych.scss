@@ -1,4 +1,4 @@
-.wvu-triptych { 
+.wvu-triptych {
   .wvu-triptych__container { @include outer-container(); }
   .wvu-spotlight {
     @include mq($bp-medium) {

@@ -6,20 +6,20 @@
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  */
- 
+
 /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
 #secondary-slider .flex-direction-nav,
-#secondary-slider .flex-control-nav {display: none;} 
+#secondary-slider .flex-control-nav {display: none;}
 /* FlexSlider Necessary Styles
-*********************************/ 
+*********************************/
 .flexslider {width: 100%; margin: 0;}
 .flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img { display: block; 
+.flexslider .slides img { display: block;
   @include mq($bp-jumbo) {
     width: 100%;
   }
@@ -27,8 +27,8 @@
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
-.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .slides {display: block;} 
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
 * html .slides {height: 1%;}
 
 /* No JavaScript Fallback */
@@ -76,18 +76,18 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;} */
 
 /* Direction Nav */
-.flex-direction-nav li a { width: 15px; height: 102px; margin: -23px 0 0; display: block; background: url(https://patterns.wvu.edu/images/nav-arrows-big.png) no-repeat 0 0; filter:alpha(opacity=30); position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; background-size: 30px; 
+.flex-direction-nav li a { width: 15px; height: 102px; margin: -23px 0 0; display: block; background: url(https://patterns.wvu.edu/images/nav-arrows-big.png) no-repeat 0 0; filter:alpha(opacity=30); position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; background-size: 30px;
   @include mq($bp-medium) { background-size: auto; width: 66px; height: 102px; opacity: .1; margin: -52px 0 0; }
 }
 .flexslider--small-photo {
-  .flex-direction-nav li a { 
+  .flex-direction-nav li a {
     @include mq($bp-medium) { opacity: 1; }
   }
 }
 .flex-direction-nav li a:hover {opacity: 1;}
 .flex-direction-nav li .next { background-position: -15px 0; right: 21px;
   @include mq($bp-medium) {
-    background-position: -66px 0; 
+    background-position: -66px 0;
   }
 }
 .flex-direction-nav li .prev {left: 20px;}
@@ -126,14 +126,14 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
   /* Note: Design for a width of 768px @media only screen and (min-width: 48em) */
 @media only screen and (min-width: 768px) {
 
-	.flexslider .slides li {overflow:hidden;} 	
+	.flexslider .slides li {overflow:hidden;}
 	#main-slider .slides, .flex-control-nav, .flex-direction-nav { display: block;}
-	.flexslider {display: block;background:#222; }	
+	.flexslider {display: block;background:#222; }
 	#main-slider.flexslider {overflow: hidden;}
 	ul.slides li img {margin-bottom: 0px;}
 	a.gray-button {margin: 38px 0 0 0;}
 	img.center {display:block;margin:36px auto;}
-	img.last {float:right;margin:0;}			
+	img.last {float:right;margin:0;}
 
 } /* Close Tablet media query */
 
@@ -144,7 +144,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 @media only screen and (min-width: 60em) {
 
 	.flexslider .slides img { display: block;}
-	.flexslider .slides img {margin-top:0;}	
+	.flexslider .slides img {margin-top:0;}
 
 } /* Close Desktop media query */
 

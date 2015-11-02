@@ -12,11 +12,11 @@ layout: default
 
     <r:blog:articles limit="{$limit}" page="{$page}" tags="{$tags}" tags_op="{$tags_op}" year="{$year}" month="{$month}" day="{$day}">
       <r:set_var name="article_count" value="{count}" />
-      
+
       <r:if_no_articles>
         <p>No blog posts found. Try again later, perhaps?</p>
       </r:if_no_articles>
-      
+
       <r:comment><!-- NOTE: Blog articles use Schema.org's tags to structure your data & help with SEO: http://goo.gl/SKs4Qb --></r:comment>
 
       <r:if_articles>
@@ -38,7 +38,7 @@ layout: default
           </r:each>
         </div> <!-- /.wvu-articles -->
       </r:if_articles>
-      
+
       <r:pagination>
         <ul class="wvu-pagination">
           <li class="wvu-pagination__older <r:if_last_page>wvu-pagination__disabled</r:if_last_page>"><a href="<r:next_url />" rel="next">&larr; Older Articles</a></li>

@@ -23,7 +23,7 @@
   	background: transparent;
   }
 }
-		
+
 .wvu-nav__search-toggle {
   &.inactive-search {
   	float:right;
@@ -42,11 +42,11 @@
     background-position: 50% 50%;
     padding: 4px;
     display: inline-block;
-    cursor: pointer; 
-    border:0;  
+    cursor: pointer;
+    border:0;
     overflow:hidden;
     box-sizing: border-box;
-    @include mq($bp-medium) {display:none;} 
+    @include mq($bp-medium) {display:none;}
   }
   &.active-search {
   	background-image: url(https://patterns.wvu.edu/images/hide-search-icon.png);
@@ -54,4 +54,3 @@
 }
 
 .nav-toggle { float: left; width: 80%;height: 56px; }
-

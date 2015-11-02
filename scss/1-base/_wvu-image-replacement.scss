@@ -38,6 +38,6 @@
   @include image-dimensions($image);
 }
 
-// Usage example: 
+// Usage example:
 // .test { @include image-replace-h5bp; }
 // Note: You can customize the $image, $display, and $reset-border-background variables if necessary

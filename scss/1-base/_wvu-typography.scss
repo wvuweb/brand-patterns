@@ -3,7 +3,7 @@ html { font-size: 16px; }
 // Set Helvetica as the default font
 body { font-family: $base-font-family; }
 
-.helvetica-neue-light { font-family: $helvetica-neue-font-stack; font-weight: normal; line-height: 1em; 
+.helvetica-neue-light { font-family: $helvetica-neue-font-stack; font-weight: normal; line-height: 1em;
   .fonts-loaded & { font-family: $helvetica-neue-light; }
 }
 

@@ -9,7 +9,7 @@
   }
 }
 
-.wvu-masthead__search-bar { 
+.wvu-masthead__search-bar {
   @include mq($bp-medium) {
     @include span-columns(4.5);
   }

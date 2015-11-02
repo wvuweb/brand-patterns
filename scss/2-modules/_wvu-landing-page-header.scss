@@ -1,9 +1,9 @@
 $header-background: 'https://patterns.wvu.edu/images/dance-header.jpg' !default;
 $has-landing-page-intro-overlay: true !default;
 
-.wvu-landing-page-header { padding: 4em 1em; background-image: url($header-background); background-size: cover; 
+.wvu-landing-page-header { padding: 4em 1em; background-image: url($header-background); background-size: cover;
   @include mq($bp-xlarge) { padding: 4em 0; }
-  h1 { font-size: 4em; margin-bottom: 1em; font-family: $wvu-shout-fallback; color: white; text-transform: uppercase; font-weight: normal; line-height: $shout-line-height; 
+  h1 { font-size: 4em; margin-bottom: 1em; font-family: $wvu-shout-fallback; color: white; text-transform: uppercase; font-weight: normal; line-height: $shout-line-height;
     .fonts-loaded & { font-family: $wvu-shout; }
     @include mq($bp-large) { font-size: 6em; margin-bottom: 0.15em; }
   }
@@ -14,7 +14,7 @@ $has-landing-page-intro-overlay: true !default;
 @mixin has-intro-overlay() {
   @if $has-landing-page-intro-overlay == true {
     .wvu-landing-page-header__intro {
-      padding: 2em; 
+      padding: 2em;
       background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%); /* FF3.6+ */
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7))); /* Chrome,Safari4+ */
       background: -webkit-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%); /* Chrome10+,Safari5.1+ */

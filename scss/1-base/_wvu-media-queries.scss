@@ -48,7 +48,7 @@ $doc-font-size: 16;
 
 // Usage example
 // .example { @include mq(320); }
- 
+
 //Outputs
 // @media screen and (min-width: 20em) {
 //     .example {
@@ -68,19 +68,19 @@ $doc-font-size: 16;
     }
 }
 // Usage example:
-// .example { 
+// .example {
 //     @include mq(768) {
 //         @include orient { .. stuff goes in here... }
 //     }
 // }
 // '@include orient' defaults to landscape
 
-// or 
+// or
 
 // @include mq(768) {
 //     @include orient(portrait) {
 //         .example {
-//             width: 100%; 
+//             width: 100%;
 //         }
 //     }
 // }

@@ -3,7 +3,7 @@
 // Styles for the blog index and blog article templates.
 
 // Blog Articles
-.wvu-article { float: left; width: 100%; padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid $pms-warm-gray-3; 
+.wvu-article { float: left; width: 100%; padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid $pms-warm-gray-3;
   &:first-child, .blog_article & { padding-top: 0; }
 } //.wvu-article
 .wvu-article--individual { border-bottom: 0; } // Remove stuff for individual articles

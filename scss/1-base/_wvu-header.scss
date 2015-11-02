@@ -27,7 +27,7 @@ $header-background-color: 'light' !default;
 @mixin header-has-light-background {
   @if $header-background-color == 'light' {
     .wvu-header {
-      .wvu-masthead__link { color: $wvu-base-link-color; 
+      .wvu-masthead__link { color: $wvu-base-link-color;
         &:visited { color: $wvu-visited-link-color; }
       }
       input[type="submit"].form-search__submit {
@@ -35,14 +35,14 @@ $header-background-color: 'light' !default;
         border-color: $wvu-blue;
         &:hover {
          background-color: $wvu-gold;
-         border-color: $wvu-gold; 
+         border-color: $wvu-gold;
         }
       }
     }
   }
   @else {
     .wvu-header {
-      .wvu-masthead__link { color: white; 
+      .wvu-masthead__link { color: white;
         &:visited { color: white; }
       }
       input[type="submit"].form-search__submit {
@@ -50,7 +50,7 @@ $header-background-color: 'light' !default;
         border-color: $wvu-gold;
         &:hover {
          background-color: $wvu-blue;
-         border-color: $wvu-blue; 
+         border-color: $wvu-blue;
         }
       }
     }
