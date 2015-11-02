@@ -157,7 +157,8 @@ $bp-large: 960 !default;
 $bp-xlarge: 1200 !default;
 $bp-jumbo: 1720 !default;
 
-
+// Responsive Navigation Breakpoint
+$rwd-nav-bp: $bp-medium !default;
 
 // Other Sizes
 $base-border-radius: 3px !default;
