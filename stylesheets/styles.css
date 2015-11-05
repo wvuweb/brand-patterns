@@ -1398,6 +1398,7 @@ abbr {
 
 .wvu-skip-nav {
   position: absolute;
+  z-index: 10;
   padding: 0.5em;
   left: -99999em;
   background: white;

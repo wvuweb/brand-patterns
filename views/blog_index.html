@@ -7,7 +7,7 @@ layout: default
   <r:comment><!-- NOTE: Set how many blog posts you'd like to show per page. Eg: default="10" --></r:comment>
   <r:set_var name="limit" value="{$limit}" default="10"/>
 
-  <main class="main" role="main">
+  <main id="maincontent" class="main" role="main">
     <h1><r:page:name /></h1>
 
     <r:blog:articles limit="{$limit}" page="{$page}" tags="{$tags}" tags_op="{$tags_op}" year="{$year}" month="{$month}" day="{$day}">
