@@ -3,7 +3,7 @@ $has-landing-page-intro-overlay: true !default;
 
 .wvu-landing-page-header { padding: 4em 1em; background-image: url($header-background); background-size: cover;
   @include mq($bp-xlarge) { padding: 4em 0; }
-  h1 { font-size: 4em; margin-bottom: 1em; font-family: $wvu-shout-fallback; color: white; text-transform: uppercase; font-weight: normal; line-height: $shout-line-height;
+  h1 { font-size: 4em; margin-bottom: 1em; font-family: $wvu-shout-fallback; color: white; text-transform: uppercase; font-weight: normal; line-height: $wvu-shout-line-height;
     .fonts-loaded & { font-family: $wvu-shout; }
     @include mq($bp-large) { font-size: 6em; margin-bottom: 0.15em; }
   }
