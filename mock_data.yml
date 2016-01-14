@@ -193,6 +193,8 @@ editable_region:
 
 site:
   name: "Brand Patterns"
+  data:
+    google_site_verification: meta-tag-content-goes-here
 
 page:
   id: 1
