@@ -7,12 +7,13 @@ shared_themes:
 
 editable_region:
 
-  main: This content comes from the mock_data.yml file in your project's root. Open the file to edit this content.
+  main: "This content comes from the mock_data.yml file in your project's root. Open the file to edit this content."
 
-  sidebar: This is an editable region in the sidebar.
+  sidebar: "This is an editable region in the sidebar."
 
   wvu-masthead__title:
-    Department of English
+    "Department of English"
+
   news: |
     <ul>
       <li><a href="#"><%= Faker::Business.credit_card_number %></a></li>
@@ -22,43 +23,46 @@ editable_region:
     </ul>
 
   long-paragraph:
-    <%= Faker::Lorem.paragraph(7) %>
+    "<%= Faker::Lorem.paragraph(7) %>"
+
   wvu-hero-title-top:
-    It Starts
+    "It Starts"
+
   wvu-hero-title-bottom:
-    Now.
+    "Now."
+
   wvu-hero-text: |
-    <p>So let's go. Release the Mountaineer spirit inside of you. Reach the limits of what you can do and then keep on going.</p><a href="" class="button button--white">Learn More</a>
+    <p>So let&rsquo;s go. Release the Mountaineer spirit inside of you. Reach the limits of what you can do and then keep on going.</p><a href="" class="button button--white">Learn More</a>
 
   wvu-header__title:
-    Benjamin M. Statler College of <br>Engineering and Mineral Resources
+    "Benjamin M. Statler College of <br>Engineering and Mineral Resources"
 
   wvu-masthead__college-link:
     <a href="#">Eberly College of Arts & Sciences</a>
 
   wvu-hero__photo:
-    ''
+    ""
 
   wvu-hero__photo-2:
-    ''
+    ""
 
   wvu-hero__photo-3:
-    ''
+    ""
 
   wvu-hero__text:
-    So let&rsquo;s go. Release the Mountaineer spirit inside of you. Reach the limits of what you can do and then keep on going.
+    "So let&rsquo;s go. Release the Mountaineer spirit inside of you. Reach the limits of what you can do and then keep on going."
 
   wvu-hero__button-text:
     <a href="" class="button button--white">Continue Reading</a>
 
   wvu-hero__title-top:
-    It Starts
+    "It Starts"
 
   wvu-hero__title-bottom:
-    Now.
+    "Now."
 
   wvu-landing-page-header:
-    Landing Page<br>Header
+    "Landing Page<br>Header"
 
   wvu-triptych__image-1:
     <img src="https://patterns.wvu.edu/images/coopers-rock.jpg" />
@@ -70,13 +74,13 @@ editable_region:
     <img src="https://patterns.wvu.edu/images/girl-pointing.jpg" />
 
   wvu-triptych__header-1:
-    Header 1
+    "Header 1"
 
   wvu-triptych__header-2:
-    Header 2
+    "Header 2"
 
   wvu-triptych__header-3:
-    Header 3
+    "Header 3"
 
   wvu-triptych__button-1:
     <a href="#" class="button">Button</a>
@@ -87,71 +91,83 @@ editable_region:
   wvu-triptych__button-3:
     <a href="#" class="button">Button</a>
 
-  wvu-quadtych__content-1:
-    <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
+  wvu-quadtych__content-1: |
+    <ul>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+    </ul>
 
-  wvu-quadtych__content-2:
-    <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
+  wvu-quadtych__content-2: |
+    <ul>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+    </ul>
 
-  wvu-quadtych__content-3:
-    <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
+  wvu-quadtych__content-3: |
+    <ul>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+    </ul>
 
-  wvu-quadtych__content-4:
-    <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
+  wvu-quadtych__content-4: |
+    <ul>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+      <li><a href="#">List Item</a></li>
+    </ul>
 
-  wvu-diptych__image-1:
+  wvu-diptych__image-1: |
     <img src="https://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
 
-  wvu-diptych__image-2:
+  wvu-diptych__image-2: |
     <img src="https://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
 
   wvu-diptych__header-1:
-    Header 1
+    "Header 1"
 
   wvu-diptych__header-2:
-    Header 2
+    "Header 2"
 
   wvu-diptych__description-1:
-    <%= Faker::Lorem.paragraph(3) %>
+    "<%= Faker::Lorem.paragraph(3) %>"
 
   wvu-diptych__description-2:
-    <%= Faker::Lorem.paragraph(3) %>
+    "<%= Faker::Lorem.paragraph(3) %>"
 
-  wvu-diptych__button-1:
+  wvu-diptych__button-1: |
     <a href="#" class="button">Button</a>
 
-  wvu-diptych__button-2:
+  wvu-diptych__button-2: |
     <a href="#" class="button">Button</a>
 
   wvu-triptych__description-1:
-    <%= Faker::Lorem.paragraph(3) %>
+    "<%= Faker::Lorem.paragraph(3) %>"
 
   wvu-triptych__description-2:
-    <%= Faker::Lorem.paragraph(3) %>
+    "<%= Faker::Lorem.paragraph(3) %>"
 
   wvu-triptych__description-3:
-    <%= Faker::Lorem.paragraph(3) %>
+    "<%= Faker::Lorem.paragraph(3) %>"
 
-  wvu-quicklinks:
+  wvu-quicklinks: |
     <ul>
-      <li><a href=#">Quicklink 1</a></li>
-      <li><a href=#">Quicklink 1</a></li>
-      <li><a href=#">Quicklink 1</a></li>
-      <li><a href=#">Quicklink 1</a></li>
-      <li><a href=#">Quicklink 1</a></li>
-      <li><a href=#">Quicklink 1</a></li>
-      <li><a href=#">Quicklink 1</a></li>
+      <li><a href="#">Quicklink 1</a></li>
+      <li><a href="#">Quicklink 2</a></li>
+      <li><a href="#">Quicklink 3</a></li>
+      <li><a href="#">Quicklink 4</a></li>
+      <li><a href="#">Quicklink 5</a></li>
+      <li><a href="#">Quicklink 6</a></li>
+      <li><a href="#">Quicklink 7</a></li>
     </ul>
 
-  quicklinks: |
-    <ul>
-      <li><a href="#"><%= Faker::Business.credit_card_number %></a></li>
-      <li><a href="#">Some Article link</a></li>
-      <li><a href="#">Another Article link</a></li>
-      <li><a href="#">An Amazing story</a></li>
-    </ul>
-
-  wvu-social-media-icons:
+  wvu-social-media-icons: |
     <ul>
       <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/facebook.png" alt="Facebook"></a></li>
       <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/googleplus.png" alt="Google Plus"></a></li>
@@ -167,21 +183,21 @@ editable_region:
     <p><%= Faker::Lorem.paragraph(15) %></p>
 
   wvu-profile__name:
-    <%= Faker::Name.name %>
+    "<%= Faker::Name.name %>"
 
   wvu-profile__job-title:
-    <%= Faker::Name.title %>
+    "<%= Faker::Name.title %>"
 
   wvu-profile__phone:
-    <%= Faker::PhoneNumber.cell_phone %>
+    "<%= Faker::PhoneNumber.cell_phone %>"
 
   wvu-profile__email: |
     <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
 
   wvu-profile__short-description:
-    This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>
+    "This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>"
 
-  wvu-profile__photo:
+  wvu-profile__photo: |
     <img src="<%= Faker::Avatar.image %>" alt=" " />
 
   contact: |
@@ -194,7 +210,7 @@ editable_region:
 site:
   name: "Brand Patterns"
   data:
-    google_site_verification: meta-tag-content-goes-here
+    google_site_verification: "meta-tag-content-goes-here"
 
 page:
   id: 1
@@ -204,38 +220,38 @@ page:
   title: "Home"
   alternate_name: "Some other name"
   depth: 1
-  updated_at: now
+  updated_at: "now"
   content:
-    wvu-profile__name: <%= Faker::Name.name %>
-    wvu-profile__job-title: <%= Faker::Name.title %>
-    wvu-profile__phone: <%= Faker::PhoneNumber.cell_phone %>
+    wvu-profile__name: "<%= Faker::Name.name %>"
+    wvu-profile__job-title: "<%= Faker::Name.title %>"
+    wvu-profile__phone: "<%= Faker::PhoneNumber.cell_phone %>"
     wvu-profile__email: |
       <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
-    wvu-profile__short-description: This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>
+    wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>"
     wvu-profile__photo: |
       <img src="<%= Faker::Avatar.image %>" alt=" " />
 
 pages:
   - id: 2
-    name: Profile Index
+    name: "Profile Index"
     content:
-      wvu-profile__name: <%= Faker::Name.name %>
-      wvu-profile__job-title: <%= Faker::Name.title %>
-      wvu-profile__phone: <%= Faker::PhoneNumber.cell_phone %>
+      wvu-profile__name: "<%= Faker::Name.name %>"
+      wvu-profile__job-title: "<%= Faker::Name.title %>"
+      wvu-profile__phone: "<%= Faker::PhoneNumber.cell_phone %>"
       wvu-profile__email: |
         <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
-      wvu-profile__short-description: This is a short description for this profile. <%= Faker::Lorem.paragraph(4) %>
+      wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Lorem.paragraph(4) %>"
       wvu-profile__photo: |
         <img src="<%= Faker::Avatar.image %>" alt=" " />
   - id: 3
-    name: Profile Index
+    name: "Profile Index"
     content:
-      wvu-profile__name: <%= Faker::Name.name %>
-      wvu-profile__job-title: <%= Faker::Name.title %>
-      wvu-profile__phone: <%= Faker::PhoneNumber.cell_phone %>
+      wvu-profile__name: "<%= Faker::Name.name %>"
+      wvu-profile__job-title: "<%= Faker::Name.title %>"
+      wvu-profile__phone: "<%= Faker::PhoneNumber.cell_phone %>"
       wvu-profile__email: |
         <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
-      wvu-profile__short-description: This is a short description for this profile. <%= Faker::Lorem.paragraph(2) %>
+      wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Lorem.paragraph(2) %>"
       wvu-profile__photo: |
         <img src="<%= Faker::Avatar.image %>" alt=" " />
 
@@ -269,41 +285,41 @@ ancestor_menu: |
   </ul>
 
 blog:
-  name: Blog Name
+  name: "Blog Name"
   articles:
     - article:
-      name: <%= Faker::Lorem.sentence(1) %>
-      title: <%= Faker::Lorem.sentence(1) %>
+      name: "<%= Faker::Lorem.sentence(1) %>"
+      title: "<%= Faker::Lorem.sentence(1) %>"
       created_by:
-        first_name: <%= Faker::Name.first_name %>
-        last_name: <%= Faker::Name.last_name %>
-      published_at: 2 days ago
+        first_name: "<%= Faker::Name.first_name %>"
+        last_name: "<%= Faker::Name.last_name %>"
       content:
         article-body: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
+      published_at: "2 days ago"
     - article:
-      name: <%= Faker::Lorem.sentence(1) %>
-      title: <%= Faker::Lorem.sentence(1) %>
+      name: "<%= Faker::Lorem.sentence(1) %>"
+      title: "<%= Faker::Lorem.sentence(1) %>"
       created_by:
-        first_name: <%= Faker::Name.first_name %>
-        last_name: <%= Faker::Name.last_name %>
-      published_at: 4 days ago
+        first_name: "<%= Faker::Name.first_name %>"
+        last_name: "<%= Faker::Name.last_name %>"
       content:
         article-body: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
+      published_at: "4 days ago"
     - article:
-      name: <%= Faker::Lorem.sentence(1) %>
-      title: <%= Faker::Lorem.sentence(1) %>
+      name: "<%= Faker::Lorem.sentence(1) %>"
+      title: "<%= Faker::Lorem.sentence(1) %>"
       created_by:
-        first_name: <%= Faker::Name.first_name %>
-        last_name: <%= Faker::Name.last_name %>
-      published_at: 5 days ago
+        first_name: "<%= Faker::Name.first_name %>"
+        last_name: "<%= Faker::Name.last_name %>"
       content:
         article-body: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
+      published_at: "5 days ago"
