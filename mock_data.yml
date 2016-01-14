@@ -32,10 +32,10 @@ editable_region:
 
   wvu-header__title:
     Benjamin M. Statler College of <br>Engineering and Mineral Resources
-    
+
   wvu-masthead__college-link:
     <a href="#">Eberly College of Arts & Sciences</a>
-    
+
   wvu-hero__photo:
     ''
 
@@ -62,76 +62,76 @@ editable_region:
 
   wvu-triptych__image-1:
     <img src="https://patterns.wvu.edu/images/coopers-rock.jpg" />
-    
+
   wvu-triptych__image-2:
     <img src="https://patterns.wvu.edu/images/dance-header.jpg" />
-    
+
   wvu-triptych__image-3:
     <img src="https://patterns.wvu.edu/images/girl-pointing.jpg" />
-  
+
   wvu-triptych__header-1:
     Header 1
-    
+
   wvu-triptych__header-2:
     Header 2
-    
+
   wvu-triptych__header-3:
     Header 3
-    
+
   wvu-triptych__button-1:
     <a href="#" class="button">Button</a>
-    
+
   wvu-triptych__button-2:
     <a href="#" class="button">Button</a>
-    
+
   wvu-triptych__button-3:
     <a href="#" class="button">Button</a>
-    
+
   wvu-quadtych__content-1:
     <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
-    
+
   wvu-quadtych__content-2:
     <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
-    
+
   wvu-quadtych__content-3:
     <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
-    
+
   wvu-quadtych__content-4:
     <ul><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li><li><a href="#">List Item</a></li></ul>
-  
+
   wvu-diptych__image-1:
     <img src="https://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
-    
+
   wvu-diptych__image-2:
     <img src="https://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" alt="Kids sitting by tulips" />
-  
+
   wvu-diptych__header-1:
     Header 1
-    
+
   wvu-diptych__header-2:
     Header 2
-    
+
   wvu-diptych__description-1:
     <%= Faker::Lorem.paragraph(3) %>
-    
+
   wvu-diptych__description-2:
     <%= Faker::Lorem.paragraph(3) %>
-    
+
   wvu-diptych__button-1:
     <a href="#" class="button">Button</a>
-    
+
   wvu-diptych__button-2:
     <a href="#" class="button">Button</a>
-  
+
   wvu-triptych__description-1:
     <%= Faker::Lorem.paragraph(3) %>
-    
+
   wvu-triptych__description-2:
     <%= Faker::Lorem.paragraph(3) %>
-    
+
   wvu-triptych__description-3:
     <%= Faker::Lorem.paragraph(3) %>
-  
+
   wvu-quicklinks:
     <ul>
       <li><a href=#">Quicklink 1</a></li>
@@ -150,8 +150,8 @@ editable_region:
       <li><a href="#">Another Article link</a></li>
       <li><a href="#">An Amazing story</a></li>
     </ul>
-  
-  wvu-social-media-icons: 
+
+  wvu-social-media-icons:
     <ul>
       <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/facebook.png" alt="Facebook"></a></li>
       <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/googleplus.png" alt="Google Plus"></a></li>
@@ -271,10 +271,10 @@ ancestor_menu: |
 blog:
   name: Blog Name
   articles:
-    - article: 
+    - article:
       name: <%= Faker::Lorem.sentence(1) %>
       title: <%= Faker::Lorem.sentence(1) %>
-      created_by: 
+      created_by:
         first_name: <%= Faker::Name.first_name %>
         last_name: <%= Faker::Name.last_name %>
       content: |
@@ -285,7 +285,7 @@ blog:
     - article:
       name: <%= Faker::Lorem.sentence(1) %>
       title: <%= Faker::Lorem.sentence(1) %>
-      created_by: 
+      created_by:
         first_name: <%= Faker::Name.first_name %>
         last_name: <%= Faker::Name.last_name %>
       content: |
@@ -296,7 +296,7 @@ blog:
     - article:
       name: <%= Faker::Lorem.sentence(1) %>
       title: <%= Faker::Lorem.sentence(1) %>
-      created_by: 
+      created_by:
         first_name: <%= Faker::Name.first_name %>
         last_name: <%= Faker::Name.last_name %>
       content: |
