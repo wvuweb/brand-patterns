@@ -191,7 +191,8 @@ editable_region:
     <p><strong>Phone:</strong> 304.293.5555 | <strong>Fax:</strong> 304.293.5555</p>
     <p><strong>Email:</strong> <a href="mailto:first.last@mail.wvu.edu">first.last@mail.wvu.edu</a></p>
 
-site_name: "Brand Patterns"
+site:
+  name: "Brand Patterns"
 
 page:
   id: 1
