@@ -277,30 +277,33 @@ blog:
       created_by:
         first_name: <%= Faker::Name.first_name %>
         last_name: <%= Faker::Name.last_name %>
-      content: |
-        <p><%= Faker::Lorem.paragraph(2) %></p>
-        <p><%= Faker::Lorem.paragraph(5) %></p>
-        <p><%= Faker::Lorem.paragraph(3) %></p>
       published_at: 2 days ago
+      content:
+        article-body: |
+          <p><%= Faker::Lorem.paragraph(2) %></p>
+          <p><%= Faker::Lorem.paragraph(5) %></p>
+          <p><%= Faker::Lorem.paragraph(3) %></p>
     - article:
       name: <%= Faker::Lorem.sentence(1) %>
       title: <%= Faker::Lorem.sentence(1) %>
       created_by:
         first_name: <%= Faker::Name.first_name %>
         last_name: <%= Faker::Name.last_name %>
-      content: |
-        <p><%= Faker::Lorem.paragraph(2) %></p>
-        <p><%= Faker::Lorem.paragraph(5) %></p>
-        <p><%= Faker::Lorem.paragraph(3) %></p>
       published_at: 4 days ago
+      content:
+        article-body: |
+          <p><%= Faker::Lorem.paragraph(2) %></p>
+          <p><%= Faker::Lorem.paragraph(5) %></p>
+          <p><%= Faker::Lorem.paragraph(3) %></p>
     - article:
       name: <%= Faker::Lorem.sentence(1) %>
       title: <%= Faker::Lorem.sentence(1) %>
       created_by:
         first_name: <%= Faker::Name.first_name %>
         last_name: <%= Faker::Name.last_name %>
-      content: |
-        <p><%= Faker::Lorem.paragraph(2) %></p>
-        <p><%= Faker::Lorem.paragraph(5) %></p>
-        <p><%= Faker::Lorem.paragraph(3) %></p>
       published_at: 5 days ago
+      content:
+        article-body: |
+          <p><%= Faker::Lorem.paragraph(2) %></p>
+          <p><%= Faker::Lorem.paragraph(5) %></p>
+          <p><%= Faker::Lorem.paragraph(3) %></p>
