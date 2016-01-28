@@ -234,6 +234,7 @@ page:
 pages:
   - id: 2
     name: "Profile Index"
+    updated_at: "now"
     content:
       wvu-profile__name: "<%= Faker::Name.name %>"
       wvu-profile__job-title: "<%= Faker::Name.title %>"
@@ -245,6 +246,7 @@ pages:
         <img src="<%= Faker::Avatar.image %>" alt=" " />
   - id: 3
     name: "Profile Index"
+    updated_at: "now"
     content:
       wvu-profile__name: "<%= Faker::Name.name %>"
       wvu-profile__job-title: "<%= Faker::Name.title %>"

@@ -11,8 +11,14 @@
   float: left;
   border-top: 1px solid #eaeaea;
   &:first-child {
+    margin-top: 0;
     border-top: 0;
   }
+}
+
+.wvu-profile__individual-photo {
+  margin-top: 38px;
+  margin-bottom: 18px;
 }
 
 .wvu-profile__name {
