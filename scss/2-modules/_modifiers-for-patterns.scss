@@ -116,7 +116,27 @@
 // WVU Hero
 
 .wvu-hero--baby { color: $black; background-image: none; background-color: transparent; text-shadow: none;
+  .wvu-hero__container {
+    @include mq($bp-medium) {
+      display: flex;
+    }
+  }
   .wvu-hero__copy { padding: 2em; background: #eee;}
+  .wvu-hero__photo {
+    position: relative;
+    img {
+      position:absolute;
+      top:50%;
+      min-height:100%;
+      display:block;
+      left:50%;
+      -webkit-transform: translate(-50%, -50%);
+      min-width:100%;
+      height: 100%;
+      max-width: 99999em;
+      width: auto;
+    }
+  }
   h1 { font-size: 3em; color: $wvu-blue;
     @include mq($bp-large) { font-size: 3.5em; }
   }
@@ -320,6 +340,3 @@
     }
   }
 }
-
-
-

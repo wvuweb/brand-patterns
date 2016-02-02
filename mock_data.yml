@@ -41,7 +41,7 @@ editable_region:
     <a href="#">Eberly College of Arts & Sciences</a>
 
   wvu-hero__photo:
-    ""
+    <img src="https://patterns.wvu.edu/images/coopers-rock.jpg" />
 
   wvu-hero__photo-2:
     ""

@@ -1102,7 +1102,7 @@ select {
 
 .form-search__search-type label {
   float: left;
-  margin: 0 1em 0 .5em;
+  margin: 0 1em 0 0.5em;
 }
 
 .form-search__search-type input {
@@ -1551,7 +1551,7 @@ input[type="submit"] {
   font-size: 1em;
   font-weight: bold;
   line-height: 1;
-  padding: .75em 1em;
+  padding: 0.75em 1em;
   text-decoration: none;
 }
 
@@ -1621,7 +1621,7 @@ input[type="submit"] {
 
 .button--small {
   font-size: .9em;
-  padding: .35em .45em;
+  padding: 0.35em 0.45em;
 }
 
 .button--big {
@@ -2335,7 +2335,7 @@ input[type="submit"] {
   }
 }
 
-@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   .wvu-social a {
     -webkit-background-size: contain;
     background-size: contain;

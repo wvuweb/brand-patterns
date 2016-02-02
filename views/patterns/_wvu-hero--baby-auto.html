@@ -1,7 +1,14 @@
-<div class="wvu-hero wvu-hero--small-photo <r:var name="wvu-hero__classes" /> wvu-hero--<r:page:slug />">
+<div class="wvu-hero wvu-hero--small-photo <r:var name="wvu-hero__classes" /> wvu-hero--<r:page:slug /> wvu-hero--baby">
   <div class="wvu-hero__container">
     <div class="wvu-hero__copy">
-      <h1><r:page:content name="wvu-hero__title-top" /><br><span class="wvu-hero__title-bottom"><r:page:content name="wvu-hero__title-bottom" /></span></h1>
+      <h1>
+        <r:page:if_has_content_for region="wvu-hero__title-top" always_show_in_edit_mode="true">
+          <r:page:content name="wvu-hero__title-top" /><br>
+        </r:page:if_has_content_for>
+        <r:page:if_has_content_for region="wvu-hero__title-bottom" always_show_in_edit_mode="true">
+          <span class="wvu-hero__title-bottom"><r:page:content name="wvu-hero__title-bottom" /></span>
+        </r:page:if_has_content_for>
+      </h1>
       <p><r:page:content name="wvu-hero__text" /></p>
       <a href="<r:page:content name="wvu-hero__button-url" />" class="button"><r:page:content name="wvu-hero__button-display-text" /></a>
     </div>

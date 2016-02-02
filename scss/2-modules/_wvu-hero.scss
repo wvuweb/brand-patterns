@@ -245,6 +245,9 @@ $has-wvu-pattern-grid: true !default;
       img { width: 100%; }
     }
     .wvu-hero__container { padding: 0 1em;
+      @include mq($bp-medium) {
+        display: flex;
+      }
       @include mq($bp-xlarge) { padding: 0; }
     }
     .wvu-hero { color: $black; background-image: none; background-color: #efefef; text-shadow: none; padding: 0 2em;
@@ -261,6 +264,21 @@ $has-wvu-pattern-grid: true !default;
       }
       @include mq($bp-large) {
         font-size: 1em;
+      }
+    }
+    .wvu-hero__photo {
+      position: relative;
+      img {
+        position:absolute;
+        top:50%;
+        min-height:100%;
+        display:block;
+        left:50%;
+        -webkit-transform: translate(-50%, -50%);
+        min-width:100%;
+        height: 100%;
+        max-width: 99999em;
+        width: auto;
       }
     }
     .wvu-hero__photo--edit-mode-only {
