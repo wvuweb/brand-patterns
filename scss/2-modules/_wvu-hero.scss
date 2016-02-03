@@ -247,6 +247,7 @@ $has-wvu-pattern-grid: true !default;
     .wvu-hero__container { padding: 0 1em;
       @include mq($bp-medium) {
         display: flex;
+        display: -webkit-flex; /* Safari */
       }
       @include mq($bp-xlarge) { padding: 0; }
     }
@@ -275,6 +276,7 @@ $has-wvu-pattern-grid: true !default;
         display:block;
         left:50%;
         -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
         min-width:100%;
         height: 100%;
         max-width: 99999em;
