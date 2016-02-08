@@ -136,6 +136,14 @@
       max-width: 99999em;
       width: auto;
     }
+    &.wvu-hero__photo--edit-mode {
+      img {
+        position: relative;
+      }
+    }
+  }
+  .wvu-hero__photo--edit-mode {
+    overflow: visible;
   }
   h1 { font-size: 3em; color: $wvu-blue;
     @include mq($bp-large) { font-size: 3.5em; }

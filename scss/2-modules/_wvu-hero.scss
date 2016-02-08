@@ -282,8 +282,13 @@ $has-wvu-pattern-grid: true !default;
         max-width: 99999em;
         width: auto;
       }
+      &.wvu-hero__photo--edit-mode {
+        img {
+          position: relative;
+        }
+      }
     }
-    .wvu-hero__photo--edit-mode-only {
+    .wvu-hero__photo--edit-mode {
       overflow: visible;
     }
     .wvu-hero {
