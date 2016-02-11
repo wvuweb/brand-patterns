@@ -10,6 +10,7 @@ $wvu-masthead-has-signature: true !default;
 $flying-wv-w-signature: 'https://patterns.wvu.edu/images/flying-wv-w-signature.png' !default;
 $flying-wv-w-signature-gold-bg: 'https://patterns.wvu.edu/images/flying-wv-w-signature-gold-bg.png' !default;
 $flying-wv-w-signature-white-bg: 'https://patterns.wvu.edu/images/flying-wv-w-signature-white-bg.png' !default;
+$flying-wv-w-sub-brand: 'https://patterns.wvu.edu/images/flying-wv-w-signature.png' !default;
 
 /*
   Variable options for WVU Masthead Background:
@@ -224,6 +225,23 @@ $flying-wv-w-signature-white-bg: 'https://patterns.wvu.edu/images/flying-wv-w-si
   }
 }
 
+@mixin wvu-masthead-is-sub-brand() {
+  @if $wvu-masthead-is-sub-brand == true {
+    .wvu-masthead__logo {
+      background-image: url($flying-wv-w-sub-brand);
+      background-position: 0 1.45em;
+      background-size: 320px;
+      padding-bottom: 3.5em;
+      @include mq($bp-medium) {
+        background-size: 410px;
+      }
+    }
+    .wvu-masthead__title {
+      display: none;
+    }
+  }
+}
+
 .wvu-masthead {
   fieldset {
     background: transparent;
@@ -307,6 +325,7 @@ input[type="submit"] {
 @include wvu-masthead-is-two-line-lockup();
 @include wvu-masthead-background();
 @include wvu-masthead-has-signature();
+@include wvu-masthead-is-sub-brand();
 
 .wvu-masthead__logo--mini {
   background-size: 250px;
