@@ -24,6 +24,9 @@ input[type="search"] {
 }
 
 .form-search__search-type { clear: both; font-weight: bold; padding-top: .5em;
+  fieldset{
+    legend{ position: absolute; top: -99999em }
+  }
   @include mq($bp-medium) { padding-top: 0; }
   input {
     &:last-child { margin-left: 1em; }
