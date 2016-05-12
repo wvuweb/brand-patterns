@@ -7,7 +7,7 @@ custom_site_attributes:
   # For Google Search Console
   - google_site_verification
   # For defining an external blog feed for your site
-  - cross-site-blog-url
+  - cross_site_blog_url
 
 ## Template Config
 # Specify which templates show up by default when creating a page

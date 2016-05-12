@@ -1,4 +1,4 @@
-<r:partial name="blog_index--v2" theme="Code" />
+<r:partial name="blog_index--v2" theme="code" />
 
 <r:comment>
   <!-- Looking to customize this XML file? -->

@@ -7,14 +7,14 @@ layout: default
 <div class="wvu-container">
 
   <r:comment><!-- PRO-TIP: The URL for the cross-site-blog variable should end in either .rss or .xml--></r:comment>
-  <r:set_var name="cross-site-blog-url"><r:site:data name="cross-site-blog-url" /></r:set_var>
+  <r:set_var name="cross_site_blog_url"><r:site:data name="cross_site_blog_url" /></r:set_var>
 
   <main id="maincontent" class="main">
     <h1><r:page:name /></h1>
 
     <section class="wvu-xslt-feed">
       <div class="wvu-xslt-feed-container">
-        <r:xslt_transform url="{$cross-site-blog-url}" xslt_file="/util/blog_index.xslt" />
+        <r:xslt_transform url="{$cross_site_blog_url}" xslt_file="/util/blog_index.xslt" />
       </div>
     </section>
 

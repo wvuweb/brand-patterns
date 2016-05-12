@@ -214,7 +214,7 @@ site:
   name: "Brand Patterns"
   data:
     google_site_verification: "meta-tag-content-goes-here"
-    cross-site-blog-url: http://feeds.feedburner.com/wvu/ilPI
+    cross_site_blog_url: http://feeds.feedburner.com/wvu/ilPI?format=xml
 
 page:
   id: 1
