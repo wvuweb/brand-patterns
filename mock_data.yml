@@ -182,6 +182,9 @@ editable_region:
   article-body: |
     <p><%= Faker::Lorem.paragraph(15) %></p>
 
+  article-image: |
+    <img src="http://placehold.it/800x350"/>
+
   wvu-profile__name:
     "<%= Faker::Name.name %>"
 
@@ -211,6 +214,7 @@ site:
   name: "Brand Patterns"
   data:
     google_site_verification: "meta-tag-content-goes-here"
+    cross-site-blog-url: http://feeds.feedburner.com/wvu/ilPI
 
 page:
   id: 1
@@ -244,6 +248,7 @@ pages:
       wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Lorem.paragraph(4) %>"
       wvu-profile__photo: |
         <img src="<%= Faker::Avatar.image %>" alt=" " />
+
   - id: 3
     name: "Profile Index"
     updated_at: "now"
@@ -296,6 +301,8 @@ blog:
         first_name: "<%= Faker::Name.first_name %>"
         last_name: "<%= Faker::Name.last_name %>"
       content:
+        article-image: |
+          <img src="http://placehold.it/800x350"/>
         article-body: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
@@ -308,6 +315,8 @@ blog:
         first_name: "<%= Faker::Name.first_name %>"
         last_name: "<%= Faker::Name.last_name %>"
       content:
+        article-image: |
+          <img src="http://placehold.it/800x350"/>
         article-body: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
@@ -320,6 +329,8 @@ blog:
         first_name: "<%= Faker::Name.first_name %>"
         last_name: "<%= Faker::Name.last_name %>"
       content:
+        article-image: |
+          <img src="http://placehold.it/800x350"/>
         article-body: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>

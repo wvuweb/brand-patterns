@@ -16,6 +16,9 @@ layout: default
       </span> <!-- /itemprop="author" -->
       | <time class="wvu-article__date" datetime="<r:date_format format="iso8601" value="{article:published_at}" />"><r:date_format format="%A, %B %d, %Y" value="{article:published_at}" error_msg="Not Yet Published" /></time>
     </p> <!-- /.wvu-article__meta -->
+    <div class="wvu-article__image" itemprop="image">
+      <r:editable_region name="article-image" />
+    </div> <!-- /.wvu-article__body -->
     <div class="wvu-article__body" itemprop="articleBody">
       <r:editable_region name="article-body" />
     </div> <!-- /.wvu-article__body -->

@@ -1951,6 +1951,11 @@ input[type="submit"].form-search__submit {
   color: #968C83;
 }
 
+.wvu-article__image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .wvu-pagination {
   float: left;
   padding-top: 10px;

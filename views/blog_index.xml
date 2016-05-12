@@ -1,0 +1,6 @@
+<r:partial name="blog_index--v2" theme="Code" />
+
+<r:comment>
+  <!-- Looking to customize this XML file? -->
+  <!-- Grab the contents from the code repo in Stash, paste that here & customize away! -->
+</r:comment>
