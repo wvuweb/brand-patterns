@@ -1821,6 +1821,12 @@ input[type="submit"].form-search__submit {
   background-position: top 0.5em left;
 }
 
+@media (min-width: 48em) {
+  .wvu-masthead__logo--mini {
+    background-position: top 0.4em left;
+  }
+}
+
 .wvu-masthead__title {
   padding-top: 46px;
   display: inline-block;
@@ -1864,6 +1870,14 @@ input[type="submit"].form-search__submit {
     padding-bottom: 1em;
     font-size: 2em;
   }
+}
+
+.wvu-masthead__logo--mini--wvu-tech {
+  background-image: "https://patterns.wvu.edu/images/flying-wv-w-signature--tech.png";
+}
+
+.wvu-masthead__logo--mini--potomac-state {
+  background-image: "https://patterns.wvu.edu/images/flying-wv-w-signature--potomac-state.png";
 }
 
 .wvu-header {
