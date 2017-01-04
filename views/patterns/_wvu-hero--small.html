@@ -13,6 +13,7 @@
       </r:edit_mode_only>
     </div>
 
+    <r:page:if_has_content_for region="wvu-hero__photo" always_show_in_edit_mode="true">
       <div class="wvu-hero__photo <r:edit_mode_only>wvu-hero__photo--edit-mode</r:edit_mode_only>">
         <div class="wvu-hero__photo-container wvu-hero__photo-container--has-video-<r:page:data name="hero_has_video" />">
           <r:editable_region name="wvu-hero__photo">
@@ -27,6 +28,7 @@
           </div>
         </r:page:if_has_content_for>
       </div>
+    </r:page:if_has_content_for>
 
   </div>
 </div>
