@@ -673,20 +673,63 @@ th {
 }
 
 .wvu-nav {
-  color: white;
   background-color: #2C2A29;
+  color: white;
   -webkit-font-smoothing: antialiased;
+  background: #2C2A29;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#2C2A29, tint(#2C2A29, 2%));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#2C2A29, tint(#2C2A29, 2%));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#2C2A29, tint(#2C2A29, 2%));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#2C2A29, tint(#2C2A29, 2%));
+  /* Standard syntax */
 }
 
-.wvu-nav h1, .wvu-nav h2, .wvu-nav h3, .wvu-nav h4, .wvu-nav h5, .wvu-nav h6, .wvu-nav a {
+.wvu-nav h1, .wvu-nav h2, .wvu-nav h3, .wvu-nav h4, .wvu-nav h5, .wvu-nav h6 {
   color: white;
 }
 
-.wvu-nav .button {
-  border-color: white;
+.wvu-nav h1 a, .wvu-nav h2 a, .wvu-nav h3 a, .wvu-nav h4 a, .wvu-nav h5 a, .wvu-nav h6 a {
+  color: white;
+  text-decoration: none;
+}
+
+.wvu-nav h1 a:hover, .wvu-nav h2 a:hover, .wvu-nav h3 a:hover, .wvu-nav h4 a:hover, .wvu-nav h5 a:hover, .wvu-nav h6 a:hover {
+  color: tint(#2C2A29, 90%);
+}
+
+.wvu-nav h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.wvu-nav h3 a:hover {
+  color: tint(#2C2A29, 90%);
+}
+
+.wvu-nav a {
+  color: white;
+  text-decoration: underline;
 }
 
 .wvu-nav a:hover {
+  color: tint(#2C2A29, 90%);
+}
+
+.wvu-nav a.button {
+  border-color: white;
+  text-decoration: none;
+}
+
+.wvu-nav a.button:visited {
+  color: white;
+}
+
+.wvu-nav a.button:hover {
+  background-color: white;
   color: #2C2A29;
 }
 

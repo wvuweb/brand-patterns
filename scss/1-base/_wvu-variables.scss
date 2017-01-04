@@ -89,10 +89,6 @@ $wvu-shout-font-size-long: 3em !default;
 $wvu-hero-title-typeface: $wvu-shout !default;
 $wvu-hero-title-color: white !default;
 
-// Set vignetting to true if you have a photo that is busy and makes text illegible
-
-$has-vignetting: false !default;
-
 // Sets the cropping of the WVU grid pattern
 
 $grid-zoom-1: 3340px !default;
@@ -111,7 +107,7 @@ $is-shout-bottom-gold: true !default;
 
 // Pick one -- Can only have one or the other (diagonal or grid)
 
-$has-diagonal-line: false !default;
+$has-diagonal-line: true !default;
 $has-wvu-pattern-grid: false !default;
 
 $has-small-photo: false !default;
@@ -146,6 +142,10 @@ $grid-mq-desktop: 60em !default;
 $grid-gutter-tablet: 1.302083333333333% !default;
 $grid-gutter-desktop: 1.041666666666667% !default;
 
+// Set vignetting to true if you have a photo that is busy and makes text illegible
+
+$has-vignetting: false !default;
+$wvu-hero-vignetting-opacity: .85 !default;
 
 // Breakpoints
 //==================================================

@@ -22,6 +22,8 @@ editable_region:
       <li><a href="#">An Amazing story</a></li>
     </ul>
 
+  wvu-hero__header: "It Starts Now"
+
   long-paragraph:
     "<%= Faker::Lorem.paragraph(7) %>"
 
@@ -30,6 +32,9 @@ editable_region:
 
   wvu-hero-title-bottom:
     "Now."
+
+  wvu-hero__action-item-text:
+    More About This
 
   wvu-hero-text: |
     <p>So let&rsquo;s go. Release the Mountaineer spirit inside of you. Reach the limits of what you can do and then keep on going.</p><a href="" class="button button--white">Learn More</a>
@@ -41,7 +46,7 @@ editable_region:
     <a href="#">Eberly College of Arts & Sciences</a>
 
   wvu-hero__photo:
-    <img src="https://patterns.wvu.edu/images/coopers-rock.jpg" />
+    <img src="https://patterns.wvu.edu/images/kids-sitting-by-tulips.jpg" />
 
   wvu-hero__photo-2:
     ""
@@ -230,6 +235,8 @@ page:
     wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>"
     wvu-profile__photo: |
       <img src="<%= Faker::Avatar.image %>" alt=" " />
+    wvu-hero__action-item-text:
+      More About This
 
 pages:
   - id: 2

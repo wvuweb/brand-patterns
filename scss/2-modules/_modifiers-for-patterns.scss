@@ -166,10 +166,32 @@
   .wvu-hero__title-bottom { color: white; }
 }
 
+.wvu-hero--big-photo {
+
+  &.wvu-hero--medium-shout {
+    .wvu-hero__copy {
+      h1 { font-size: 4.5em; }
+    }
+    .wvu-hero__container {
+      padding: 4em 0 6em 0;
+      @include mq($bp-jumbo) {
+        padding: 4em 0;
+      }
+    }
+  }
+  &.wvu-hero--long-shout {
+    .wvu-hero__copy {
+      h1 { font-size: 3em; }
+    }
+  }
+}
+
 .wvu-hero--medium-shout {
-  h1 { font-size: 4.5em; }
+  .wvu-hero__copy {
+    h1 { font-size: 4.5em; }
+  }
   .wvu-hero__container {
-    padding: 4em 3em;
+    padding: 4em 0 6em 0;
     @include mq($bp-jumbo) {
       padding: 4em 0;
     }
@@ -177,7 +199,9 @@
 }
 
 .wvu-hero--long-shout {
-  h1 { font-size: 3em; }
+  .wvu-hero__copy {
+    h1 { font-size: 3em; }
+  }
 }
 
 .wvu-hero--vignetting {
@@ -235,18 +259,14 @@
 }
 
 .wvu-hero--diagonal-line {
-  background-image: url($wvu-hero-image);
-  background-repeat: no-repeat;
-  background-position: 75% 50%;
-  background-size: cover;
-  @include mq($bp-large) {
-    background-image: url($diagonal-line), url($wvu-hero-image);
-    background-size: 500px, cover;
-    background-position: 59% -209px, center top;
-    &.wvu-hero--vignetting {
-      background-image: url($diagonal-line), url($vignetting), url($wvu-hero-image);
-      background-size: 500px, cover, cover;
-      background-position: 59% -209px, center top, center top;
+  .wvu-hero__copy {
+    h1 {
+      @include so-gold-slash();
+      &:before {
+        background-size: 292px;
+        left: -202px;
+        top: -83px;
+      }
     }
   }
   &.wvu-hero--vignetting {
