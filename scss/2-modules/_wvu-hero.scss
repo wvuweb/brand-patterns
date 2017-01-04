@@ -260,10 +260,10 @@ $i: 90;
 
 @mixin has-vignetting {
   @if $has-vignetting == true {
-    .wvu-hero {
-      background-image: url($vignetting), url($wvu-hero-image);
-      background-size: cover, cover;
-      background-position: center top, center top;
+    .wvu-hero__container {
+      :before {
+        opacity: $wvu-hero-vignetting-opacity;
+      }
     }
   }
 }
@@ -281,6 +281,14 @@ $i: 90;
           }
         }
       }
+    }
+  }
+}
+
+.edit-mode {
+  .wvu-hero__container, .wvu-hero__copy h1:before {
+    &:before {
+      display: none;
     }
   }
 }

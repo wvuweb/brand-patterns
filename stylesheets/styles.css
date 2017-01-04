@@ -2428,6 +2428,9 @@ input[type="submit"] {
 .wvu-hero__container.wvu-hero__container--vignetting-10:before {
   opacity: 0.1; }
 
+.edit-mode .wvu-hero__container:before, .edit-mode .wvu-hero__copy h1:before:before {
+  display: none; }
+
 .wvu-hero .wvu-hero__copy h1:before {
   content: '';
   height: 500px;
