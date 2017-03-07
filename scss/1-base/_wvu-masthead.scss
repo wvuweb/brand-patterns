@@ -12,8 +12,8 @@ $flying-wv-w-signature-gold-bg: 'https://patterns.wvu.edu/images/flying-wv-w-sig
 $flying-wv-w-signature-white-bg: 'https://patterns.wvu.edu/images/flying-wv-w-signature-white-bg.png' !default;
 $flying-wv-w-sub-brand: 'https://patterns.wvu.edu/images/flying-wv-w-signature.png' !default;
 
-$flying-wv-w-signature--wvu-tech: 'https://patterns.wvu.edu/images/flying-wv-w-signature--tech.png' !default;
-$flying-wv-w-signature--potomac-state: 'https://patterns.wvu.edu/images/flying-wv-w-signature--potomac-state.png' !default;
+$flying-wv-w-signature--wvu-tech: 'https://patterns.wvu.edu/images/InstofTech_124andWhite.png' !default;
+$flying-wv-w-signature--potomac-state: 'https://patterns.wvu.edu/images/PotomacState_124andWhite.png' !default;
 
 /*
   Variable options for WVU Masthead Background:
@@ -343,12 +343,12 @@ input[type="submit"] {
 
 .wvu-masthead__logo--mini--wvu-tech {
   background-image: url($flying-wv-w-signature--wvu-tech);
-  background-position: top 0.4em left;
-  background-size: 215px;
+  background-position: top 0.25em left;
+  background-size: 239px;
 }
 
 .wvu-masthead__logo--mini--potomac-state {
   background-image: url($flying-wv-w-signature--potomac-state);
-  background-position: top 0.4em left;
+  background-position: top 0.25em left;
   background-size: 239px;
 }

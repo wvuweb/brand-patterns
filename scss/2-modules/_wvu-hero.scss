@@ -286,9 +286,16 @@ $i: 90;
 }
 
 .edit-mode {
-  .wvu-hero__container, .wvu-hero__copy h1:before {
+  .wvu-hero__container {
     &:before {
       display: none;
+    }
+  }
+  .wvu-hero__copy {
+    h1 {
+      &:before {
+        display: none;
+      }
     }
   }
 }
