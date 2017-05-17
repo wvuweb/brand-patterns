@@ -1616,6 +1616,11 @@ input[type="search"].wvu-search__search-box {
   padding-top: .5em;
 }
 
+.form-search__search-type fieldset legend {
+  position: absolute;
+  top: -99999em;
+}
+
 @media (min-width: 48em) {
   .form-search__search-type {
     padding-top: 0;
@@ -2005,6 +2010,11 @@ input[type="submit"].form-search__submit {
   margin-top: 0;
   margin-bottom: 0;
   color: #968C83;
+}
+
+.wvu-article__image {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .wvu-pagination {

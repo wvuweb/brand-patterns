@@ -1,0 +1,42 @@
+@mixin masthead-search-submit-background {
+  @if $wvu-masthead-background == 'blue' {
+    .wvu-masthead__link {
+      color: white;
+      text-decoration: none;
+      background-color: $wvu-blue;
+      &:visited { color: white; }
+      &:hover { color: white; text-decoration: underline; }
+    }
+    .form-search__search-type{
+      label{
+        color: white;
+        background-color: $wvu-blue;
+        cursor: pointer;
+        text-decoration: none;
+        &:visited { color: white; }
+        &:hover { color: white; text-decoration: underline; }
+      }
+    }
+  }
+  @else {
+    .wvu-masthead__link {
+      color: $wvu-base-link-color;
+      text-decoration: none;
+      &:visited { color: $wvu-visited-link-color; }
+      &:hover { color: $wvu-base-link-color; text-decoration: underline; }
+    }
+    .form-search__search-type{
+      label{
+        color: $wvu-base-link-color;
+        cursor: pointer;
+        text-decoration: none;
+        &:visited { color: $wvu-visited-link-color; }
+        &:hover { color: $wvu-base-link-color; text-decoration: underline; }
+      }
+    }
+  }
+}
+
+.wvu-masthead__search-and-submit{
+  @include masthead-search-submit-background;
+}
