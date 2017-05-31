@@ -987,6 +987,10 @@ hr {
   padding: 0;
 }
 
+iframe {
+  border: 0;
+}
+
 img {
   vertical-align: middle;
 }

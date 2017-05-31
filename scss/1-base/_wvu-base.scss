@@ -9,6 +9,8 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 // A better looking default horizontal rule
 hr { display: block; height: 1px; border: 0; border-top: 1px solid $wvu-gold; margin: 4em 0; padding: 0; }
 // Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+iframe { border: 0; }
+// Remove border on iframe.
 img { vertical-align: middle; }
 // Remove default fieldset styles.
 fieldset { border: 0; margin: 0; padding: 0; }
