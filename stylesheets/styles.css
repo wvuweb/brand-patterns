@@ -1577,6 +1577,11 @@ select {
   top: -99999em;
 }
 
+.form-search__search-type legend {
+  position: absolute;
+  right: -9999999em;
+}
+
 .form-search__search-type label {
   float: left;
   margin: 0 1em 0 .5em;

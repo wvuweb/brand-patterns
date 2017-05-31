@@ -6,6 +6,10 @@
 }
 
 .form-search__search-type {
+  legend {
+    position: absolute;
+    right: -9999999em;
+  }
   label {
     float: left; margin: 0 1em 0 .5em;
   }
