@@ -1583,7 +1583,7 @@ select {
 
 .form-search__search-type legend {
   position: absolute;
-  right: -9999999em;
+  top: -9999999em;
 }
 
 .form-search__search-type label {
