@@ -10,7 +10,7 @@ $black: #2C2A29;
 $pms-432-c: #333F48;
 $pms-429-c: #A2AAAD;
 $pms-warm-gray-11: #6E6259;
-$pms-warm-gray-7: #968C83;
+$pms-warm-gray-7: #7C736A;
 $pms-warm-gray-3: #BFB8AF;
 
 // Accent
@@ -18,13 +18,13 @@ $pms-286-c: #0033A0;
 $pms-300-c: #005EB8;
 $pms-629-c: #9BD3DD;
 $pms-7554-c: #4B3D2A;
-$pms-7557-c: #9F7D23;
+$pms-7557-c: #8F701E;
 $pms-144-c: #ED8B00;
 $pms-7476-c: #0D5257;
-$pms-5625-c: #708573;
+$pms-5625-c: #657A68;
 $pms-558-c: #9ABEAA;
 $pms-180-c: #BE3A34;
-$pms-166-c: #E35205;
+$pms-166-c: #CD4C08;
 $pms-115-c: #FDDA24;
 
 // Primary
@@ -213,8 +213,8 @@ $pms-115-c: #FDDA24;
 }
 
 @mixin pms-144-c-background {
-  color: white; background-color: $pms-144-c; -webkit-font-smoothing: antialiased;
-  h1, h2, h3, h4, h5, h6, a { color: white; }
+  color: $black; background-color: $pms-144-c; -webkit-font-smoothing: antialiased;
+  h1, h2, h3, h4, h5, h6, a { color: $black; }
   a { text-decoration: underline;
     &:hover { color: $pms-7476-c; };
   }
@@ -249,8 +249,8 @@ $pms-115-c: #FDDA24;
 }
 
 @mixin pms-558-c-background {
-  color: white; background-color: $pms-558-c; -webkit-font-smoothing: antialiased;
-  h1, h2, h3, h4, h5, h6, a { color: white; }
+  color: $black; background-color: $pms-558-c; -webkit-font-smoothing: antialiased;
+  h1, h2, h3, h4, h5, h6, a { color: $black; }
   a { text-decoration: underline;
     &:hover { color: $pms-5625-c; };
   }
