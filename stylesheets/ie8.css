@@ -1585,7 +1585,6 @@ input[type="submit"].form-search__submit {
   font-size: .8em;
   margin-top: 0;
   margin-bottom: 0;
-  color: #7C736A;
 }
 
 .wvu-pagination {
@@ -1608,11 +1607,9 @@ input[type="submit"].form-search__submit {
 .wvu-pagination__older:after {
   content: '|';
   margin-left: 8px;
-  color: #BFB8AF;
 }
 
 .wvu-pagination__disabled a, .wvu-pagination__disabled a:hover {
-  color: #7C736A;
   cursor: not-allowed;
   text-decoration: none;
 }
