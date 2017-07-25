@@ -1443,6 +1443,12 @@ abbr {
   cursor: help;
 }
 
+header, nav, main, footer {
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
 .wvu-skip-nav {
   position: absolute;
   z-index: 10;

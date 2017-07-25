@@ -24,20 +24,22 @@
   </head>
   <body class="<r:page:template:name /> page-<r:page:id /> page-<r:page:slug /> <r:edit_mode_only>edit-mode</r:edit_mode_only>">
 
-    <a class="wvu-skip-nav" href="#wvu-main-content">Skip to main content</a>
+    <header>
 
-    <r:partial name="patterns/wvu-masthead" />
+      <a class="wvu-skip-nav" href="#wvu-main-content">Skip to main content</a>
 
-    <r:partial name="patterns/wvu-nav" />
+      <r:partial name="patterns/wvu-masthead" />
 
-    <div id="wvu-main-content">
+      <r:partial name="patterns/wvu-nav" />
+
+    </header>
+
+    <main id="wvu-main-content">
       <r:comment><!-- What are layouts and <r:yield />? http://goo.gl/DFAsPv --></r:comment>
       <r:yield />
-    </div>
+    </main>
 
-    <div class="wvu-container">
-      <r:partial name="patterns/wvu-footer" />
-    </div>
+    <r:partial name="patterns/wvu-footer" />
 
     <script async src="https://fast.fonts.net/jsapi/3f7b1335-4c99-4404-92cf-3ba0e32e8f17.js"></script> <r:comment><!-- Helvetica Neue Light & Bold Condensed web font, valid for *.wvu.edu, *.wvutech.edu, & localhost --></r:comment>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
