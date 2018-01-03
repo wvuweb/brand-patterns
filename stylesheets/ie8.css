@@ -2261,11 +2261,11 @@ input[type="submit"] {
 
 .wvu-footer {
   float: left;
-  font-size: .8em;
 }
 
 .wvu-contact {
   margin-bottom: 18px;
+  font-size: .8em;
 }
 
 .wvu-contact p {
@@ -2275,6 +2275,7 @@ input[type="submit"] {
 
 .wvu-credits {
   clear: left;
+  font-size: .8em;
 }
 
 .wvu-credits ul, .wvu-credits p {
@@ -2314,6 +2315,10 @@ input[type="submit"] {
 
 .wvu-u-fake-link:hover {
   text-decoration: underline;
+}
+
+.wvu-icons {
+  font-size: .8em;
 }
 
 .wvu-icons ul {

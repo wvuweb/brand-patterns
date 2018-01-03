@@ -1,11 +1,11 @@
 // Footer styles
-.wvu-footer { float: left; font-size: .8em; }
+.wvu-footer { float: left; }
 
-.wvu-contact { margin-bottom: 18px;
+.wvu-contact { margin-bottom: 18px; font-size: .8em;
   p { margin-top: 0; margin-bottom: 0; }
 } //.wvu-contact
 
-.wvu-credits { clear: left;
+.wvu-credits { clear: left; font-size: .8em;
   ul, p { margin: 0; padding: 0; margin-bottom: 5px; }
   li { list-style-type: none; display: inline; }
 } //.wvu-credits
@@ -19,7 +19,7 @@
   &:hover { text-decoration: underline; }
 } //.u-fake-link
 
-.wvu-icons {
+.wvu-icons { font-size: .8em;
   ul { clear: both; margin-top: 0; margin-bottom: 0; padding-left: 0; list-style-type: none; }
   li { display: inline; margin: 0; }
 } //.wvu-icons
