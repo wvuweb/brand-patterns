@@ -9,3 +9,25 @@
     .eventName { display: block; }
   }
 }
+
+.wvu-calendar {
+  padding-left: 0;
+  li { margin-bottom: 0.5em; display: inline-block; width: 100%;
+    .eventDate { font-weight: bold; float: left; margin-right: 4%; width: 10%; text-align: center; padding-bottom: 6px; border-radius: 6px; display: inline-block;
+    }
+    .eventMonth { font-size: .8em; text-transform: uppercase; }
+    .eventDay { display: block; font-size: 1.5em; line-height: .8em; clear: both; }
+    .eventInfo { float: left; width: 86%; display: inline-block;}
+    .eventTime { font-weight: bold; }
+    .eventName { display: block; }
+  }
+  @include mq($bp-medium) {
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    li {
+      width: 33%;
+      padding: 0 1em 1em 0;
+    }
+  }
+}
