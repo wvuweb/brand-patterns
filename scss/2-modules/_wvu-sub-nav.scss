@@ -22,4 +22,10 @@
     }
   }
 
-}
+  .wvu-sub-nav--current-page { // Specificity, gah!
+    background-color: $black;
+    color: #fff;
+    padding: 2px;
+  } //.wvu-sub-nav--current-page
+
+} //.wvu-sub-nav

@@ -3377,6 +3377,12 @@ input[type="submit"] {
   }
 }
 
+.wvu-sub-nav .wvu-sub-nav--current-page {
+  background-color: #2C2A29;
+  color: #fff;
+  padding: 2px;
+}
+
 .wvu-breadcrumbs {
   width: 100%;
 }
