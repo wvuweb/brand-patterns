@@ -1008,6 +1008,7 @@ textarea {
 abbr {
   cursor: help;
   text-decoration: none;
+  font-variant: normal;
 }
 
 header, nav, main, footer {
