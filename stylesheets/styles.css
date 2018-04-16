@@ -1036,7 +1036,10 @@ dl dd {
   margin: 0;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   margin-right: 2px;
   margin-left: 1px;
   padding: 2px 5px;
@@ -2070,13 +2073,13 @@ input[type="submit"] {
 }
 
 .button:hover,
-input[type="submit"]:hover {
+input:hover[type="submit"] {
   background-color: #002855;
   color: white;
 }
 
 .button:disabled,
-input[type="submit"]:disabled {
+input:disabled[type="submit"] {
   cursor: not-allowed;
   opacity: .5;
 }

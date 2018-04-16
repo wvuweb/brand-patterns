@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://stash.development.wvu.edu/scm/cst/brand-patterns.git"
+    "url": "https://bitbucket.org/wvudigital/brand-patterns"
   },
   "author": "May Day <may.day@mail.wvu.edu>",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-sass": "^2.1.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }

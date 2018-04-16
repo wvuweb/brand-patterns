@@ -1636,13 +1636,13 @@ input[type="submit"] {
 }
 
 .button:hover,
-input[type="submit"]:hover {
+input:hover[type="submit"] {
   background-color: #002855;
   color: white;
 }
 
 .button:disabled,
-input[type="submit"]:disabled {
+input:disabled[type="submit"] {
   cursor: not-allowed;
   opacity: .5;
 }
