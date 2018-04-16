@@ -7,7 +7,7 @@ Brand Patterns
 
 **Developers name(s):** May Day
 
-**Stash repository URL:** [https://stash.development.wvu.edu/projects/CST/repos/brand-patterns/browse](https://stash.development.wvu.edu/projects/CST/repos/brand-patterns/browse)
+**Stash repository URL:** [https://bitbucket.org/wvudigital/brand-patterns](https://bitbucket.org/wvudigital/brand-patterns)
 
 **Dependencies necessary to work with this theme:** Sass.
 
@@ -22,15 +22,16 @@ Need some help? [Read the CleanSlate documentation](https://cleanslatecms.wvu.ed
 
 ## Gulp & Brand Patterns
 
-**Requirements**
-* [NodeJS](https://nodejs.org)
+Many people prefer using Gulp to compile their Sass.
 
-You will need to install Node ~0.12.2
+**Requirements**
+
+  * [NodeJS](https://nodejs.org/en/)
 
   1. Download and install NodeJS from https://nodejs.org/en if you haven't already.
   1. Install Gulp globally by entering `npm install -g gulp` in your terminal.
   1. Navigate to your project's directory via terminal (something like `cd ~/Sites/cleanslate_themes/MY-SITE`)
-  1. Install node modules by typing `npm install`
+  1. Install node modules by typing `npm install --save-dev`
   1. Run Gulp by typing `gulp`.
 
-**Note:** the `gulpfile.js` in its base form will only compile your Sass.
+**Note:** the `gulpfile.js` in its base form will only compile your Sass. Feel free to extend it for your needs.
