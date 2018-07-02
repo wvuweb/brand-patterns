@@ -268,11 +268,19 @@ if_page_depth_eq: 1
 if_page_depth_gt: 1
 
 site_menu: |
-  <ul class="wvu-nav__items nav-collapse">
-    <li class="active"><a href="#">Hello</a></li>
-    <li><a href="#">World</a></li>
+  <ul class="wvu-nav__items menu-items">
+    <li><a href="#">Home</a></li>
+    <li class="dropdown"><a class="has-dropdown" href="#">Academics</a>
+      <ul class="sub-menu">
+        <li><a href="#">Sub 1</a>
+        <li><a href="#">Sub 2</a>
+        <li><a href="#">Sub 3</a>
+        <li><a href="#">Sub 4</a>
+      </ul>
+    </li>
+    <li><a href="#">About Us</a></li>
     <li><a href="#"><%= Faker::Lorem.word.capitalize %></a></li>
-    <li><a href="#"><%= Faker::Lorem.word.capitalize %></a></li>
+    <li><a href="#">Contact Us</a></li>
     <li><a href="#"><%= Faker::Lorem.word.capitalize %></a></li>
   </ul>
 

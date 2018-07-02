@@ -1,5 +1,8 @@
-<div class="wvu-nav <r:var name="wvu-nav__classes" />">
+<nav class="wvu-nav <r:var name="wvu-nav__classes" />">
   <div class="wvu-nav__container">
-    <r:site_menu max_depth="2" ul_class="wvu-nav__items nav-collapse" has_children_class="more" />
-  </div>
-</div>
+    <button id="nav-toggle" class="wvu-nav__button nav-toggle"><img class="wvu-nav__menu-icon" src="https://static.wvu.edu/global/images/icons/wvu/hamburger-menu--1.0.0.svg" alt="" />Open Menu</button>
+    <div class="nav-collapse">
+      <r:site_menu max_depth="2" ul_class="wvu-nav__items menu-items" has_children_class="dropdown" />
+    </div> <!-- /.nav-collapse -->
+  </div> <!-- /.wvu-nav__container -->
+</nav> <!-- /.wvu-nav -->
