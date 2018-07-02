@@ -7,7 +7,7 @@ Brand Patterns
 
 **Developers name(s):** May Day
 
-**Stash repository URL:** [https://bitbucket.org/wvudigital/brand-patterns](https://bitbucket.org/wvudigital/brand-patterns)
+**Bitbucket repository URL:** [https://bitbucket.org/wvudigital/brand-patterns](https://bitbucket.org/wvudigital/brand-patterns)
 
 **Dependencies necessary to work with this theme:** Sass.
 
