@@ -270,7 +270,8 @@ if_page_depth_gt: 1
 site_menu: |
   <ul class="wvu-nav__items menu-items">
     <li><a href="#">Home</a></li>
-    <li class="dropdown"><a class="has-dropdown" href="#">Academics</a>
+    <li class="dropdown">
+      <a href="#">Academics</a>
       <ul class="sub-menu">
         <li><a href="#">Sub 1</a>
         <li><a href="#">Sub 2</a>

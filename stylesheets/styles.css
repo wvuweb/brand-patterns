@@ -1341,7 +1341,7 @@ th {
   padding-left: 2.5em;
 }
 
-.dropdown .dropdown.opened .has-dropdown {
+.dropdown .dropdown.opened > a {
   background: #9c2c12;
 }
 
@@ -1364,7 +1364,7 @@ th {
     max-height: none;
     overflow: visible;
   }
-  .has-dropdown:after {
+  .dropdown > a:after {
     font-size: 1.5em;
     line-height: 0.8;
     float: right;
@@ -1376,7 +1376,7 @@ th {
     border-right: 5px solid transparent;
     border-top: 5px solid #fff;
   }
-  .dropdown ul .has-dropdown:after {
+  .dropdown ul > a:after {
     content: "";
     width: 0;
     height: 0;
