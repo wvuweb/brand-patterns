@@ -216,6 +216,7 @@ site:
   name: "Brand Patterns"
   data:
     google_site_verification: "meta-tag-content-goes-here"
+    nav_depth: 2 # Show two levels of navigation. References r:if statement in `_wvu-nav-dropdowns.html`.
 
 page:
   id: 1
