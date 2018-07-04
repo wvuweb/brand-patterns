@@ -44,6 +44,14 @@
   padding-right: .5rem;
 } //.wvu-nav__menu-icon
 
+// NOTE: CleanSlate outputs `has_children_class` on all levels,
+// even if your navigation has pages beyond level 2 (and we're not outputting them).
+// We don't want to show the triangle/caret for nav items at the 3rd level.
+// This class removes the caret.
+.dropdown .dropdown a:after {
+  content: unset;
+} //.dropdown .dropdown a:after
+
 // Vendor Styles
 // =================================================
 // NOTE: Caution! These are a bit of a mess. Lots of nesting, no BEM. YMMV.
