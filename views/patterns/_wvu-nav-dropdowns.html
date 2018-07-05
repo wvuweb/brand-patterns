@@ -12,10 +12,10 @@
     <div class="nav-collapse">
 
       <r:comment>
-        <!-- NOTE: If nav depth is greater than 1, show the dropdown caret (has_children_class). -->
+        <!-- NOTE: If nav depth is greater than 1, show the dropdown caret (has_children_class) & `+` on mobile (sub_ul_class). -->
       </r:comment>
       <r:if v1="{$nav_depth}" v2="1" op=">" type="Number">
-        <r:site_menu max_depth="{$nav_depth}" ul_class="wvu-nav__items menu-items" has_children_class="dropdown" />
+        <r:site_menu max_depth="{$nav_depth}" ul_class="wvu-nav__items menu-items" has_children_class="dropdown" sub_ul_class="sub-menu" />
       </r:if>
 
       <r:comment>
