@@ -1,12 +1,56 @@
-// ---Import all the things!---
-//    Pay attention to how you order your Sass files.
-//    Variables & Utilities (mixins) should almost always come before Vendor & Partial files.
+// Main stylesheet
+//==================================================
+// Import all your Sass partials via this file.
+// Pay attention to how you order your Sass files.
+// All partials must start with an underscore: _example.scss
+// Variables & utilities (mixins) should almost always come before vendor plugins & other partial files.
 
-// --Plugins, Base, Modules, Layouts
-
+// Custom Variables
 @import '4-custom/variables';
-@import '0-plugins/plugins-dir';
-@import '1-base/base-dir';
-@import '2-modules/modules-dir';
-@import '3-layouts/layouts-dir';
-@import '4-custom/custom-dir';
+
+// Plugins
+@import '0-plugins/normalize/normalize';
+@import '0-plugins/bourbon/bourbon';
+@import '0-plugins/neat/neat';
+@import '0-plugins/wvu-utilities/wvu-utilities';
+
+// Base
+@import '1-base/wvu-color-modifiers';
+@import '1-base/wvu-variables';
+@import '1-base/wvu-media-queries';
+@import '1-base/wvu-image-replacement';
+@import '1-base/wvu-mixins';
+@import '1-base/wvu-responsive-nav';
+@import '1-base/wvu-typography';
+@import '1-base/wvu-tables';
+@import '1-base/wvu-nav-dropdowns';
+@import '1-base/wvu-base';
+@import '1-base/wvu-skip-nav';
+@import '1-base/wvu-forms';
+@import '1-base/wvu-search';
+@import '1-base/wvu-main-content';
+@import '1-base/wvu-masthead';
+@import '1-base/wvu-header';
+@import '1-base/wvu-blog';
+@import '1-base/wvu-buttons';
+@import '1-base/wvu-footer';
+@import '1-base/wvu-print';
+@import '1-base/custom';
+
+// Modules
+@import '2-modules/wvu-hero';
+@import '2-modules/wvu-profile';
+@import '2-modules/wvu-sub-nav';
+@import '2-modules/wvu-breadcrumbs';
+
+// Layouts
+@import '3-layouts/wvu-base';
+@import '3-layouts/wvu-masthead';
+@import '3-layouts/wvu-nav';
+@import '3-layouts/wvu-hero';
+@import '3-layouts/wvu-profile';
+@import '3-layouts/wvu-breadcrumbs';
+
+// Custom
+// Import your custom styles here! Eg:
+// @import '4-custom/my-sass-file';
