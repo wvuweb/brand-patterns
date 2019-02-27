@@ -304,6 +304,12 @@ ancestor_menu: |
     <% end %>
   </ul>
 
+breadcrumbs: |
+  <ul class="wvu-breadcrumbs__crumbs">
+    <li><a href="#">Home</a></li>
+    <li class="active">Page</li>
+  </ul>
+
 blog:
   - id: 1 # This number must match the ID from the `page` key to display the content below.
     name: Blog Name
