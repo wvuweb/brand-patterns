@@ -223,6 +223,7 @@ page:
   id: 1
   name: "Test Page 2"
   slug: "test_page_2"
+  url: "/about-us/our-team/person-1"
   meta_description: "<%= Faker::Lorem.paragraph(5) %>"
   title: "Home"
   alternate_name: "Some other name"
@@ -243,6 +244,8 @@ page:
 pages:
   - id: 2
     name: "Profile Index"
+    slug: "profile-index-2"
+    url: "/about-us/our-team/person-2"
     updated_at: "now"
     content:
       wvu-profile__name: "<%= Faker::Name.name %>"
@@ -255,6 +258,8 @@ pages:
         <img src="<%= Faker::Avatar.image %>" alt=" " />
   - id: 3
     name: "Profile Index"
+    slug: "profile-index-3"
+    url: "/about-us/our-team/person-3"
     updated_at: "now"
     content:
       wvu-profile__name: "<%= Faker::Name.name %>"
