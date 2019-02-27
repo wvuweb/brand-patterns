@@ -237,7 +237,7 @@ page:
       <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
     wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Hacker.say_something_smart %>"
     wvu-profile__photo: |
-      <img src="<%= Faker::Avatar.image %>" alt=" " />
+      <img src="<%= Faker::Avatar.image %>" alt="<%= Faker::Name.name %> Profile" />
     wvu-hero__action-item-text:
       More About This
 
@@ -255,7 +255,7 @@ pages:
         <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
       wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Lorem.paragraph(4) %>"
       wvu-profile__photo: |
-        <img src="<%= Faker::Avatar.image %>" alt=" " />
+        <img src="<%= Faker::Avatar.image %>" alt="<%= Faker::Name.name %> Profile" />
   - id: 3
     name: "Profile Index"
     slug: "profile-index-3"
@@ -269,7 +269,7 @@ pages:
         <a href="mailto:<%= Faker::Internet.email %>"><%= Faker::Internet.email %></a>
       wvu-profile__short-description: "This is a short description for this profile. <%= Faker::Lorem.paragraph(2) %>"
       wvu-profile__photo: |
-        <img src="<%= Faker::Avatar.image %>" alt=" " />
+        <img src="<%= Faker::Avatar.image %>" alt="<%= Faker::Name.name %> Profile" />
 
 if_page_depth_eq: 1
 if_page_depth_gt: 1
