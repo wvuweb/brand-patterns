@@ -305,42 +305,45 @@ ancestor_menu: |
   </ul>
 
 blog:
-  - id: 1
+  - id: 1 # This number must match the ID from the `page` key to display the content below.
     name: Blog Name
     articles:
       - article:
-        name: <%= Faker::Lorem.sentence(1) %>
-        title: <%= Faker::Lorem.sentence(1) %>
+        id: "11"
+        name: "This is my most recent blog post and hopefully long enough to span two lines."
+        title: "<%= Faker::Lorem.sentence(1) %>"
         created_by:
-          first_name: <%= Faker::Name.first_name %>
-          last_name: <%= Faker::Name.last_name %>
+          first_name: "<%= Faker::Name.first_name %>"
+          last_name: "<%= Faker::Name.last_name %>"
         content: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
-        published_at: 2 days ago
+        published_at: "2 days ago"
       - article:
-        name: <%= Faker::Lorem.sentence(1) %>
-        title: <%= Faker::Lorem.sentence(1) %>
+        id: "22"
+        name: "<%= Faker::Lorem.sentence(1) %>"
+        title: "<%= Faker::Lorem.sentence(1) %>"
         created_by:
-          first_name: <%= Faker::Name.first_name %>
-          last_name: <%= Faker::Name.last_name %>
+          first_name: "<%= Faker::Name.first_name %>"
+          last_name: "<%= Faker::Name.last_name %>"
         content: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
-        published_at: 4 days ago
+        published_at: "2 weeks ago"
       - article:
-        name: <%= Faker::Lorem.sentence(1) %>
-        title: <%= Faker::Lorem.sentence(1) %>
+        id: "33"
+        name: "My First Blog Post"
+        title: "<%= Faker::Lorem.sentence(1) %>"
         created_by:
-          first_name: <%= Faker::Name.first_name %>
-          last_name: <%= Faker::Name.last_name %>
+          first_name: "<%= Faker::Name.first_name %>"
+          last_name: "<%= Faker::Name.last_name %>"
         content: |
-          <p><%= Faker::Lorem.paragraph(2) %></p>
+          <p>"Death twitches my ear. 'Live,' he says, 'I am coming.'" - Virgil</p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
-        published_at: 5 days ago
+        published_at: "6 months ago"
     archive:
       monthly:
         - item:
@@ -359,42 +362,45 @@ blog:
             date: October 2015
             count: 2
             url: '#'
-  - id: 2
+  - id: 2 # This number must match the ID from the `page` key to display the content below.
     name: Blog Name 2
     articles:
       - article:
-        name: <%= Faker::Lorem.sentence(1) %>
-        title: <%= Faker::Lorem.sentence(1) %>
+        id: "44"
+        name: "<%= Faker::Lorem.sentence(1) %>"
+        title: "<%= Faker::Lorem.sentence(1) %>"
         created_by:
-          first_name: <%= Faker::Name.first_name %>
-          last_name: <%= Faker::Name.last_name %>
+          first_name: "<%= Faker::Name.first_name %>"
+          last_name: "<%= Faker::Name.last_name %>"
         content: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
-        published_at: 2 days ago
+        published_at: "4 days ago"
       - article:
-        name: <%= Faker::Lorem.sentence(1) %>
-        title: <%= Faker::Lorem.sentence(1) %>
+        id: "55"
+        name: "<%= Faker::Lorem.sentence(1) %>"
+        title: "<%= Faker::Lorem.sentence(1) %>"
         created_by:
-          first_name: <%= Faker::Name.first_name %>
-          last_name: <%= Faker::Name.last_name %>
+          first_name: "<%= Faker::Name.first_name %>"
+          last_name: "<%= Faker::Name.last_name %>"
         content: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
-        published_at: 4 days ago
+        published_at: "3 months ago"
       - article:
-        name: <%= Faker::Lorem.sentence(1) %>
-        title: <%= Faker::Lorem.sentence(1) %>
+        id: "66"
+        name: "<%= Faker::Lorem.sentence(1) %>"
+        title: "<%= Faker::Lorem.sentence(1) %>"
         created_by:
-          first_name: <%= Faker::Name.first_name %>
-          last_name: <%= Faker::Name.last_name %>
+          first_name: "<%= Faker::Name.first_name %>"
+          last_name: "<%= Faker::Name.last_name %>"
         content: |
           <p><%= Faker::Lorem.paragraph(2) %></p>
           <p><%= Faker::Lorem.paragraph(5) %></p>
           <p><%= Faker::Lorem.paragraph(3) %></p>
-        published_at: 5 days ago
+        published_at: "2 years ago"
     archive:
       monthly:
         - item:

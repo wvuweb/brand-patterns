@@ -22,8 +22,8 @@ layout: default
       <r:if_articles>
         <div class="wvu-articles">
           <r:each>
-            <article class="wvu-article" itemscope="" itemtype="http://schema.org/BlogPosting">
-              <h2 class="wvu-article__title" itemprop="headline"><a href="<r:article:path />"><r:article:name /></a></h2>
+            <article aria-labelledby="aria__blog-post--<r:article:id />" class="wvu-article" itemscope="" itemtype="http://schema.org/BlogPosting">
+              <h2 class="wvu-article__title" itemprop="headline"><a id="aria__blog-post--<r:article:id />" href="<r:article:path />"><r:article:name /></a></h2>
               <p class="wvu-article__meta">
                 <r:article:author_full_name /> |
                 <time class="wvu-article__date" itemprop="datePublished" datetime="<r:date_format format="iso8601" value="{article:published_at}" />"><r:date_format format="%A, %B %d, %Y" value="{article:published_at}" /></time>
