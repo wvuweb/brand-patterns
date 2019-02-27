@@ -20,12 +20,12 @@ layout: default
           </div> <!-- /.wvu-profile__individual-photo -->
 
           <div class="wvu-profile__individual-info">
-            <h2 class="wvu-profile__name"><a class="wvu-profile__name-link" href="<r:page:url />"><r:page:content name="wvu-profile__name" /></a></h2>
+            <h2 class="wvu-profile__name"><a id="aria__profile--<r:page:id />" class="wvu-profile__name-link" href="<r:page:url />"><r:page:content name="wvu-profile__name" /></a></h2>
             <h3 class="wvu-profile__job-title wvu-h5"><r:page:content name="wvu-profile__job-title" /></h3>
             <p class="wvu-profile__phone-icon"><a class="wvu-profile__phone" href="tel:<r:page:content name="wvu-profile__phone" />"><r:page:content name="wvu-profile__phone" /></a></p>
             <p class="wvu-profile__email"><r:page:content name="wvu-profile__email" /></p>
             <p class="wvu-profile__short-description"><r:page:content name="wvu-profile__short-description" /></p>
-            <p class="wvu-profile__button"><a class="button" href="<r:page:url />">Read Full Bio</a></p>
+            <p class="wvu-profile__button"><a aria-labelledby="aria__profile--<r:page:id />" class="button" href="<r:page:url />">Read Full Bio</a></p>
           </div> <!-- /.wvu-profile__individual-info -->
 
         </li> <!-- /.wvu-profile__individual -->
