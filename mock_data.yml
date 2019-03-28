@@ -330,6 +330,9 @@ blog:
             <p><%= Faker::Lorem.paragraph(7) %></p>
             <p><%= Faker::Lorem.paragraph(4) %></p>
         published_at: "2 days ago"
+        tags:
+          - Business
+          - Annoucements
       - article:
         id: 22
         name: "<%= Faker::Lorem.sentence(1) %>"
@@ -343,6 +346,8 @@ blog:
             <p><%= Faker::Lorem.paragraph(6) %></p>
             <p><%= Faker::Lorem.paragraph(1) %></p>
         published_at: "2 weeks ago"
+        tags:
+          - Events
       - article:
         id: 33
         name: "My First Blog Post"
@@ -356,6 +361,8 @@ blog:
             <p><%= Faker::Lorem.paragraph(2) %></p>
             <p><%= Faker::Lorem.paragraph(6) %></p>
         published_at: "6 months ago"
+        tags:
+          - Colleges
     archive:
       monthly:
         - item:
@@ -390,6 +397,9 @@ blog:
             <p><%= Faker::Lorem.paragraph(5) %></p>
             <p><%= Faker::Lorem.paragraph(7) %></p>
         published_at: "4 days ago"
+        tags:
+          - Health and Science
+          - Research
       - article:
         id: 55
         name: "<%= Faker::Lorem.sentence(1) %>"
@@ -403,6 +413,9 @@ blog:
             <p><%= Faker::Lorem.paragraph(5) %></p>
             <p><%= Faker::Lorem.paragraph(3) %></p>
         published_at: "3 months ago"
+        tags:
+          - Research
+          - Athletics
       - article:
         id: 66
         name: "<%= Faker::Lorem.sentence(1) %>"
@@ -416,6 +429,8 @@ blog:
             <p><%= Faker::Lorem.paragraph(2) %></p>
             <p><%= Faker::Lorem.paragraph(10) %></p>
         published_at: "2 years ago"
+        tags:
+          - Featured Story
     archive:
       monthly:
         - item:
