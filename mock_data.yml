@@ -1,3 +1,6 @@
+hammer_nav:
+  disabled: false
+
 shared_themes:
   "Code":
     "layouts/browser-update-org--v2": "code"
