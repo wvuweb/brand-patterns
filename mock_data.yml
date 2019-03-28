@@ -184,10 +184,6 @@ editable_region:
       <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/rss.png" alt="RSS"></a></li>
     </ul>
 
-  article-body: |
-    <p><%= Faker::Lorem.paragraph(15) %></p>
-    <p><%= Faker::Lorem.paragraph(15) %></p>
-
   wvu-profile__name:
     "<%= Faker::Name.name %>"
 
@@ -326,10 +322,10 @@ blog:
         created_by:
           first_name: "<%= Faker::Name.first_name %>"
           last_name: "<%= Faker::Name.last_name %>"
-        content: |
-          <p><%= Faker::Lorem.paragraph(2) %></p>
-          <p><%= Faker::Lorem.paragraph(5) %></p>
-          <p><%= Faker::Lorem.paragraph(3) %></p>
+        content:
+          article-body: |
+            <p><%= Faker::Lorem.paragraph(7) %></p>
+            <p><%= Faker::Lorem.paragraph(4) %></p>
         published_at: "2 days ago"
       - article:
         id: 22
@@ -338,10 +334,11 @@ blog:
         created_by:
           first_name: "<%= Faker::Name.first_name %>"
           last_name: "<%= Faker::Name.last_name %>"
-        content: |
-          <p><%= Faker::Lorem.paragraph(2) %></p>
-          <p><%= Faker::Lorem.paragraph(5) %></p>
-          <p><%= Faker::Lorem.paragraph(3) %></p>
+        content:
+          article-body: |
+            <p><%= Faker::Lorem.paragraph(3) %></p>
+            <p><%= Faker::Lorem.paragraph(6) %></p>
+            <p><%= Faker::Lorem.paragraph(1) %></p>
         published_at: "2 weeks ago"
       - article:
         id: 33
@@ -350,10 +347,11 @@ blog:
         created_by:
           first_name: "<%= Faker::Name.first_name %>"
           last_name: "<%= Faker::Name.last_name %>"
-        content: |
-          <p>"Death twitches my ear. 'Live,' he says, 'I am coming.'" - Virgil</p>
-          <p><%= Faker::Lorem.paragraph(5) %></p>
-          <p><%= Faker::Lorem.paragraph(3) %></p>
+        content:
+          article-body: |
+            <p>"Death twitches my ear. 'Live,' he says, 'I am coming.'" - Virgil</p>
+            <p><%= Faker::Lorem.paragraph(2) %></p>
+            <p><%= Faker::Lorem.paragraph(6) %></p>
         published_at: "6 months ago"
     archive:
       monthly:
@@ -383,10 +381,11 @@ blog:
         created_by:
           first_name: "<%= Faker::Name.first_name %>"
           last_name: "<%= Faker::Name.last_name %>"
-        content: |
-          <p><%= Faker::Lorem.paragraph(2) %></p>
-          <p><%= Faker::Lorem.paragraph(5) %></p>
-          <p><%= Faker::Lorem.paragraph(3) %></p>
+        content:
+          article-body: |
+            <p><%= Faker::Lorem.paragraph(1) %></p>
+            <p><%= Faker::Lorem.paragraph(5) %></p>
+            <p><%= Faker::Lorem.paragraph(7) %></p>
         published_at: "4 days ago"
       - article:
         id: 55
@@ -395,10 +394,11 @@ blog:
         created_by:
           first_name: "<%= Faker::Name.first_name %>"
           last_name: "<%= Faker::Name.last_name %>"
-        content: |
-          <p><%= Faker::Lorem.paragraph(2) %></p>
-          <p><%= Faker::Lorem.paragraph(5) %></p>
-          <p><%= Faker::Lorem.paragraph(3) %></p>
+        content:
+          article-body: |
+            <p><%= Faker::Lorem.paragraph(2) %></p>
+            <p><%= Faker::Lorem.paragraph(5) %></p>
+            <p><%= Faker::Lorem.paragraph(3) %></p>
         published_at: "3 months ago"
       - article:
         id: 66
@@ -407,10 +407,11 @@ blog:
         created_by:
           first_name: "<%= Faker::Name.first_name %>"
           last_name: "<%= Faker::Name.last_name %>"
-        content: |
-          <p><%= Faker::Lorem.paragraph(2) %></p>
-          <p><%= Faker::Lorem.paragraph(5) %></p>
-          <p><%= Faker::Lorem.paragraph(3) %></p>
+        content:
+          article-body: |
+            <p><%= Faker::Lorem.paragraph(4) %></p>
+            <p><%= Faker::Lorem.paragraph(2) %></p>
+            <p><%= Faker::Lorem.paragraph(10) %></p>
         published_at: "2 years ago"
     archive:
       monthly:
