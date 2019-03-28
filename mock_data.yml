@@ -187,6 +187,10 @@ editable_region:
       <li><a href="#"><img src="https://patterns.wvu.edu/images/1426291895/social-media-icons/rss.png" alt="RSS"></a></li>
     </ul>
 
+  article-body: | # Content for the blog_article template.
+    <p><%= Faker::Lorem.paragraph(3) %></p>
+    <p><%= Faker::Lorem.paragraph(6) %></p>
+
   wvu-profile__name:
     "<%= Faker::Name.name %>"
 
