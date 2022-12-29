@@ -1545,15 +1545,13 @@ header, nav, main, footer {
 }
 
 .wvu-skip-nav {
-  position: absolute;
+  background: #fff;
+  padding: .75rem;
   z-index: 10;
-  padding: 0.5em;
-  left: -99999em;
-  background: white;
 }
 
-.wvu-skip-nav:focus {
-  left: 0;
+.wvu-skip-nav.wvu-skip-nav:active, .wvu-skip-nav.wvu-skip-nav:focus {
+  position: absolute;
 }
 
 fieldset {
