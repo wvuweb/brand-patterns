@@ -12,6 +12,10 @@
   },
   "author": "May Day <may.day@mail.wvu.edu>",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.24.1",
+    "npm": ">=6.14.12"
+  },
   "devDependencies": {
     "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",

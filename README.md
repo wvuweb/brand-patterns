@@ -26,7 +26,7 @@ Many people prefer using Gulp to compile their Sass.
 
 **Requirements**
 
-  * [NodeJS](https://nodejs.org/en/)
+  * [NodeJS v10](https://nodejs.org/en/)
 
   1. Download and install NodeJS from https://nodejs.org/en if you haven't already.
   1. Install Gulp globally by entering `npm install -g gulp` in your terminal.
