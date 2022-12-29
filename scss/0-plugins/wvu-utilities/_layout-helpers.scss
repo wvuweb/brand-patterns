@@ -34,6 +34,31 @@
   display: none;
 }
 
+// Hide only visually, but have it available for screen readers:
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+// Extends the .visually-hidden class to allow the element to be focusable when navigated to via the keyboard:
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
 @mixin u-wvu-container-padding {
   padding: $wvu-container-padding;
   padding-left: 1em;
