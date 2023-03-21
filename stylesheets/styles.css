@@ -433,6 +433,29 @@ html {
   display: none;
 }
 
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
 .u-wvu-blue {
   color: #002855;
   border-color: #002855;
@@ -747,7 +770,7 @@ html {
 }
 
 .nav-toggle {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1522,15 +1545,13 @@ header, nav, main, footer {
 }
 
 .wvu-skip-nav {
-  position: absolute;
+  background: #fff;
+  padding: .75rem;
   z-index: 10;
-  padding: 0.5em;
-  left: -99999em;
-  background: white;
 }
 
-.wvu-skip-nav:focus {
-  left: 0;
+.wvu-skip-nav.wvu-skip-nav:active, .wvu-skip-nav.wvu-skip-nav:focus {
+  position: absolute;
 }
 
 fieldset {
